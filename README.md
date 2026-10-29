@@ -92,11 +92,19 @@ python verify_setup.py
 python train_model.py
 ```
 
-### Step 6: Launch the Flask Web Application
+### Step 6: Launch the Web Application
+
+#### Option A: Flask Web Dashboard (Recommended for Local Demo)
 ```powershell
 python app.py
 ```
-Open your browser and navigate to: **`http://127.0.0.1:5000`**
+Open your browser at: **`http://127.0.0.1:5000`**
+
+#### Option B: Streamlit Web Dashboard (For Cloud Deployment)
+```powershell
+streamlit run streamlit_app.py
+```
+> **Streamlit Community Cloud Notice:** When deploying on [share.streamlit.io](https://share.streamlit.io), ensure the **Main file path** is set to `streamlit_app.py` (not `app.py`).
 
 ---
 
