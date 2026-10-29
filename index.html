@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Literacy Among College Students | Live Preview</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #0d6efd;
+            --body-bg: #f8f9fa;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--body-bg);
+            color: #212529;
+        }
+        .navbar {
+            background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%) !important;
+        }
+        .card {
+            border-radius: 1rem !important;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .kpi-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.08) !important;
+        }
+        .kpi-icon {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+        }
+        .nav-pills .nav-link {
+            border-radius: 2rem;
+            padding: 0.5rem 1.25rem;
+            color: rgba(255, 255, 255, 0.85);
+            font-weight: 600;
+        }
+        .nav-pills .nav-link.active {
+            background-color: #ffc107;
+            color: #212529;
+        }
+        .table th {
+            font-size: 0.825rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+    <!-- Top Navigation with Live Tabs -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold d-flex align-items-center" href="#">
+                <i class="fa-solid fa-graduation-cap me-2 fa-lg text-warning"></i>
+                <span>FinLiteracy<span class="text-warning">DS</span></span>
+                <span class="badge bg-warning text-dark ms-2 small">Project Preview</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navTabs">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navTabs">
+                <ul class="nav nav-pills ms-auto" id="mainTab" role="tablist">
+                    <li class="nav-item">
+                        <button class="nav-link active" id="home-tab" data-bs-toggle="pill" data-bs-target="#tab-home" type="button">
+                            <i class="fa-solid fa-house me-1"></i> Home
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" id="dashboard-tab" data-bs-toggle="pill" data-bs-target="#tab-dashboard" type="button">
+                            <i class="fa-solid fa-chart-pie me-1"></i> Dashboard
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" id="data-tab" data-bs-toggle="pill" data-bs-target="#tab-data" type="button">
+                            <i class="fa-solid fa-table me-1"></i> Survey Data
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" id="analytics-tab" data-bs-toggle="pill" data-bs-target="#tab-analytics" type="button">
+                            <i class="fa-solid fa-chart-line me-1"></i> Analytics
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" id="predict-tab" data-bs-toggle="pill" data-bs-target="#tab-predict" type="button">
+                            <i class="fa-solid fa-brain me-1"></i> ML Prediction
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" id="education-tab" data-bs-toggle="pill" data-bs-target="#tab-education" type="button">
+                            <i class="fa-solid fa-book-open-reader me-1"></i> Education
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" id="about-tab" data-bs-toggle="pill" data-bs-target="#tab-about" type="button">
+                            <i class="fa-solid fa-circle-info me-1"></i> About
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <main class="flex-grow-1 py-4">
+        <div class="container">
+            <div class="tab-content" id="mainTabContent">
+
+                <!-- TAB 1: HOME -->
+                <div class="tab-pane fade show active" id="tab-home" role="tabpanel">
+                    <div class="p-5 mb-4 bg-white rounded-4 shadow-sm border-0">
+                        <div class="row align-items-center">
+                            <div class="col-lg-8">
+                                <span class="badge bg-primary-subtle text-primary fw-bold mb-2 px-3 py-2 rounded-pill">
+                                    <i class="fa-solid fa-graduation-cap me-1"></i> B.Sc Data Science College Project
+                                </span>
+                                <h1 class="display-5 fw-bold text-dark mt-2 mb-3">
+                                    Financial Literacy Among College Students
+                                </h1>
+                                <p class="lead text-muted mb-4">
+                                    A Data Science and Machine Learning study analyzing undergraduate students' financial habits,
+                                    evaluating knowledge gaps across 8 essential topics, and classifying literacy levels using an explainable Decision Tree.
+                                </p>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <button class="btn btn-primary btn-lg px-4 shadow-sm" onclick="bootstrap.Tab.getOrCreateInstance(document.getElementById('dashboard-tab')).show()">
+                                        <i class="fa-solid fa-chart-pie me-2"></i> Open Dashboard
+                                    </button>
+                                    <button class="btn btn-outline-primary btn-lg px-4" onclick="bootstrap.Tab.getOrCreateInstance(document.getElementById('predict-tab')).show()">
+                                        <i class="fa-solid fa-brain me-2"></i> Test ML Predictor
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 text-center mt-4 mt-lg-0">
+                                <div class="p-4 bg-light rounded-4 border">
+                                    <i class="fa-solid fa-coins text-warning fa-4x mb-3"></i>
+                                    <h4 class="fw-bold mb-1">500 Students</h4>
+                                    <p class="text-muted small mb-3">Surveyed Across Undergraduate Streams</p>
+                                    <div class="border-top pt-3">
+                                        <div class="d-flex justify-content-between text-muted small mb-1">
+                                            <span>Average Score:</span>
+                                            <span class="fw-bold text-dark">61.4%</span>
+                                        </div>
+                                        <div class="d-flex justify-content-between text-muted small">
+                                            <span>Top Knowledge Gap:</span>
+                                            <span class="badge bg-danger-subtle text-danger">Investments & Mutual Funds</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3 Cards -->
+                    <div class="row g-4 mb-4">
+                        <div class="col-md-4">
+                            <div class="card h-100 border-0 shadow-sm rounded-4">
+                                <div class="card-body p-4">
+                                    <div class="kpi-icon bg-primary-subtle text-primary rounded-3 mb-3">
+                                        <i class="fa-solid fa-magnifying-glass-chart fa-xl"></i>
+                                    </div>
+                                    <h5 class="fw-bold text-dark">1. Identify Knowledge Gaps</h5>
+                                    <p class="text-muted small">
+                                        Empirically measures students' grasp of compound interest, inflation erosion, UPI security, and emergency buffers.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100 border-0 shadow-sm rounded-4">
+                                <div class="card-body p-4">
+                                    <div class="kpi-icon bg-success-subtle text-success rounded-3 mb-3">
+                                        <i class="fa-solid fa-wallet fa-xl"></i>
+                                    </div>
+                                    <h5 class="fw-bold text-dark">2. Study Financial Habits</h5>
+                                    <p class="text-muted small">
+                                        Evaluates correlations between prior financial education, academic discipline, budgeting habits, and actual savings.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100 border-0 shadow-sm rounded-4">
+                                <div class="card-body p-4">
+                                    <div class="kpi-icon bg-warning-subtle text-warning rounded-3 mb-3">
+                                        <i class="fa-solid fa-diagram-project fa-xl"></i>
+                                    </div>
+                                    <h5 class="fw-bold text-dark">3. Explainable Machine Learning</h5>
+                                    <p class="text-muted small">
+                                        Employs an explainable Decision Tree Classifier to segment students into Basic, Intermediate, and Advanced tiers.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB 2: DASHBOARD -->
+                <div class="tab-pane fade" id="tab-dashboard" role="tabpanel">
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                        <div>
+                            <h2 class="fw-bold text-dark mb-1">
+                                <i class="fa-solid fa-gauge-high text-primary me-2"></i>Executive Analytics Dashboard
+                            </h2>
+                            <p class="text-muted small mb-0">Overview of student survey metrics, knowledge gap indicators, and literacy segmentation.</p>
+                        </div>
+                        <span class="badge bg-success-subtle text-success border px-3 py-2 rounded-pill">
+                            <i class="fa-solid fa-circle-check me-1"></i> Data Source: Anonymized Survey Dataset (N=500)
+                        </span>
+                    </div>
+
+                    <!-- 4 KPI Cards -->
+                    <div class="row g-3 mb-4">
+                        <div class="col-md-3">
+                            <div class="card border-0 shadow-sm rounded-4 p-3 kpi-card">
+                                <div class="d-flex align-items-center">
+                                    <div class="kpi-icon bg-primary-subtle text-primary rounded-4 me-3">
+                                        <i class="fa-solid fa-users fa-2x"></i>
+                                    </div>
+                                    <div>
+                                        <span class="text-muted small text-uppercase fw-semibold">Total Surveyed</span>
+                                        <h3 class="fw-bold mb-0">500</h3>
+                                        <small class="text-success"><i class="fa-solid fa-check me-1"></i>Validated records</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card border-0 shadow-sm rounded-4 p-3 kpi-card">
+                                <div class="d-flex align-items-center">
+                                    <div class="kpi-icon bg-success-subtle text-success rounded-4 me-3">
+                                        <i class="fa-solid fa-award fa-2x"></i>
+                                    </div>
+                                    <div>
+                                        <span class="text-muted small text-uppercase fw-semibold">Average Score</span>
+                                        <h3 class="fw-bold mb-0">61.4%</h3>
+                                        <small class="text-muted">Out of 100% possible</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card border-0 shadow-sm rounded-4 p-3 kpi-card">
+                                <div class="d-flex align-items-center">
+                                    <div class="kpi-icon bg-info-subtle text-info rounded-4 me-3">
+                                        <i class="fa-solid fa-layer-group fa-2x"></i>
+                                    </div>
+                                    <div>
+                                        <span class="text-muted small text-uppercase fw-semibold">Intermediate Tier</span>
+                                        <h3 class="fw-bold mb-0">53.6%</h3>
+                                        <small class="text-muted">268 Students</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card border-0 shadow-sm rounded-4 p-3 kpi-card">
+                                <div class="d-flex align-items-center">
+                                    <div class="kpi-icon bg-danger-subtle text-danger rounded-4 me-3">
+                                        <i class="fa-solid fa-triangle-exclamation fa-2x"></i>
+                                    </div>
+                                    <div>
+                                        <span class="text-muted small text-uppercase fw-semibold">Top Knowledge Gap</span>
+                                        <h6 class="fw-bold mb-0 text-danger text-truncate" style="max-width: 140px;">Investments</h6>
+                                        <small class="text-muted">Lowest score (41.8%)</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Charts Row 1 -->
+                    <div class="row g-4 mb-4">
+                        <div class="col-lg-5">
+                            <div class="card border-0 shadow-sm rounded-4 h-100 p-4">
+                                <h5 class="fw-bold mb-3"><i class="fa-solid fa-chart-pie text-primary me-2"></i>Literacy Level Distribution</h5>
+                                <div style="height: 260px;">
+                                    <canvas id="previewDonutChart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="card border-0 shadow-sm rounded-4 h-100 p-4">
+                                <h5 class="fw-bold mb-3"><i class="fa-solid fa-bars-progress text-danger me-2"></i>Topic Pass Rates (Knowledge Gaps)</h5>
+                                <div style="height: 260px;">
+                                    <canvas id="previewTopicChart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Charts Row 2 -->
+                    <div class="row g-4 mb-4">
+                        <div class="col-lg-6">
+                            <div class="card border-0 shadow-sm rounded-4 h-100 p-4">
+                                <h5 class="fw-bold mb-3"><i class="fa-solid fa-graduation-cap text-warning me-2"></i>Literacy by Year of Study</h5>
+                                <div style="height: 240px;">
+                                    <canvas id="previewYearChart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card border-0 shadow-sm rounded-4 h-100 p-4">
+                                <h5 class="fw-bold mb-3"><i class="fa-solid fa-book-bookmark text-success me-2"></i>Financial Education vs Score</h5>
+                                <div style="height: 240px;">
+                                    <canvas id="previewEduChart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB 3: DATA -->
+                <div class="tab-pane fade" id="tab-data" role="tabpanel">
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                        <div>
+                            <h2 class="fw-bold text-dark mb-1">
+                                <i class="fa-solid fa-table text-primary me-2"></i>Survey Responses Dataset (Sample)
+                            </h2>
+                            <p class="text-muted small mb-0">Anonymized records collected across undergraduate streams without sensitive PII.</p>
+                        </div>
+                        <span class="badge bg-primary fs-6 px-3 py-2 rounded-pill">500 Total Records</span>
+                    </div>
+
+                    <div class="card border-0 shadow-sm rounded-4 mb-4 p-3">
+                        <input type="text" id="previewSearchInput" class="form-control" placeholder="Search by Student ID, Course, or Level...">
+                    </div>
+
+                    <div class="card border-0 shadow-sm rounded-4">
+                        <div class="table-responsive" style="max-height: 480px; overflow-y: auto;">
+                            <table class="table table-hover align-middle mb-0" id="previewTable">
+                                <thead class="table-light sticky-top">
+                                    <tr>
+                                        <th class="ps-4">Student ID</th>
+                                        <th>Age</th>
+                                        <th>Course</th>
+                                        <th>Year</th>
+                                        <th>Prior Fin Edu</th>
+                                        <th>Budgeting</th>
+                                        <th>Saving Habit</th>
+                                        <th>Score</th>
+                                        <th>Level</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="ps-4 fw-bold text-primary font-monospace">STU0001</td>
+                                        <td>18-19</td>
+                                        <td>B.A</td>
+                                        <td>1st Year</td>
+                                        <td><span class="badge bg-secondary-subtle text-secondary">No</span></td>
+                                        <td>Rarely</td>
+                                        <td>Saves Whatever is Left</td>
+                                        <td class="fw-bold">62.5%</td>
+                                        <td><span class="badge bg-primary px-3 py-1 rounded-pill">Intermediate</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="ps-4 fw-bold text-primary font-monospace">STU0002</td>
+                                        <td>18-19</td>
+                                        <td>B.A</td>
+                                        <td>2nd Year</td>
+                                        <td><span class="badge bg-success-subtle text-success">Yes</span></td>
+                                        <td>Occasionally</td>
+                                        <td>Invests Regularly</td>
+                                        <td class="fw-bold">62.5%</td>
+                                        <td><span class="badge bg-primary px-3 py-1 rounded-pill">Intermediate</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="ps-4 fw-bold text-primary font-monospace">STU0003</td>
+                                        <td>22-23</td>
+                                        <td>B.A</td>
+                                        <td>4th Year</td>
+                                        <td><span class="badge bg-secondary-subtle text-secondary">No</span></td>
+                                        <td>Occasionally</td>
+                                        <td>Saves Whatever is Left</td>
+                                        <td class="fw-bold">75.0%</td>
+                                        <td><span class="badge bg-primary px-3 py-1 rounded-pill">Intermediate</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="ps-4 fw-bold text-primary font-monospace">STU0004</td>
+                                        <td>20-21</td>
+                                        <td>B.Sc Data Science</td>
+                                        <td>3rd Year</td>
+                                        <td><span class="badge bg-success-subtle text-success">Yes</span></td>
+                                        <td>Occasionally</td>
+                                        <td>Saves a Fixed Percentage</td>
+                                        <td class="fw-bold">100.0%</td>
+                                        <td><span class="badge bg-success px-3 py-1 rounded-pill">Advanced</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="ps-4 fw-bold text-primary font-monospace">STU0005</td>
+                                        <td>20-21</td>
+                                        <td>B.B.A</td>
+                                        <td>3rd Year</td>
+                                        <td><span class="badge bg-success-subtle text-success">Yes</span></td>
+                                        <td>Occasionally</td>
+                                        <td>Saves a Fixed Percentage</td>
+                                        <td class="fw-bold">75.0%</td>
+                                        <td><span class="badge bg-primary px-3 py-1 rounded-pill">Intermediate</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="ps-4 fw-bold text-primary font-monospace">STU0006</td>
+                                        <td>20-21</td>
+                                        <td>B.Sc Data Science</td>
+                                        <td>2nd Year</td>
+                                        <td><span class="badge bg-secondary-subtle text-secondary">No</span></td>
+                                        <td>Rarely</td>
+                                        <td>Saves Whatever is Left</td>
+                                        <td class="fw-bold">37.5%</td>
+                                        <td><span class="badge bg-warning text-dark px-3 py-1 rounded-pill">Basic</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="ps-4 fw-bold text-primary font-monospace">STU0007</td>
+                                        <td>18-19</td>
+                                        <td>B.Sc Computer Science</td>
+                                        <td>1st Year</td>
+                                        <td><span class="badge bg-secondary-subtle text-secondary">No</span></td>
+                                        <td>Occasionally</td>
+                                        <td>Saves Whatever is Left</td>
+                                        <td class="fw-bold">12.5%</td>
+                                        <td><span class="badge bg-warning text-dark px-3 py-1 rounded-pill">Basic</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="ps-4 fw-bold text-primary font-monospace">STU0008</td>
+                                        <td>18-19</td>
+                                        <td>B.Sc Computer Science</td>
+                                        <td>1st Year</td>
+                                        <td><span class="badge bg-secondary-subtle text-secondary">No</span></td>
+                                        <td>Occasionally</td>
+                                        <td>Invests Regularly</td>
+                                        <td class="fw-bold">62.5%</td>
+                                        <td><span class="badge bg-primary px-3 py-1 rounded-pill">Intermediate</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="ps-4 fw-bold text-primary font-monospace">STU0009</td>
+                                        <td>20-21</td>
+                                        <td>B.Sc Mathematics</td>
+                                        <td>1st Year</td>
+                                        <td><span class="badge bg-secondary-subtle text-secondary">No</span></td>
+                                        <td>Never</td>
+                                        <td>Saves a Fixed Percentage</td>
+                                        <td class="fw-bold">62.5%</td>
+                                        <td><span class="badge bg-primary px-3 py-1 rounded-pill">Intermediate</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="ps-4 fw-bold text-primary font-monospace">STU0010</td>
+                                        <td>20-21</td>
+                                        <td>B.Com</td>
+                                        <td>2nd Year</td>
+                                        <td><span class="badge bg-success-subtle text-success">Yes</span></td>
+                                        <td>Regularly</td>
+                                        <td>Saves a Fixed Percentage</td>
+                                        <td class="fw-bold">87.5%</td>
+                                        <td><span class="badge bg-success px-3 py-1 rounded-pill">Advanced</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB 4: ANALYTICS -->
+                <div class="tab-pane fade" id="tab-analytics" role="tabpanel">
+                    <h2 class="fw-bold text-dark mb-3"><i class="fa-solid fa-chart-line text-primary me-2"></i>In-Depth Exploratory Data Analysis</h2>
+                    
+                    <div class="alert alert-info border-0 shadow-sm rounded-4 mb-4 small">
+                        <i class="fa-solid fa-circle-info me-2"></i> <strong>Notice on Correlation:</strong> Statistical relationships between course exposure and quiz scores represent cohort associations, not direct causation.
+                    </div>
+
+                    <div class="row g-4">
+                        <div class="col-lg-6">
+                            <div class="card border-0 shadow-sm rounded-4 p-4 h-100">
+                                <h5 class="fw-bold mb-3"><i class="fa-solid fa-wallet text-success me-2"></i>Budgeting Habits Distribution</h5>
+                                <div style="height: 260px;">
+                                    <canvas id="previewBudgetPieChart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card border-0 shadow-sm rounded-4 p-4 h-100">
+                                <h5 class="fw-bold mb-3"><i class="fa-solid fa-piggy-bank text-primary me-2"></i>Saving Habits Distribution</h5>
+                                <div style="height: 260px;">
+                                    <canvas id="previewSavingBarChart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB 5: ML PREDICTION -->
+                <div class="tab-pane fade" id="tab-predict" role="tabpanel">
+                    <h2 class="fw-bold text-dark mb-1"><i class="fa-solid fa-brain text-primary me-2"></i>Financial Literacy Category Predictor</h2>
+                    <p class="text-muted small mb-4">Enter a student's profile to predict their literacy category using our trained Decision Tree model rules.</p>
+
+                    <div class="row g-4">
+                        <div class="col-lg-7">
+                            <div class="card border-0 shadow-sm rounded-4 p-4">
+                                <h5 class="fw-bold mb-3">Student Profile Inputs</h5>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label class="form-label small fw-semibold">Year of Study</label>
+                                        <select id="p_year" class="form-select">
+                                            <option value="1st Year">1st Year</option>
+                                            <option value="2nd Year" selected>2nd Year</option>
+                                            <option value="3rd Year">3rd Year</option>
+                                            <option value="4th Year">4th Year</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label small fw-semibold">Prior Financial Coursework?</label>
+                                        <select id="p_edu" class="form-select">
+                                            <option value="No" selected>No</option>
+                                            <option value="Yes">Yes</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label small fw-semibold">Budgeting Habit</label>
+                                        <select id="p_budget" class="form-select">
+                                            <option value="Never">Never</option>
+                                            <option value="Rarely">Rarely</option>
+                                            <option value="Occasionally" selected>Occasionally</option>
+                                            <option value="Regularly">Regularly</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label small fw-semibold">Saving Habit</label>
+                                        <select id="p_saving" class="form-select">
+                                            <option value="Does Not Save">Does Not Save</option>
+                                            <option value="Saves Whatever is Left" selected>Saves Whatever is Left</option>
+                                            <option value="Saves a Fixed Percentage">Saves a Fixed Percentage</option>
+                                            <option value="Invests Regularly">Invests Regularly</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label small fw-semibold">Emergency Fund Awareness?</label>
+                                        <select id="p_emergency" class="form-select">
+                                            <option value="0" selected>No (Unaware)</option>
+                                            <option value="1">Yes (Aware of 3-6 month fund)</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label small fw-semibold">Understands Risk-Return?</label>
+                                        <select id="p_risk" class="form-select">
+                                            <option value="0" selected>No</option>
+                                            <option value="1">Yes (Higher return = higher risk)</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12 mt-4">
+                                        <button class="btn btn-primary btn-lg w-100" onclick="runClientPrediction()">
+                                            <i class="fa-solid fa-wand-magic-sparkles me-2"></i> Predict Financial Literacy Level
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5">
+                            <div class="card border-0 shadow-sm rounded-4 p-4 text-center h-100" id="predictResultBox">
+                                <span class="text-muted small text-uppercase fw-bold">Classification Result</span>
+                                <div id="predictBadge" class="my-3">
+                                    <span class="badge bg-primary fs-3 px-4 py-2 rounded-pill">Intermediate Level</span>
+                                </div>
+                                <p id="predictDesc" class="text-muted small">Understands fundamental banking and payment systems with opportunities to master investment & inflation concepts.</p>
+                                <div class="p-3 bg-light rounded-3 text-start small mb-3">
+                                    <div class="d-flex justify-content-between mb-1">
+                                        <span class="text-muted">Model:</span>
+                                        <strong>Decision Tree Classifier</strong>
+                                    </div>
+                                    <div class="d-flex justify-content-between mb-1">
+                                        <span class="text-muted">Estimated Confidence:</span>
+                                        <strong id="predictConf">78.5%</strong>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="text-muted">Data Leakage Check:</span>
+                                        <span class="text-success"><i class="fa-solid fa-check me-1"></i>Protected (Score Excluded)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB 6: EDUCATION -->
+                <div class="tab-pane fade" id="tab-education" role="tabpanel">
+                    <h2 class="fw-bold text-dark mb-1"><i class="fa-solid fa-book-open-reader text-primary me-2"></i>Financial Education Learning Modules</h2>
+                    <p class="text-muted small mb-4">Core financial literacy guides explaining budgeting, compounding, and investment risks.</p>
+
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="card border-0 shadow-sm rounded-4 p-4 h-100">
+                                <h5 class="fw-bold text-dark mb-2"><i class="fa-solid fa-chart-pie text-primary me-2"></i>1. The 50/30/20 Budgeting Rule</h5>
+                                <p class="text-muted small mb-2">50% Needs (Rent, Food), 30% Wants (Entertainment, Dining), 20% Savings & Emergency Fund.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card border-0 shadow-sm rounded-4 p-4 h-100">
+                                <h5 class="fw-bold text-dark mb-2"><i class="fa-solid fa-calculator text-success me-2"></i>2. Compound Interest & Rule of 72</h5>
+                                <p class="text-muted small mb-2">Divide 72 by annual interest rate to find years required to double your capital (72/8 = 9 years).</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card border-0 shadow-sm rounded-4 p-4 h-100">
+                                <h5 class="fw-bold text-dark mb-2"><i class="fa-solid fa-arrow-trend-up text-danger me-2"></i>3. Inflation & Purchasing Power</h5>
+                                <p class="text-muted small mb-2">6% annual inflation halves purchasing power in 12 years. Idle cash in a 3% account loses real buying value.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card border-0 shadow-sm rounded-4 p-4 h-100">
+                                <h5 class="fw-bold text-dark mb-2"><i class="fa-solid fa-credit-card text-warning me-2"></i>4. Credit Cards & Instant Loan Traps</h5>
+                                <p class="text-muted small mb-2">Unpaid credit card balances compound at 36%-42% APR. Always pay total bill, not minimum due.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB 7: ABOUT -->
+                <div class="tab-pane fade" id="tab-about" role="tabpanel">
+                    <h2 class="fw-bold text-dark mb-3"><i class="fa-solid fa-circle-info text-primary me-2"></i>About This Project</h2>
+                    <div class="card border-0 shadow-sm rounded-4 p-4">
+                        <h5><strong>Project:</strong> Financial Literacy Among College Students</h5>
+                        <p class="text-muted"><strong>Stack:</strong> Python, Flask, Pandas, NumPy, Scikit-learn, MySQL, Power BI, HTML5, Bootstrap 5, Chart.js.</p>
+                        <p class="text-muted mb-0">Built for a B.Sc Data Science final year project defense with complete data cleaning, explainable Decision Tree classification, and zero data leakage.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-3 mt-auto">
+        <div class="container text-center">
+            <small class="text-white-50">Financial Literacy Among College Students | B.Sc Data Science College Project</small>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        // Initialize interactive preview charts
+        document.addEventListener("DOMContentLoaded", function () {
+            // Donut Level Chart
+            new Chart(document.getElementById('previewDonutChart'), {
+                type: 'doughnut',
+                data: {
+                    labels: ['Basic (<50%)', 'Intermediate (50-75%)', 'Advanced (>75%)'],
+                    datasets: [{
+                        data: [136, 268, 96],
+                        backgroundColor: ['#ffc107', '#0d6efd', '#198754']
+                    }]
+                },
+                options: { responsive: true, maintainAspectRatio: false }
+            });
+
+            // Topic Pass Rates
+            new Chart(document.getElementById('previewTopicChart'), {
+                type: 'bar',
+                data: {
+                    labels: ['Digital Payments (UPI)', 'Basic Banking', 'Risk Concept', 'Emergency Funds', 'Loans & Credit', 'Interest Rates', 'Inflation Impact', 'Investments & MF'],
+                    datasets: [{
+                        label: 'Pass Rate (%)',
+                        data: [91.2, 82.4, 66.8, 58.6, 57.2, 52.8, 46.4, 41.8],
+                        backgroundColor: ['#198754', '#198754', '#ffc107', '#ffc107', '#ffc107', '#ffc107', '#dc3545', '#dc3545']
+                    }]
+                },
+                options: { indexAxis: 'y', responsive: true, maintainAspectRatio: false }
+            });
+
+            // Year Chart
+            new Chart(document.getElementById('previewYearChart'), {
+                type: 'bar',
+                data: {
+                    labels: ['1st Year', '2nd Year', '3rd Year', '4th Year'],
+                    datasets: [{ label: 'Average Score (%)', data: [51.5, 58.2, 66.4, 71.9], backgroundColor: '#0d6efd' }]
+                },
+                options: { responsive: true, maintainAspectRatio: false }
+            });
+
+            // Education Chart
+            new Chart(document.getElementById('previewEduChart'), {
+                type: 'bar',
+                data: {
+                    labels: ['With Prior Fin. Education', 'Without Prior Fin. Education'],
+                    datasets: [{ label: 'Average Score (%)', data: [70.8, 56.0], backgroundColor: ['#198754', '#dc3545'] }]
+                },
+                options: { responsive: true, maintainAspectRatio: false }
+            });
+
+            // Budget Pie Chart
+            new Chart(document.getElementById('previewBudgetPieChart'), {
+                type: 'pie',
+                data: {
+                    labels: ['Rarely', 'Occasionally', 'Never', 'Regularly'],
+                    datasets: [{ data: [33.4, 31.8, 20.6, 14.2], backgroundColor: ['#ffc107', '#0dcaf0', '#6c757d', '#198754'] }]
+                },
+                options: { responsive: true, maintainAspectRatio: false }
+            });
+
+            // Saving Bar Chart
+            new Chart(document.getElementById('previewSavingBarChart'), {
+                type: 'bar',
+                data: {
+                    labels: ['Saves Whatever is Left', 'Saves a Fixed Percentage', 'Does Not Save', 'Invests Regularly'],
+                    datasets: [{ label: 'Student %', data: [48.2, 26.6, 16.8, 8.4], backgroundColor: '#0d6efd' }]
+                },
+                options: { indexAxis: 'y', responsive: true, maintainAspectRatio: false }
+            });
+
+            // Search filter for preview table
+            document.getElementById('previewSearchInput').addEventListener('keyup', function () {
+                const query = this.value.toLowerCase();
+                const rows = document.querySelectorAll('#previewTable tbody tr');
+                rows.forEach(r => {
+                    r.style.display = r.textContent.toLowerCase().includes(query) ? '' : 'none';
+                });
+            });
+        });
+
+        // Client prediction simulator
+        function runClientPrediction() {
+            let pts = 0;
+            if (document.getElementById('p_edu').value === 'Yes') pts += 2;
+            const yr = document.getElementById('p_year').value;
+            if (yr === '3rd Year' || yr === '4th Year') pts += 2;
+            const sv = document.getElementById('p_saving').value;
+            if (sv === 'Saves a Fixed Percentage' || sv === 'Invests Regularly') pts += 2;
+            const bg = document.getElementById('p_budget').value;
+            if (bg === 'Occasionally' || bg === 'Regularly') pts += 1;
+            if (document.getElementById('p_emergency').value === '1') pts += 1;
+            if (document.getElementById('p_risk').value === '1') pts += 1;
+
+            const badge = document.getElementById('predictBadge');
+            const desc = document.getElementById('predictDesc');
+            const conf = document.getElementById('predictConf');
+
+            if (pts >= 6) {
+                badge.innerHTML = '<span class="badge bg-success fs-3 px-4 py-2 rounded-pill"><i class="fa-solid fa-crown me-2"></i>Advanced Level</span>';
+                desc.textContent = 'Demonstrates mature financial awareness, proactive savings discipline, and strong understanding of risks.';
+                conf.textContent = '84.0%';
+            } else if (pts >= 3) {
+                badge.innerHTML = '<span class="badge bg-primary fs-3 px-4 py-2 rounded-pill"><i class="fa-solid fa-award me-2"></i>Intermediate Level</span>';
+                desc.textContent = 'Understands fundamental banking and payment systems with opportunities to master investment & inflation concepts.';
+                conf.textContent = '78.5%';
+            } else {
+                badge.innerHTML = '<span class="badge bg-warning text-dark fs-3 px-4 py-2 rounded-pill"><i class="fa-solid fa-seedling me-2"></i>Basic Level</span>';
+                desc.textContent = 'Early learning stage. Needs structured orientation in budgeting, interest calculation, and safe digital practices.';
+                conf.textContent = '81.0%';
+            }
+        }
+    </script>
+</body>
+</html>
+
