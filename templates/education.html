@@ -1,0 +1,188 @@
+{% extends "base.html" %}
+
+{% block title %}Financial Education Modules - Financial Literacy Analysis{% endblock %}
+
+{% block content %}
+<div class="mb-4">
+    <h2 class="fw-bold text-dark mb-1">
+        <i class="fa-solid fa-book-open-reader text-primary me-2"></i>Financial Education Learning Modules
+    </h2>
+    <p class="text-muted small mb-0">
+        Foundational financial literacy guides tailored for college students, explaining practical budgeting, interest dynamics, and risk management in plain language.
+    </p>
+</div>
+
+<!-- 6 Learning Cards -->
+<div class="row g-4 mb-4">
+    <!-- Module 1: The 50/30/20 Budgeting Rule -->
+    <div class="col-lg-6">
+        <div class="card border-0 shadow-sm rounded-4 h-100">
+            <div class="card-body p-4">
+                <div class="d-flex align-items-center mb-3">
+                    <div class="p-3 bg-primary-subtle text-primary rounded-3 me-3">
+                        <i class="fa-solid fa-chart-pie fa-2x"></i>
+                    </div>
+                    <div>
+                        <h5 class="fw-bold mb-0 text-dark">1. The 50 / 30 / 20 Budgeting Rule</h5>
+                        <small class="text-muted">A balanced framework for monthly cash flow</small>
+                    </div>
+                </div>
+                <p class="text-muted small">
+                    A simple guideline for distributing monthly pocket money, stipend, or part-time income:
+                </p>
+                <div class="list-group list-group-flush small mb-3">
+                    <div class="list-group-item px-0 py-2">
+                        <strong class="text-primary">50% Needs:</strong> Essential living expenses such as mess/food, hostel rent, transport, and tuition books.
+                    </div>
+                    <div class="list-group-item px-0 py-2">
+                        <strong class="text-warning-emphasis">30% Wants:</strong> Lifestyle expenses like weekend movies, dining out, streaming subscriptions, and hobbies.
+                    </div>
+                    <div class="list-group-item px-0 py-2">
+                        <strong class="text-success">20% Savings & Debt:</strong> Uncompromised savings toward emergency fund reserves and future investments.
+                    </div>
+                </div>
+                <div class="p-3 bg-light rounded-3 small text-muted">
+                    <i class="fa-solid fa-lightbulb text-warning me-1"></i> <strong>Student Pro-Tip:</strong> Track weekly cash spending in a simple notebook or mobile app before planning investments.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Module 2: Inflation & Purchasing Power -->
+    <div class="col-lg-6">
+        <div class="card border-0 shadow-sm rounded-4 h-100">
+            <div class="card-body p-4">
+                <div class="d-flex align-items-center mb-3">
+                    <div class="p-3 bg-danger-subtle text-danger rounded-3 me-3">
+                        <i class="fa-solid fa-arrow-trend-up fa-2x"></i>
+                    </div>
+                    <div>
+                        <h5 class="fw-bold mb-0 text-dark">2. Inflation & Purchasing Power</h5>
+                        <small class="text-muted">Why money in cash loses value over time</small>
+                    </div>
+                </div>
+                <p class="text-muted small">
+                    <strong>Inflation</strong> is the gradual rise in prices of goods and services over time. If the annual inflation rate is 6%:
+                </p>
+                <ul class="text-muted small mb-3">
+                    <li>An item costing <strong>₹100 today</strong> will cost <strong>₹106 next year</strong>.</li>
+                    <li>If you keep ₹100 idle in cash or in a 3% savings bank account, your real purchasing power actually <em>declines</em>.</li>
+                    <li>To protect capital, your long-term returns must exceed the rate of inflation.</li>
+                </ul>
+                <div class="p-3 bg-light rounded-3 small text-muted">
+                    <i class="fa-solid fa-circle-exclamation text-danger me-1"></i> <strong>Key Takeaway:</strong> Keeping all money in a low-interest checking account is not zero risk—it guarantees loss of real buying power!
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Module 3: Compound Interest & The Rule of 72 -->
+    <div class="col-lg-6">
+        <div class="card border-0 shadow-sm rounded-4 h-100">
+            <div class="card-body p-4">
+                <div class="d-flex align-items-center mb-3">
+                    <div class="p-3 bg-success-subtle text-success rounded-3 me-3">
+                        <i class="fa-solid fa-calculator fa-2x"></i>
+                    </div>
+                    <div>
+                        <h5 class="fw-bold mb-0 text-dark">3. Compound Interest & Rule of 72</h5>
+                        <small class="text-muted">Earning interest upon accumulated interest</small>
+                    </div>
+                </div>
+                <p class="text-muted small">
+                    Compound interest allows your money to grow exponentially because each period's earnings are reinvested into the principal:
+                </p>
+                <div class="p-3 bg-light rounded-3 font-monospace small mb-3 text-center">
+                    A = P &times; (1 + r/n)<sup>(n &times; t)</sup>
+                </div>
+                <p class="text-muted small mb-2">
+                    <strong>The Rule of 72:</strong> Divide 72 by your annual interest rate to find out how many years it takes to double your capital.
+                </p>
+                <div class="p-3 bg-success-subtle rounded-3 small text-success">
+                    <i class="fa-solid fa-check me-1"></i> Example: At an 8% annual return, your money doubles in approximately <strong>72 / 8 = 9 years</strong>!
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Module 4: Loans, Credit Cards, and EMIs -->
+    <div class="col-lg-6">
+        <div class="card border-0 shadow-sm rounded-4 h-100">
+            <div class="card-body p-4">
+                <div class="d-flex align-items-center mb-3">
+                    <div class="p-3 bg-warning-subtle text-warning-emphasis rounded-3 me-3">
+                        <i class="fa-solid fa-credit-card fa-2x"></i>
+                    </div>
+                    <div>
+                        <h5 class="fw-bold mb-0 text-dark">4. Credit Cards & Loan Traps</h5>
+                        <small class="text-muted">Good debt vs predatory short-term debt</small>
+                    </div>
+                </div>
+                <p class="text-muted small">
+                    Loans and credit cards can build creditworthiness when managed responsibly, but roll-over balances carry steep financial penalties:
+                </p>
+                <ul class="text-muted small mb-3">
+                    <li><strong>Credit Card Interest:</strong> Unpaid balances often incur 36% to 42% APR. Paying only the "Minimum Amount Due" leads into a debt spiral.</li>
+                    <li><strong>Instant Loan Apps:</strong> Beware of predatory digital micro-lenders that charge exorbitant processing fees and compromise phone privacy.</li>
+                    <li><strong>Credit Score (CIBIL):</strong> Timely payments build a healthy 750+ score, which lowers interest rates on future education and home loans.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Module 5: Emergency Funds -->
+    <div class="col-lg-6">
+        <div class="card border-0 shadow-sm rounded-4 h-100">
+            <div class="card-body p-4">
+                <div class="d-flex align-items-center mb-3">
+                    <div class="p-3 bg-info-subtle text-info rounded-3 me-3">
+                        <i class="fa-solid fa-umbrella fa-2x"></i>
+                    </div>
+                    <div>
+                        <h5 class="fw-bold mb-0 text-dark">5. The Emergency Safety Net</h5>
+                        <small class="text-muted">Financial cushion for unforeseen crises</small>
+                    </div>
+                </div>
+                <p class="text-muted small">
+                    An <strong>Emergency Fund</strong> consists of 3 to 6 months of essential living expenses parked in liquid, easily accessible instruments (such as a High-Yield Savings Account or Liquid Mutual Fund).
+                </p>
+                <ul class="text-muted small mb-0">
+                    <li>Prevents you from taking high-interest personal loans during sudden laptop repairs, medical events, or job transitions.</li>
+                    <li>Should <strong>never</strong> be invested in volatile assets like individual stocks or cryptocurrency.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Module 6: Risk-Return Spectrum in Investments -->
+    <div class="col-lg-6">
+        <div class="card border-0 shadow-sm rounded-4 h-100">
+            <div class="card-body p-4">
+                <div class="d-flex align-items-center mb-3">
+                    <div class="p-3 bg-secondary-subtle text-secondary rounded-3 me-3">
+                        <i class="fa-solid fa-scale-balanced fa-2x"></i>
+                    </div>
+                    <div>
+                        <h5 class="fw-bold mb-0 text-dark">6. Investment Risk-Return Spectrum</h5>
+                        <small class="text-muted">Higher return expectation mandates higher capital risk</small>
+                    </div>
+                </div>
+                <p class="text-muted small">
+                    No investment offers both zero risk and sky-high returns simultaneously:
+                </p>
+                <div class="d-flex justify-content-between text-muted small p-2 bg-light rounded-3 mb-3">
+                    <span><strong>Low Risk:</strong> Bank FD, Treasury Bills</span>
+                    <i class="fa-solid fa-arrow-right align-self-center text-primary"></i>
+                    <span><strong>Medium Risk:</strong> Index Funds / Large Cap Equity</span>
+                    <i class="fa-solid fa-arrow-right align-self-center text-danger"></i>
+                    <span><strong>High Risk:</strong> Small-Cap, Crypto, F&O</span>
+                </div>
+                <div class="alert alert-light border small text-muted mb-0">
+                    <i class="fa-solid fa-shield-halved text-success me-1"></i> <strong>Golden Rule:</strong> Diversify across asset classes and avoid putting all capital into a single stock.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+

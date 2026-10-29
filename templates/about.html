@@ -1,0 +1,150 @@
+{% extends "base.html" %}
+
+{% block title %}About - Financial Literacy Analysis{% endblock %}
+
+{% block content %}
+<div class="mb-4">
+    <h2 class="fw-bold text-dark mb-1">
+        <i class="fa-solid fa-circle-info text-primary me-2"></i>About This Project
+    </h2>
+    <p class="text-muted small mb-0">
+        Academic methodology, technology stack, ethical standards, and research limitations.
+    </p>
+</div>
+
+<!-- Project Overview Card -->
+<div class="card border-0 shadow-sm rounded-4 mb-4">
+    <div class="card-body p-4">
+        <h4 class="fw-bold text-dark mb-3">Project Title & Academic Background</h4>
+        <p class="text-muted">
+            <strong>Title:</strong> <em>“Financial Literacy Among College Students: A Data Science and Machine Learning Analysis”</em><br>
+            <strong>Target Qualification:</strong> Bachelor of Science in Data Science (B.Sc Data Science)<br>
+            <strong>Core Domain:</strong> Behavioral Analytics, Educational Data Mining & Supervised Machine Learning.
+        </p>
+        <p class="text-muted mb-0">
+            This project investigates undergraduate students' understanding of personal finance, banking technologies, credit systems, and investment risks. By gathering structured survey responses and utilizing objective scoring rubrics, the system pinpoints critical knowledge gaps and classifies students into actionable literacy tiers.
+        </p>
+    </div>
+</div>
+
+<!-- Architecture & Pipeline -->
+<div class="card border-0 shadow-sm rounded-4 mb-4">
+    <div class="card-body p-4">
+        <h4 class="fw-bold text-dark mb-3">Data Science Methodology & Pipeline</h4>
+        <div class="row g-3">
+            <div class="col-md-3">
+                <div class="p-3 bg-light rounded-3 h-100 border">
+                    <span class="badge bg-primary mb-2">Phase 1</span>
+                    <h6 class="fw-bold text-dark">Survey & Data Collection</h6>
+                    <small class="text-muted">
+                        Design of a privacy-preserving questionnaire evaluating 8 core knowledge domains without harvesting sensitive PII.
+                    </small>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="p-3 bg-light rounded-3 h-100 border">
+                    <span class="badge bg-success mb-2">Phase 2</span>
+                    <h6 class="fw-bold text-dark">Data Cleaning & Scoring</h6>
+                    <small class="text-muted">
+                        Deduplication, missing-value handling, categorical standardization, and objective scoring calculation using Pandas.
+                    </small>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="p-3 bg-light rounded-3 h-100 border">
+                    <span class="badge bg-warning text-dark mb-2">Phase 3</span>
+                    <h6 class="fw-bold text-dark">Exploratory Data Analysis</h6>
+                    <small class="text-muted">
+                        Univariate and bivariate statistical analysis, correlation checks, and knowledge gap rankings.
+                    </small>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="p-3 bg-light rounded-3 h-100 border">
+                    <span class="badge bg-danger mb-2">Phase 4</span>
+                    <h6 class="fw-bold text-dark">Machine Learning & Deployment</h6>
+                    <small class="text-muted">
+                        Decision Tree classification (preventing data leakage), metrics validation, and deployment via Flask web framework.
+                    </small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Technology Stack Details -->
+<div class="card border-0 shadow-sm rounded-4 mb-4">
+    <div class="card-body p-4">
+        <h4 class="fw-bold text-dark mb-3">Technology Stack Overview</h4>
+        <div class="table-responsive">
+            <table class="table table-bordered align-middle mb-0">
+                <thead class="table-light">
+                    <tr>
+                        <th style="width: 25%;">Layer</th>
+                        <th style="width: 35%;">Technology</th>
+                        <th>Role & Responsibility in Project</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="fw-bold text-primary">Frontend</td>
+                        <td>HTML5, CSS3, JavaScript, Bootstrap 5, Chart.js</td>
+                        <td class="text-muted small">Responsive client interface, interactive charts, and dynamic table filters.</td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold text-danger">Backend</td>
+                        <td>Python 3, Flask</td>
+                        <td class="text-muted small">REST routing, request handling, template rendering, and database connectivity.</td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold text-success">Data Science & ML</td>
+                        <td>Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn</td>
+                        <td class="text-muted small">Data cleansing, summary statistics, Decision Tree model training & evaluation.</td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold text-info">Database</td>
+                        <td>MySQL, mysql-connector-python</td>
+                        <td class="text-muted small">Relational table schema, persistent student storage, and analytical aggregation queries.</td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold text-warning-emphasis">Business Intelligence</td>
+                        <td>Microsoft Excel, Microsoft Power BI</td>
+                        <td class="text-muted small">Interactive executive business dashboards, KPI scorecards, and cross-filter slicers.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- Dataset & Synthetic Labeling Statement -->
+<div class="card border-0 shadow-sm rounded-4 mb-4">
+    <div class="card-body p-4">
+        <h4 class="fw-bold text-dark mb-3">
+            <i class="fa-solid fa-file-shield text-success me-2"></i>Dataset Disclosure & Ethics
+        </h4>
+        <p class="text-muted small">
+            <strong>Synthetic Data Notice:</strong> For demonstration, testing, and viva defense, this project includes a realistically generated synthetic dataset (N=500 records) modeled on empirical student financial literacy studies. It accurately reflects observed college trends (e.g. high familiarity with mobile UPI payments alongside severe gaps in inflation, compound interest, and investment instruments).
+        </p>
+        <p class="text-muted small mb-0">
+            <strong>Privacy Protection:</strong> The survey architecture strictly avoids collecting Personally Identifiable Information (PII). No student names, mobile numbers, Aadhaar/SSN IDs, bank account numbers, or login credentials are ever requested or stored.
+        </p>
+    </div>
+</div>
+
+<!-- Project Limitations -->
+<div class="card border-0 shadow-sm rounded-4 mb-4">
+    <div class="card-body p-4">
+        <h4 class="fw-bold text-dark mb-3 text-danger">
+            <i class="fa-solid fa-triangle-exclamation text-danger me-2"></i>Academic Limitations
+        </h4>
+        <ul class="text-muted small mb-0">
+            <li class="mb-2"><strong>Sample Representation:</strong> Survey responses collected from a single institution or demographic cohort may not generalize to the entire national student population.</li>
+            <li class="mb-2"><strong>Self-Reporting Bias:</strong> Surveyed students may occasionally overestimate their budgeting discipline or reported saving consistency.</li>
+            <li class="mb-2"><strong>Non-Causal Associations:</strong> High correlation between prior financial courses and test scores does not imply that curriculum attendance alone guarantees prudent real-world financial behavior.</li>
+            <li><strong>Model Scope:</strong> The Decision Tree model serves solely as an educational classifier; it should not be utilized for commercial credit scoring or underwriting decisions.</li>
+        </ul>
+    </div>
+</div>
+{% endblock %}
+

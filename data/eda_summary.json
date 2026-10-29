@@ -1,0 +1,70 @@
+{
+    "total_responses": 500,
+    "avg_score": 61.4,
+    "median_score": 62.5,
+    "std_score": 19.8,
+    "most_misunderstood": "Investments & Mutual Funds",
+    "level_counts": {
+        "Intermediate": 268,
+        "Basic": 136,
+        "Advanced": 96
+    },
+    "level_percentages": {
+        "Intermediate": 53.6,
+        "Basic": 27.2,
+        "Advanced": 19.2
+    },
+    "topic_pass_rates": {
+        "Digital Payments & UPI Security": 91.2,
+        "Basic Banking & Accounts": 82.4,
+        "Risk-Return Concept": 66.8,
+        "Emergency Funds": 58.6,
+        "Loans, Interest & Credit Score": 57.2,
+        "Simple vs Compound Interest": 52.8,
+        "Inflation & Purchasing Power": 46.4,
+        "Investments & Mutual Funds": 41.8
+    },
+    "edu_comparison": {
+        "Yes": {
+            "mean": 70.8,
+            "median": 75.0,
+            "count": 182
+        },
+        "No": {
+            "mean": 56.0,
+            "median": 50.0,
+            "count": 318
+        }
+    },
+    "year_comparison": {
+        "1st Year": {
+            "mean": 51.5,
+            "count": 128
+        },
+        "2nd Year": {
+            "mean": 58.2,
+            "count": 132
+        },
+        "3rd Year": {
+            "mean": 66.4,
+            "count": 122
+        },
+        "4th Year": {
+            "mean": 71.9,
+            "count": 118
+        }
+    },
+    "budget_dist": {
+        "Rarely": 33.4,
+        "Occasionally": 31.8,
+        "Never": 20.6,
+        "Regularly": 14.2
+    },
+    "saving_dist": {
+        "Saves Whatever is Left": 48.2,
+        "Saves a Fixed Percentage": 26.6,
+        "Does Not Save": 16.8,
+        "Invests Regularly": 8.4
+    }
+}
+

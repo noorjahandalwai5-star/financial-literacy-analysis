@@ -1,0 +1,177 @@
+{% extends "base.html" %}
+
+{% block title %}Home - Financial Literacy Analysis{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<div class="p-5 mb-4 bg-white rounded-4 shadow-sm border-0">
+    <div class="row align-items-center">
+        <div class="col-lg-8">
+            <span class="badge bg-primary-subtle text-primary fw-bold mb-2 px-3 py-2 rounded-pill">
+                <i class="fa-solid fa-graduation-cap me-1"></i> B.Sc Data Science College Project
+            </span>
+            <h1 class="display-5 fw-bold text-dark mt-2 mb-3">
+                Financial Literacy Among College Students
+            </h1>
+            <p class="lead text-muted mb-4">
+                A Data Science and Machine Learning study analyzing students' financial habits,
+                evaluating knowledge gaps across 8 essential topics, and classifying literacy levels using an explainable Decision Tree.
+            </p>
+            <div class="d-flex flex-wrap gap-2">
+                <a href="{{ url_for('dashboard') }}" class="btn btn-primary btn-lg px-4 shadow-sm">
+                    <i class="fa-solid fa-chart-pie me-2"></i> View Dashboard
+                </a>
+                <a href="{{ url_for('prediction') }}" class="btn btn-outline-primary btn-lg px-4">
+                    <i class="fa-solid fa-brain me-2"></i> Test ML Predictor
+                </a>
+                <a href="{{ url_for('data_view') }}" class="btn btn-light btn-lg px-3 border">
+                    <i class="fa-solid fa-table me-2"></i> Explore Data
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-4 text-center mt-4 mt-lg-0">
+            <div class="p-4 bg-light rounded-4 border">
+                <i class="fa-solid fa-coins text-warning fa-4x mb-3"></i>
+                <h4 class="fw-bold mb-1">{{ summary.total_responses }} Students</h4>
+                <p class="text-muted small mb-3">Surveyed Across Diverse Streams</p>
+                <div class="border-top pt-3">
+                    <div class="d-flex justify-content-between text-muted small mb-1">
+                        <span>Average Score:</span>
+                        <span class="fw-bold text-dark">{{ summary.avg_score }}%</span>
+                    </div>
+                    <div class="d-flex justify-content-between text-muted small">
+                        <span>Top Knowledge Gap:</span>
+                        <span class="badge bg-danger-subtle text-danger">{{ summary.most_misunderstood }}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Project Objectives & Scope -->
+<div class="row g-4 mb-4">
+    <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm rounded-4">
+            <div class="card-body p-4">
+                <div class="icon-box bg-primary-subtle text-primary rounded-3 p-3 d-inline-block mb-3">
+                    <i class="fa-solid fa-magnifying-glass-chart fa-xl"></i>
+                </div>
+                <h5 class="fw-bold text-dark">1. Identify Knowledge Gaps</h5>
+                <p class="text-muted small">
+                    Evaluates students' real grasp of fundamental concepts: compound interest, inflation erosion, UPI cybersecurity, and emergency buffers.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm rounded-4">
+            <div class="card-body p-4">
+                <div class="icon-box bg-success-subtle text-success rounded-3 p-3 d-inline-block mb-3">
+                    <i class="fa-solid fa-wallet fa-xl"></i>
+                </div>
+                <h5 class="fw-bold text-dark">2. Study Financial Habits</h5>
+                <p class="text-muted small">
+                    Investigates correlations between prior financial education, academic discipline, budgeting discipline, and actual savings practices.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm rounded-4">
+            <div class="card-body p-4">
+                <div class="icon-box bg-warning-subtle text-warning rounded-3 p-3 d-inline-block mb-3">
+                    <i class="fa-solid fa-diagram-project fa-xl"></i>
+                </div>
+                <h5 class="fw-bold text-dark">3. Explainable Machine Learning</h5>
+                <p class="text-muted small">
+                    Employs an explainable Decision Tree Classifier to segment students into Basic, Intermediate, and Advanced tiers without data leakage.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 8 Core Domains Studied -->
+<div class="card border-0 shadow-sm rounded-4 mb-4">
+    <div class="card-body p-4">
+        <h4 class="fw-bold text-dark mb-3">
+            <i class="fa-solid fa-book-bookmark text-primary me-2"></i> 8 Core Knowledge Domains Studied
+        </h4>
+        <div class="row g-3">
+            <div class="col-md-3 col-sm-6">
+                <div class="p-3 bg-light rounded-3 border">
+                    <i class="fa-solid fa-piggy-bank text-primary me-2"></i>
+                    <strong>Saving & Budgeting</strong>
+                    <div class="text-muted small mt-1">50/30/20 rule and expense tracking.</div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="p-3 bg-light rounded-3 border">
+                    <i class="fa-solid fa-mobile-screen-button text-success me-2"></i>
+                    <strong>Digital Payments</strong>
+                    <div class="text-muted small mt-1">UPI security, OTP, and 2FA habits.</div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="p-3 bg-light rounded-3 border">
+                    <i class="fa-solid fa-arrow-trend-up text-danger me-2"></i>
+                    <strong>Inflation Impact</strong>
+                    <div class="text-muted small mt-1">Purchasing power erosion over time.</div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="p-3 bg-light rounded-3 border">
+                    <i class="fa-solid fa-percent text-info me-2"></i>
+                    <strong>Interest Rates</strong>
+                    <div class="text-muted small mt-1">Simple vs compound interest rates.</div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="p-3 bg-light rounded-3 border">
+                    <i class="fa-solid fa-credit-card text-warning me-2"></i>
+                    <strong>Loans & Credit</strong>
+                    <div class="text-muted small mt-1">Credit scores, collateral, loan traps.</div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="p-3 bg-light rounded-3 border">
+                    <i class="fa-solid fa-chart-line text-primary me-2"></i>
+                    <strong>Investments</strong>
+                    <div class="text-muted small mt-1">Mutual funds, equities, fixed deposits.</div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="p-3 bg-light rounded-3 border">
+                    <i class="fa-solid fa-shield-halved text-success me-2"></i>
+                    <strong>Risk-Return Tradeoff</strong>
+                    <div class="text-muted small mt-1">Understanding investment volatility.</div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="p-3 bg-light rounded-3 border">
+                    <i class="fa-solid fa-kit-medical text-danger me-2"></i>
+                    <strong>Emergency Funds</strong>
+                    <div class="text-muted small mt-1">3-6 months liquid contingency fund.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Technology Stack Banner -->
+<div class="card bg-white border-0 shadow-sm rounded-4 p-4 text-center">
+    <h5 class="fw-bold mb-3 text-dark">Standardized Technology Stack</h5>
+    <div class="d-flex flex-wrap justify-content-center gap-3">
+        <span class="badge bg-light text-dark border p-2 px-3"><i class="fa-brands fa-python text-primary me-1"></i> Python 3</span>
+        <span class="badge bg-light text-dark border p-2 px-3"><i class="fa-solid fa-server text-danger me-1"></i> Flask</span>
+        <span class="badge bg-light text-dark border p-2 px-3"><i class="fa-solid fa-table text-success me-1"></i> Pandas & NumPy</span>
+        <span class="badge bg-light text-dark border p-2 px-3"><i class="fa-solid fa-robot text-warning me-1"></i> Scikit-learn</span>
+        <span class="badge bg-light text-dark border p-2 px-3"><i class="fa-solid fa-database text-info me-1"></i> MySQL</span>
+        <span class="badge bg-light text-dark border p-2 px-3"><i class="fa-brands fa-bootstrap text-purple me-1"></i> Bootstrap 5</span>
+        <span class="badge bg-light text-dark border p-2 px-3"><i class="fa-solid fa-chart-column text-danger me-1"></i> Chart.js</span>
+        <span class="badge bg-light text-dark border p-2 px-3"><i class="fa-solid fa-file-excel text-success me-1"></i> Power BI & Excel</span>
+    </div>
+</div>
+{% endblock %}
+

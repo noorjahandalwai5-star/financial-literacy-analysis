@@ -1,0 +1,182 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard - Financial Literacy Analysis{% endblock %}
+
+{% block content %}
+<!-- Header & Data Source Status -->
+<div class="d-flex flex-wrap justify-content-between align-items-center mb-4">
+    <div>
+        <h2 class="fw-bold text-dark mb-1">
+            <i class="fa-solid fa-gauge-high text-primary me-2"></i>Executive Analytics Dashboard
+        </h2>
+        <p class="text-muted small mb-0">Overview of student survey metrics, knowledge gap indicators, and literacy segmentation.</p>
+    </div>
+    <div>
+        <span class="badge bg-white text-secondary border px-3 py-2 shadow-sm rounded-pill">
+            <i class="fa-solid fa-server text-success me-1"></i> Data Source: <strong>{{ source_label }}</strong>
+        </span>
+    </div>
+</div>
+
+<!-- 4 Key KPI Cards -->
+<div class="row g-3 mb-4">
+    <!-- KPI 1: Total Responses -->
+    <div class="col-xl-3 col-md-6">
+        <div class="card border-0 shadow-sm rounded-4 h-100 kpi-card">
+            <div class="card-body p-3 p-xl-4 d-flex align-items-center">
+                <div class="kpi-icon bg-primary-subtle text-primary rounded-4 p-3 me-3">
+                    <i class="fa-solid fa-users fa-2x"></i>
+                </div>
+                <div>
+                    <span class="text-muted small fw-semibold text-uppercase">Total Surveyed</span>
+                    <h3 class="fw-bold mb-0 text-dark">{{ summary.total_responses }}</h3>
+                    <small class="text-success fw-medium"><i class="fa-solid fa-check me-1"></i>Anonymized sample</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- KPI 2: Average Literacy Score -->
+    <div class="col-xl-3 col-md-6">
+        <div class="card border-0 shadow-sm rounded-4 h-100 kpi-card">
+            <div class="card-body p-3 p-xl-4 d-flex align-items-center">
+                <div class="kpi-icon bg-success-subtle text-success rounded-4 p-3 me-3">
+                    <i class="fa-solid fa-award fa-2x"></i>
+                </div>
+                <div>
+                    <span class="text-muted small fw-semibold text-uppercase">Average Score</span>
+                    <h3 class="fw-bold mb-0 text-dark">{{ summary.avg_score }}%</h3>
+                    <small class="text-muted">Out of 100% possible</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- KPI 3: Intermediate Majority -->
+    <div class="col-xl-3 col-md-6">
+        <div class="card border-0 shadow-sm rounded-4 h-100 kpi-card">
+            <div class="card-body p-3 p-xl-4 d-flex align-items-center">
+                <div class="kpi-icon bg-info-subtle text-info rounded-4 p-3 me-3">
+                    <i class="fa-solid fa-layer-group fa-2x"></i>
+                </div>
+                <div>
+                    <span class="text-muted small fw-semibold text-uppercase">Intermediate Tier</span>
+                    <h3 class="fw-bold mb-0 text-dark">{{ summary.level_percentages.Intermediate }}%</h3>
+                    <small class="text-muted">{{ summary.level_counts.Intermediate }} students</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- KPI 4: Most Misunderstood Topic -->
+    <div class="col-xl-3 col-md-6">
+        <div class="card border-0 shadow-sm rounded-4 h-100 kpi-card">
+            <div class="card-body p-3 p-xl-4 d-flex align-items-center">
+                <div class="kpi-icon bg-danger-subtle text-danger rounded-4 p-3 me-3">
+                    <i class="fa-solid fa-triangle-exclamation fa-2x"></i>
+                </div>
+                <div>
+                    <span class="text-muted small fw-semibold text-uppercase">Top Knowledge Gap</span>
+                    <h6 class="fw-bold mb-0 text-danger text-truncate" style="max-width: 150px;">{{ summary.most_misunderstood }}</h6>
+                    <small class="text-muted">Lowest quiz score</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Charts Row 1: Donut (Level Distribution) + Bar (Topic Pass Rates) -->
+<div class="row g-4 mb-4">
+    <div class="col-lg-5">
+        <div class="card border-0 shadow-sm rounded-4 h-100">
+            <div class="card-body p-4">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h5 class="fw-bold mb-0 text-dark">
+                        <i class="fa-solid fa-chart-pie text-primary me-2"></i>Literacy Level Distribution
+                    </h5>
+                    <span class="badge bg-light text-muted border">3 Categories</span>
+                </div>
+                <div class="chart-container" style="position: relative; height: 280px;">
+                    <canvas id="levelDistributionChart"></canvas>
+                </div>
+                <div class="row text-center mt-3 pt-2 border-top">
+                    <div class="col-4">
+                        <small class="text-muted d-block">Basic (&lt;50%)</small>
+                        <span class="fw-bold text-danger">{{ summary.level_percentages.Basic }}%</span>
+                    </div>
+                    <div class="col-4">
+                        <small class="text-muted d-block">Intermediate</small>
+                        <span class="fw-bold text-primary">{{ summary.level_percentages.Intermediate }}%</span>
+                    </div>
+                    <div class="col-4">
+                        <small class="text-muted d-block">Advanced (&gt;75%)</small>
+                        <span class="fw-bold text-success">{{ summary.level_percentages.Advanced }}%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-7">
+        <div class="card border-0 shadow-sm rounded-4 h-100">
+            <div class="card-body p-4">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h5 class="fw-bold mb-0 text-dark">
+                        <i class="fa-solid fa-bars-progress text-danger me-2"></i>Knowledge Pass Rates by Topic
+                    </h5>
+                    <span class="badge bg-danger-subtle text-danger">Identifies Knowledge Gaps</span>
+                </div>
+                <div class="chart-container" style="position: relative; height: 320px;">
+                    <canvas id="topicPassRatesChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Charts Row 2: Year of Study Progression + Prior Education Impact -->
+<div class="row g-4 mb-4">
+    <div class="col-lg-6">
+        <div class="card border-0 shadow-sm rounded-4 h-100">
+            <div class="card-body p-4">
+                <h5 class="fw-bold mb-3 text-dark">
+                    <i class="fa-solid fa-graduation-cap text-warning me-2"></i>Literacy Score by Year of Study
+                </h5>
+                <div class="chart-container" style="position: relative; height: 260px;">
+                    <canvas id="yearProgressionChart"></canvas>
+                </div>
+                <p class="text-muted small mt-2 mb-0">
+                    <i class="fa-solid fa-circle-info text-info me-1"></i> Observation: Average literacy scores increase steadily from 1st Year to 4th Year as students gain real-world exposure.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-6">
+        <div class="card border-0 shadow-sm rounded-4 h-100">
+            <div class="card-body p-4">
+                <h5 class="fw-bold mb-3 text-dark">
+                    <i class="fa-solid fa-book-bookmark text-success me-2"></i>Impact of Prior Financial Education
+                </h5>
+                <div class="chart-container" style="position: relative; height: 260px;">
+                    <canvas id="eduComparisonChart"></canvas>
+                </div>
+                <p class="text-muted small mt-2 mb-0">
+                    <i class="fa-solid fa-circle-info text-info me-1"></i> Students with prior financial coursework score ~14.8% higher on average than peers without formal exposure.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+    // Initialize Dashboard Charts from dynamic backend data
+    const summaryData = {{ summary | tojson }};
+    document.addEventListener("DOMContentLoaded", function () {
+        initDashboardCharts(summaryData);
+    });
+</script>
+{% endblock %}
+

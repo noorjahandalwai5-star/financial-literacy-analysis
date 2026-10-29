@@ -1,0 +1,212 @@
+{% extends "base.html" %}
+
+{% block title %}ML Prediction - Financial Literacy Analysis{% endblock %}
+
+{% block content %}
+<div class="mb-4">
+    <h2 class="fw-bold text-dark mb-1">
+        <i class="fa-solid fa-brain text-primary me-2"></i>Financial Literacy Category Predictor
+    </h2>
+    <p class="text-muted small mb-0">
+        Enter a student's academic background and behavioral habits to estimate their financial literacy category using an explainable Decision Tree model.
+    </p>
+</div>
+
+<!-- Ethical Disclaimer Banner -->
+<div class="alert alert-warning border-0 shadow-sm rounded-4 mb-4 d-flex align-items-center">
+    <i class="fa-solid fa-shield-halved fa-2x text-warning me-3"></i>
+    <div class="small">
+        <strong>Important Educational Notice:</strong> This machine learning prediction identifies statistical patterns present in the surveyed cohort. It is strictly an <em>educational estimate</em> and should <strong>never</strong> be interpreted as a measure of a student's personal intelligence, aptitude, or future financial success.
+    </div>
+</div>
+
+<div class="row g-4">
+    <!-- Form Column -->
+    <div class="col-lg-7">
+        <div class="card border-0 shadow-sm rounded-4">
+            <div class="card-body p-4">
+                <h5 class="fw-bold text-dark mb-3">
+                    <i class="fa-solid fa-sliders text-primary me-2"></i>Student Profile Input
+                </h5>
+                <form action="{{ url_for('prediction') }}" method="POST">
+                    <div class="row g-3">
+                        <!-- Age Group -->
+                        <div class="col-md-6">
+                            <label class="form-label small fw-semibold text-muted">Age Group</label>
+                            <select name="Age_Group" class="form-select" required>
+                                <option value="18-19" {% if form.Age_Group == '18-19' %}selected{% endif %}>18 - 19 years</option>
+                                <option value="20-21" {% if form.Age_Group == '20-21' or not form %}selected{% endif %}>20 - 21 years</option>
+                                <option value="22-23" {% if form.Age_Group == '22-23' %}selected{% endif %}>22 - 23 years</option>
+                                <option value="24+" {% if form.Age_Group == '24+' %}selected{% endif %}>24+ years</option>
+                            </select>
+                        </div>
+
+                        <!-- Course -->
+                        <div class="col-md-6">
+                            <label class="form-label small fw-semibold text-muted">Academic Stream</label>
+                            <select name="Course" class="form-select" required>
+                                <option value="B.Sc Data Science" {% if form.Course == 'B.Sc Data Science' or not form %}selected{% endif %}>B.Sc Data Science</option>
+                                <option value="B.Sc Computer Science" {% if form.Course == 'B.Sc Computer Science' %}selected{% endif %}>B.Sc Computer Science</option>
+                                <option value="B.Com" {% if form.Course == 'B.Com' %}selected{% endif %}>B.Com (Commerce)</option>
+                                <option value="B.B.A" {% if form.Course == 'B.B.A' %}selected{% endif %}>B.B.A (Business Admin)</option>
+                                <option value="B.Tech" {% if form.Course == 'B.Tech' %}selected{% endif %}>B.Tech (Engineering)</option>
+                                <option value="B.A" {% if form.Course == 'B.A' %}selected{% endif %}>B.A (Arts & Humanities)</option>
+                                <option value="B.Sc Mathematics" {% if form.Course == 'B.Sc Mathematics' %}selected{% endif %}>B.Sc Mathematics</option>
+                            </select>
+                        </div>
+
+                        <!-- Year of Study -->
+                        <div class="col-md-6">
+                            <label class="form-label small fw-semibold text-muted">Year of Study</label>
+                            <select name="Year_of_Study" class="form-select" required>
+                                <option value="1st Year" {% if form.Year_of_Study == '1st Year' %}selected{% endif %}>1st Year</option>
+                                <option value="2nd Year" {% if form.Year_of_Study == '2nd Year' or not form %}selected{% endif %}>2nd Year</option>
+                                <option value="3rd Year" {% if form.Year_of_Study == '3rd Year' %}selected{% endif %}>3rd Year</option>
+                                <option value="4th Year" {% if form.Year_of_Study == '4th Year' %}selected{% endif %}>4th Year</option>
+                            </select>
+                        </div>
+
+                        <!-- Prior Financial Education -->
+                        <div class="col-md-6">
+                            <label class="form-label small fw-semibold text-muted">Prior Financial Education / Coursework?</label>
+                            <select name="Financial_Education" class="form-select" required>
+                                <option value="No" {% if form.Financial_Education == 'No' or not form %}selected{% endif %}>No prior coursework</option>
+                                <option value="Yes" {% if form.Financial_Education == 'Yes' %}selected{% endif %}>Yes, studied basic finance</option>
+                            </select>
+                        </div>
+
+                        <!-- Budgeting Habit -->
+                        <div class="col-md-6">
+                            <label class="form-label small fw-semibold text-muted">Budgeting Habit</label>
+                            <select name="Budgeting_Habit" class="form-select" required>
+                                <option value="Never" {% if form.Budgeting_Habit == 'Never' %}selected{% endif %}>Never create a budget</option>
+                                <option value="Rarely" {% if form.Budgeting_Habit == 'Rarely' %}selected{% endif %}>Rarely track expenses</option>
+                                <option value="Occasionally" {% if form.Budgeting_Habit == 'Occasionally' or not form %}selected{% endif %}>Occasionally review spending</option>
+                                <option value="Regularly" {% if form.Budgeting_Habit == 'Regularly' %}selected{% endif %}>Regularly maintain written budget</option>
+                            </select>
+                        </div>
+
+                        <!-- Saving Habit -->
+                        <div class="col-md-6">
+                            <label class="form-label small fw-semibold text-muted">Saving Habit</label>
+                            <select name="Saving_Habit" class="form-select" required>
+                                <option value="Does Not Save" {% if form.Saving_Habit == 'Does Not Save' %}selected{% endif %}>Does Not Save</option>
+                                <option value="Saves Whatever is Left" {% if form.Saving_Habit == 'Saves Whatever is Left' or not form %}selected{% endif %}>Saves whatever remains at month-end</option>
+                                <option value="Saves a Fixed Percentage" {% if form.Saving_Habit == 'Saves a Fixed Percentage' %}selected{% endif %}>Saves a fixed percentage upfront</option>
+                                <option value="Invests Regularly" {% if form.Saving_Habit == 'Invests Regularly' %}selected{% endif %}>Invests regularly (e.g. SIP / RD)</option>
+                            </select>
+                        </div>
+
+                        <!-- Major Expense -->
+                        <div class="col-md-6">
+                            <label class="form-label small fw-semibold text-muted">Primary Expense Category</label>
+                            <select name="Monthly_Expense_Category" class="form-select" required>
+                                <option value="Food & Dining" {% if form.Monthly_Expense_Category == 'Food & Dining' or not form %}selected{% endif %}>Food & Dining</option>
+                                <option value="Travel & Commute" {% if form.Monthly_Expense_Category == 'Travel & Commute' %}selected{% endif %}>Travel & Commute</option>
+                                <option value="Study Materials & Books" {% if form.Monthly_Expense_Category == 'Study Materials & Books' %}selected{% endif %}>Study Materials & Books</option>
+                                <option value="Entertainment & Leisure" {% if form.Monthly_Expense_Category == 'Entertainment & Leisure' %}selected{% endif %}>Entertainment & Leisure</option>
+                                <option value="Shopping & Fashion" {% if form.Monthly_Expense_Category == 'Shopping & Fashion' %}selected{% endif %}>Shopping & Fashion</option>
+                            </select>
+                        </div>
+
+                        <!-- Emergency Fund Awareness -->
+                        <div class="col-md-6">
+                            <label class="form-label small fw-semibold text-muted">Emergency Fund Awareness</label>
+                            <select name="Emergency_Fund_Awareness" class="form-select" required>
+                                <option value="0" {% if form.Emergency_Fund_Awareness == 0 or not form %}selected{% endif %}>Unaware of emergency fund concept</option>
+                                <option value="1" {% if form.Emergency_Fund_Awareness == 1 %}selected{% endif %}>Aware of 3-6 month contingency reserve</option>
+                            </select>
+                        </div>
+
+                        <!-- Risk Awareness -->
+                        <div class="col-12">
+                            <label class="form-label small fw-semibold text-muted">Understands Investment Risk-Return Relationship?</label>
+                            <select name="Risk_Awareness" class="form-select" required>
+                                <option value="0" {% if form.Risk_Awareness == 0 or not form %}selected{% endif %}>No (Assumes guaranteed high returns exist without risk)</option>
+                                <option value="1" {% if form.Risk_Awareness == 1 %}selected{% endif %}>Yes (Understands higher potential return entails higher capital risk)</option>
+                            </select>
+                        </div>
+
+                        <div class="col-12 mt-4">
+                            <button type="submit" class="btn btn-primary btn-lg w-100 shadow-sm">
+                                <i class="fa-solid fa-wand-magic-sparkles me-2"></i> Predict Financial Literacy Level
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Prediction Output Column -->
+    <div class="col-lg-5">
+        {% if result %}
+        <div class="card border-0 shadow-sm rounded-4 mb-4">
+            <div class="card-body p-4 text-center">
+                <span class="text-muted small text-uppercase fw-bold">Predicted Literacy Category</span>
+                
+                {% if result.level == 'Advanced' %}
+                <div class="my-3">
+                    <span class="badge bg-success fs-3 px-4 py-2 rounded-pill shadow-sm">
+                        <i class="fa-solid fa-crown me-2"></i> Advanced Level
+                    </span>
+                </div>
+                <p class="text-success fw-medium">Demonstrates mature financial awareness and prudent savings habits.</p>
+                {% elif result.level == 'Intermediate' %}
+                <div class="my-3">
+                    <span class="badge bg-primary fs-3 px-4 py-2 rounded-pill shadow-sm">
+                        <i class="fa-solid fa-award me-2"></i> Intermediate Level
+                    </span>
+                </div>
+                <p class="text-primary fw-medium">Understands fundamental banking and payment systems with opportunities to master investment & inflation concepts.</p>
+                {% else %}
+                <div class="my-3">
+                    <span class="badge bg-warning text-dark fs-3 px-4 py-2 rounded-pill shadow-sm">
+                        <i class="fa-solid fa-seedling me-2"></i> Basic Level
+                    </span>
+                </div>
+                <p class="text-warning-emphasis fw-medium">Early learning stage. Needs structured orientation in budgeting, interest calculation, and safe digital practices.</p>
+                {% endif %}
+
+                <div class="p-3 bg-light rounded-3 text-start small mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <span class="text-muted">Model Used:</span>
+                        <span class="fw-semibold">{{ result.engine }}</span>
+                    </div>
+                    <div class="d-flex justify-content-between mb-1">
+                        <span class="text-muted">Estimated Confidence:</span>
+                        <span class="fw-bold text-dark">{{ result.confidence }}%</span>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <span class="text-muted">Data Leakage Check:</span>
+                        <span class="text-success fw-semibold"><i class="fa-solid fa-check me-1"></i>Protected (Score Excluded)</span>
+                    </div>
+                </div>
+
+                <!-- Tailored Action Steps -->
+                <div class="text-start">
+                    <h6 class="fw-bold text-dark mb-2">Recommended Learning Roadmap:</h6>
+                    <ul class="list-group list-group-flush small">
+                        {% for item in result.recommendations %}
+                        <li class="list-group-item px-0 py-2 d-flex align-items-start">
+                            <i class="fa-solid fa-circle-arrow-right text-primary mt-1 me-2"></i>
+                            <span>{{ item }}</span>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        {% else %}
+        <div class="card border-0 shadow-sm rounded-4 h-100 bg-white d-flex align-items-center justify-content-center p-5 text-center">
+            <div class="text-muted">
+                <i class="fa-solid fa-robot fa-4x text-primary-subtle mb-3"></i>
+                <h5 class="fw-bold text-dark">Ready for Prediction</h5>
+                <p class="small mb-0">Fill out the student characteristics on the left and click <strong>Predict</strong> to see the Decision Tree classification result and customized learning suggestions.</p>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
+

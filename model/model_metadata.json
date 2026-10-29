@@ -1,0 +1,91 @@
+{
+    "model_name": "DecisionTreeClassifier",
+    "parameters": {
+        "max_depth": 4,
+        "criterion": "gini",
+        "min_samples_split": 10
+    },
+    "dt_accuracy": 67.0,
+    "rf_accuracy": 69.0,
+    "feature_columns": [
+        "Age_Group",
+        "Course",
+        "Year_of_Study",
+        "Financial_Education",
+        "Budgeting_Habit",
+        "Saving_Habit",
+        "Monthly_Expense_Category",
+        "Emergency_Fund_Awareness",
+        "Risk_Awareness"
+    ],
+    "feature_importances": {
+        "Risk_Awareness": 23.62,
+        "Year_of_Study": 23.16,
+        "Emergency_Fund_Awareness": 19.44,
+        "Financial_Education": 15.99,
+        "Budgeting_Habit": 5.14,
+        "Saving_Habit": 4.79,
+        "Course": 4.03,
+        "Monthly_Expense_Category": 3.82,
+        "Age_Group": 0.0
+    },
+    "categories": {
+        "Age_Group": [
+            "18-19",
+            "20-21",
+            "22-23",
+            "24+"
+        ],
+        "Course": [
+            "B.A",
+            "B.B.A",
+            "B.Com",
+            "B.Sc Computer Science",
+            "B.Sc Data Science",
+            "B.Sc Mathematics",
+            "B.Tech"
+        ],
+        "Year_of_Study": [
+            "1st Year",
+            "2nd Year",
+            "3rd Year",
+            "4th Year"
+        ],
+        "Financial_Education": [
+            "No",
+            "Yes"
+        ],
+        "Budgeting_Habit": [
+            "Never",
+            "Occasionally",
+            "Rarely",
+            "Regularly"
+        ],
+        "Saving_Habit": [
+            "Does Not Save",
+            "Invests Regularly",
+            "Saves Whatever is Left",
+            "Saves a Fixed Percentage"
+        ],
+        "Monthly_Expense_Category": [
+            "Entertainment & Leisure",
+            "Food & Dining",
+            "Shopping & Fashion",
+            "Study Materials & Books",
+            "Travel & Commute"
+        ],
+        "Emergency_Fund_Awareness": [
+            0,
+            1
+        ],
+        "Risk_Awareness": [
+            0,
+            1
+        ]
+    },
+    "classes": [
+        "Advanced",
+        "Basic",
+        "Intermediate"
+    ]
+}
