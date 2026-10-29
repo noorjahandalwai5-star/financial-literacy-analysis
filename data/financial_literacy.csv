@@ -1,501 +1,601 @@
 Student_ID,Age_Group,Course,Year_of_Study,Financial_Education,Budgeting_Habit,Monthly_Expense_Category,Saving_Habit,Banking_Knowledge,Digital_Payment_Knowledge,Interest_Rate_Knowledge,Inflation_Knowledge,Loan_Knowledge,Investment_Knowledge,Risk_Awareness,Emergency_Fund_Awareness,Financial_Literacy_Score,Financial_Literacy_Level
-STU0001,18-19,B.A,1st Year,No,Rarely,Shopping & Fashion,Saves Whatever is Left,1,1,0,0,1,0,1,1,62.5,Intermediate
-STU0002,18-19,B.A,2nd Year,Yes,Occasionally,Travel & Commute,Invests Regularly,1,1,1,1,0,1,0,0,62.5,Intermediate
-STU0003,22-23,B.A,4th Year,No,Occasionally,Food & Dining,Saves Whatever is Left,1,1,1,1,1,1,0,0,75,Intermediate
-STU0004,20-21,B.Sc Data Science,3rd Year,Yes,Occasionally,Study Materials & Books,Saves a Fixed Percentage,1,1,1,1,1,1,1,1,100,Advanced
-STU0005,20-21,B.B.A,3rd Year,Yes,Occasionally,Travel & Commute,Saves a Fixed Percentage,1,1,1,1,1,1,0,0,75,Intermediate
-STU0006,20-21,B.Sc Data Science,2nd Year,No,Rarely,Study Materials & Books,Saves Whatever is Left,1,1,0,0,0,1,0,0,37.5,Basic
-STU0007,18-19,B.Sc Computer Science,1st Year,No,Occasionally,Travel & Commute,Saves Whatever is Left,1,0,0,0,0,0,0,0,12.5,Basic
-STU0008,18-19,B.Sc Computer Science,1st Year,No,Occasionally,Shopping & Fashion,Invests Regularly,1,1,0,1,1,0,1,0,62.5,Intermediate
-STU0009,20-21,B.Sc Mathematics,1st Year,No,Never,Shopping & Fashion,Saves a Fixed Percentage,1,1,0,0,1,0,1,1,62.5,Intermediate
-STU0010,20-21,B.Sc Computer Science,2nd Year,No,Never,Food & Dining,Saves a Fixed Percentage,1,1,0,0,0,0,1,0,37.5,Basic
-STU0011,20-21,B.Sc Data Science,1st Year,No,Rarely,Travel & Commute,Does Not Save,1,1,0,1,0,0,0,1,50,Intermediate
-STU0012,22-23,B.Com,3rd Year,Yes,Rarely,Entertainment & Leisure,Saves Whatever is Left,1,1,1,1,1,0,1,1,87.5,Advanced
-STU0013,22-23,B.Sc Mathematics,4th Year,No,Occasionally,Food & Dining,Saves Whatever is Left,1,1,1,0,1,0,1,1,75,Intermediate
-STU0014,18-19,B.Sc Mathematics,1st Year,Yes,Occasionally,Shopping & Fashion,Saves a Fixed Percentage,1,1,1,1,0,0,1,1,75,Intermediate
-STU0015,20-21,B.Com,1st Year,Yes,Rarely,Food & Dining,Saves a Fixed Percentage,1,1,0,1,1,0,1,0,62.5,Intermediate
-STU0016,20-21,B.Sc Mathematics,2nd Year,No,Rarely,Study Materials & Books,Saves a Fixed Percentage,0,1,0,0,1,1,0,1,50,Intermediate
-STU0017,20-21,B.A,3rd Year,No,Occasionally,Shopping & Fashion,Saves Whatever is Left,1,1,0,1,0,1,1,0,62.5,Intermediate
-STU0018,20-21,B.Sc Computer Science,3rd Year,No,Never,Study Materials & Books,Does Not Save,1,1,1,0,1,1,1,0,75,Intermediate
-STU0019,20-21,B.Sc Computer Science,2nd Year,No,Regularly,Entertainment & Leisure,Saves Whatever is Left,1,1,0,0,1,0,0,0,37.5,Basic
-STU0020,20-21,B.Com,1st Year,Yes,Rarely,Shopping & Fashion,Invests Regularly,1,1,0,1,1,1,0,1,75,Intermediate
-STU0021,22-23,B.Sc Mathematics,3rd Year,No,Rarely,Food & Dining,Saves a Fixed Percentage,1,1,1,1,0,0,0,0,50,Intermediate
-STU0022,18-19,B.A,1st Year,No,Regularly,Study Materials & Books,Invests Regularly,0,1,0,0,1,0,1,0,37.5,Basic
-STU0023,22-23,B.Sc Data Science,3rd Year,No,Never,Study Materials & Books,Saves a Fixed Percentage,1,1,0,0,1,1,0,0,50,Intermediate
-STU0024,22-23,B.Sc Mathematics,4th Year,No,Never,Shopping & Fashion,Saves a Fixed Percentage,0,1,0,1,0,1,1,0,50,Intermediate
-STU0025,22-23,B.Com,4th Year,Yes,Regularly,Food & Dining,Invests Regularly,0,1,0,1,0,1,1,1,62.5,Intermediate
-STU0026,18-19,B.Tech,1st Year,No,Occasionally,Shopping & Fashion,Does Not Save,1,1,0,0,1,0,0,0,37.5,Basic
-STU0027,18-19,B.Sc Mathematics,2nd Year,No,Rarely,Study Materials & Books,Saves Whatever is Left,0,1,1,0,1,0,0,0,37.5,Basic
-STU0028,20-21,B.B.A,3rd Year,Yes,Regularly,Shopping & Fashion,Saves Whatever is Left,1,1,1,1,1,1,1,0,87.5,Advanced
-STU0029,18-19,B.Sc Mathematics,2nd Year,No,Rarely,Entertainment & Leisure,Saves a Fixed Percentage,1,1,1,1,0,0,0,0,50,Intermediate
-STU0030,22-23,B.Sc Computer Science,3rd Year,Yes,Regularly,Travel & Commute,Saves a Fixed Percentage,1,1,1,1,1,0,1,1,87.5,Advanced
-STU0031,18-19,B.A,2nd Year,No,Regularly,Shopping & Fashion,Saves a Fixed Percentage,1,1,1,1,1,0,1,0,75,Intermediate
-STU0032,18-19,B.Sc Data Science,1st Year,No,Occasionally,Food & Dining,Saves Whatever is Left,0,0,1,0,0,0,1,1,37.5,Basic
-STU0033,18-19,B.Sc Computer Science,1st Year,No,Occasionally,Food & Dining,Saves Whatever is Left,1,1,0,0,0,0,1,0,37.5,Basic
-STU0034,22-23,B.Sc Mathematics,4th Year,No,Occasionally,Shopping & Fashion,Saves Whatever is Left,1,1,0,1,1,1,1,0,75,Intermediate
-STU0035,20-21,B.Sc Computer Science,2nd Year,No,Never,Travel & Commute,Invests Regularly,1,1,0,0,1,0,1,1,62.5,Intermediate
-STU0036,20-21,B.Sc Computer Science,3rd Year,No,Rarely,Food & Dining,Saves a Fixed Percentage,1,1,1,1,1,0,0,0,62.5,Intermediate
-STU0037,20-21,B.Sc Computer Science,2nd Year,No,Occasionally,Food & Dining,Saves Whatever is Left,1,1,0,0,1,0,1,0,50,Intermediate
-STU0038,22-23,B.Tech,4th Year,Yes,Occasionally,Study Materials & Books,Invests Regularly,1,1,1,1,1,1,0,0,75,Intermediate
-STU0039,22-23,B.B.A,3rd Year,Yes,Rarely,Entertainment & Leisure,Saves a Fixed Percentage,1,1,1,0,0,1,1,1,75,Intermediate
-STU0040,20-21,B.Sc Data Science,1st Year,No,Regularly,Study Materials & Books,Does Not Save,0,0,0,0,0,1,0,0,12.5,Basic
-STU0041,22-23,B.Sc Mathematics,4th Year,No,Occasionally,Food & Dining,Saves Whatever is Left,1,1,1,1,1,1,1,0,87.5,Advanced
-STU0042,22-23,B.Sc Data Science,3rd Year,No,Rarely,Food & Dining,Does Not Save,0,1,0,0,0,1,1,1,50,Intermediate
-STU0043,22-23,B.A,4th Year,No,Never,Shopping & Fashion,Saves a Fixed Percentage,1,1,1,0,0,0,1,1,62.5,Intermediate
-STU0044,24+,B.Sc Computer Science,4th Year,Yes,Regularly,Study Materials & Books,Saves Whatever is Left,1,1,1,1,1,1,1,1,100,Advanced
-STU0045,20-21,B.Sc Data Science,3rd Year,No,Rarely,Food & Dining,Saves a Fixed Percentage,1,1,0,0,1,0,1,0,50,Intermediate
-STU0046,20-21,B.Sc Mathematics,3rd Year,No,Rarely,Shopping & Fashion,Saves Whatever is Left,1,0,1,1,1,0,1,1,75,Intermediate
-STU0047,18-19,B.B.A,2nd Year,No,Rarely,Travel & Commute,Saves a Fixed Percentage,1,1,1,1,1,1,0,1,87.5,Advanced
-STU0048,18-19,B.B.A,2nd Year,Yes,Rarely,Study Materials & Books,Saves Whatever is Left,1,1,1,1,0,1,0,1,75,Intermediate
-STU0049,18-19,B.A,1st Year,No,Occasionally,Study Materials & Books,Saves a Fixed Percentage,0,0,1,0,0,0,1,0,25,Basic
-STU0050,20-21,B.B.A,2nd Year,Yes,Regularly,Study Materials & Books,Saves a Fixed Percentage,1,1,1,0,1,0,1,0,62.5,Intermediate
-STU0051,18-19,B.Sc Data Science,2nd Year,No,Occasionally,Travel & Commute,Does Not Save,0,1,1,0,0,0,1,1,50,Intermediate
-STU0052,18-19,B.B.A,2nd Year,Yes,Regularly,Food & Dining,Saves a Fixed Percentage,1,1,1,0,1,1,1,0,75,Intermediate
-STU0053,22-23,B.A,3rd Year,No,Regularly,Food & Dining,Does Not Save,0,1,1,1,0,1,0,0,50,Intermediate
-STU0054,18-19,B.Sc Mathematics,2nd Year,No,Rarely,Shopping & Fashion,Saves Whatever is Left,1,1,0,0,1,1,1,0,62.5,Intermediate
-STU0055,18-19,B.Sc Mathematics,2nd Year,No,Never,Food & Dining,Saves a Fixed Percentage,1,1,0,0,1,0,0,0,37.5,Basic
-STU0056,18-19,B.B.A,1st Year,No,Never,Entertainment & Leisure,Saves a Fixed Percentage,0,0,0,1,1,0,0,0,25,Basic
-STU0057,24+,B.A,4th Year,No,Rarely,Travel & Commute,Saves a Fixed Percentage,1,1,1,0,1,1,1,1,87.5,Advanced
-STU0058,24+,B.A,4th Year,No,Occasionally,Study Materials & Books,Saves a Fixed Percentage,0,1,0,1,1,0,1,1,62.5,Intermediate
-STU0059,18-19,B.Com,1st Year,Yes,Occasionally,Entertainment & Leisure,Invests Regularly,1,1,0,0,1,0,0,0,37.5,Basic
-STU0060,22-23,B.A,4th Year,No,Regularly,Study Materials & Books,Saves a Fixed Percentage,1,1,0,1,1,0,1,0,62.5,Intermediate
-STU0061,20-21,B.Tech,1st Year,Yes,Occasionally,Study Materials & Books,Invests Regularly,1,1,1,0,0,0,0,0,37.5,Basic
-STU0062,20-21,B.Sc Mathematics,3rd Year,No,Rarely,Food & Dining,Saves Whatever is Left,1,1,0,0,1,0,0,0,37.5,Basic
-STU0063,20-21,B.A,2nd Year,Yes,Regularly,Entertainment & Leisure,Saves Whatever is Left,1,1,0,1,1,1,1,1,87.5,Advanced
-STU0064,22-23,B.Sc Computer Science,4th Year,No,Rarely,Study Materials & Books,Saves a Fixed Percentage,1,1,0,0,0,0,1,0,37.5,Basic
-STU0065,22-23,B.Sc Computer Science,4th Year,No,Never,Food & Dining,Saves Whatever is Left,1,0,1,1,1,1,1,0,75,Intermediate
-STU0066,18-19,B.A,1st Year,Yes,Occasionally,Shopping & Fashion,Saves Whatever is Left,1,1,1,0,1,0,1,1,75,Intermediate
-STU0067,18-19,B.Tech,2nd Year,Yes,Regularly,Travel & Commute,Saves a Fixed Percentage,1,1,0,1,1,1,0,1,75,Intermediate
-STU0068,20-21,B.Com,3rd Year,No,Rarely,Shopping & Fashion,Saves Whatever is Left,1,1,1,1,0,1,1,0,75,Intermediate
-STU0069,18-19,B.Sc Computer Science,1st Year,No,Rarely,Entertainment & Leisure,Saves Whatever is Left,1,1,0,0,0,1,1,0,50,Intermediate
-STU0070,20-21,B.Sc Mathematics,2nd Year,Yes,Regularly,Entertainment & Leisure,Invests Regularly,1,1,0,0,0,0,1,0,37.5,Basic
-STU0071,20-21,B.B.A,1st Year,No,Rarely,Travel & Commute,Saves a Fixed Percentage,0,1,1,0,0,0,0,0,25,Basic
-STU0072,18-19,B.Sc Computer Science,1st Year,No,Rarely,Food & Dining,Saves a Fixed Percentage,1,1,0,0,0,0,1,0,37.5,Basic
-STU0073,22-23,B.Sc Mathematics,3rd Year,Yes,Occasionally,Travel & Commute,Invests Regularly,1,0,1,1,1,1,1,1,87.5,Advanced
-STU0074,22-23,B.Sc Data Science,4th Year,Yes,Regularly,Food & Dining,Saves a Fixed Percentage,1,1,0,1,1,1,1,1,87.5,Advanced
-STU0075,24+,B.Com,4th Year,Yes,Occasionally,Food & Dining,Invests Regularly,1,1,1,1,1,0,1,0,75,Intermediate
-STU0076,20-21,B.B.A,1st Year,Yes,Never,Travel & Commute,Saves a Fixed Percentage,1,1,1,1,0,1,1,0,75,Intermediate
-STU0077,24+,B.Sc Mathematics,4th Year,No,Occasionally,Entertainment & Leisure,Saves a Fixed Percentage,1,1,0,0,0,1,0,0,37.5,Basic
-STU0078,18-19,B.Sc Computer Science,1st Year,Yes,Regularly,Study Materials & Books,Saves a Fixed Percentage,1,0,1,0,1,0,1,0,50,Intermediate
-STU0079,20-21,B.Tech,3rd Year,No,Rarely,Study Materials & Books,Saves Whatever is Left,0,1,0,0,1,1,0,1,50,Intermediate
-STU0080,20-21,B.A,3rd Year,No,Rarely,Study Materials & Books,Saves Whatever is Left,0,1,0,1,1,0,1,1,62.5,Intermediate
-STU0081,20-21,B.A,3rd Year,No,Rarely,Entertainment & Leisure,Saves a Fixed Percentage,0,1,1,1,0,0,1,1,62.5,Intermediate
-STU0082,18-19,B.Sc Data Science,2nd Year,Yes,Rarely,Study Materials & Books,Invests Regularly,1,1,1,1,0,1,1,1,87.5,Advanced
-STU0083,20-21,B.Sc Data Science,2nd Year,Yes,Occasionally,Travel & Commute,Saves a Fixed Percentage,1,1,1,0,1,1,1,1,87.5,Advanced
-STU0084,18-19,B.B.A,2nd Year,Yes,Regularly,Food & Dining,Invests Regularly,1,1,1,0,1,1,0,1,75,Intermediate
-STU0085,18-19,B.Sc Mathematics,1st Year,No,Rarely,Entertainment & Leisure,Saves Whatever is Left,1,1,0,0,1,1,1,0,62.5,Intermediate
-STU0086,20-21,B.Com,1st Year,Yes,Regularly,Food & Dining,Invests Regularly,1,1,0,0,0,0,1,0,37.5,Basic
-STU0087,18-19,B.Sc Computer Science,2nd Year,No,Regularly,Food & Dining,Saves a Fixed Percentage,1,1,0,0,1,0,1,0,50,Intermediate
-STU0088,20-21,B.Sc Data Science,1st Year,No,Rarely,Entertainment & Leisure,Saves Whatever is Left,0,1,1,0,0,0,0,0,25,Basic
-STU0089,20-21,B.Sc Mathematics,3rd Year,Yes,Rarely,Study Materials & Books,Invests Regularly,1,1,1,0,0,1,1,1,75,Intermediate
-STU0090,18-19,B.Com,1st Year,Yes,Occasionally,Shopping & Fashion,Invests Regularly,1,1,1,0,1,1,1,1,87.5,Advanced
-STU0091,18-19,B.Com,1st Year,Yes,Occasionally,Shopping & Fashion,Saves Whatever is Left,1,1,0,1,1,1,1,1,87.5,Advanced
-STU0092,20-21,B.A,3rd Year,No,Rarely,Entertainment & Leisure,Saves a Fixed Percentage,1,1,0,0,1,1,1,1,75,Intermediate
-STU0093,20-21,B.Tech,1st Year,No,Rarely,Study Materials & Books,Saves Whatever is Left,1,1,0,1,0,1,0,1,62.5,Intermediate
-STU0094,20-21,B.Sc Mathematics,3rd Year,Yes,Rarely,Food & Dining,Saves a Fixed Percentage,1,1,1,1,1,1,1,0,87.5,Advanced
-STU0095,22-23,B.A,4th Year,No,Rarely,Shopping & Fashion,Saves Whatever is Left,1,1,0,0,1,0,0,0,37.5,Basic
-STU0096,22-23,B.Sc Mathematics,3rd Year,Yes,Occasionally,Travel & Commute,Invests Regularly,1,1,0,0,1,0,1,1,62.5,Intermediate
-STU0097,18-19,B.Tech,2nd Year,No,Occasionally,Food & Dining,Saves Whatever is Left,1,1,0,1,0,0,1,0,50,Intermediate
-STU0098,22-23,B.B.A,3rd Year,No,Never,Travel & Commute,Saves Whatever is Left,1,1,0,0,1,0,0,1,50,Intermediate
-STU0099,20-21,B.Sc Computer Science,2nd Year,No,Occasionally,Entertainment & Leisure,Saves Whatever is Left,1,1,1,1,1,0,1,1,87.5,Advanced
-STU0100,24+,B.Sc Data Science,4th Year,No,Occasionally,Study Materials & Books,Does Not Save,1,1,1,1,0,0,1,0,62.5,Intermediate
-STU0101,22-23,B.Sc Data Science,4th Year,No,Occasionally,Study Materials & Books,Saves a Fixed Percentage,1,0,0,1,1,1,1,1,75,Intermediate
-STU0102,18-19,B.Sc Mathematics,2nd Year,No,Rarely,Study Materials & Books,Saves Whatever is Left,1,1,0,0,0,0,1,0,37.5,Basic
-STU0103,20-21,B.B.A,2nd Year,No,Rarely,Food & Dining,Saves Whatever is Left,1,1,1,0,0,0,1,1,62.5,Intermediate
-STU0104,18-19,B.B.A,1st Year,Yes,Occasionally,Travel & Commute,Saves a Fixed Percentage,1,1,1,0,1,0,1,1,75,Intermediate
-STU0105,20-21,B.B.A,3rd Year,Yes,Occasionally,Entertainment & Leisure,Invests Regularly,1,1,0,0,1,1,0,1,62.5,Intermediate
-STU0106,18-19,B.A,1st Year,Yes,Occasionally,Food & Dining,Saves Whatever is Left,1,1,0,0,0,0,1,0,37.5,Basic
-STU0107,18-19,B.Tech,2nd Year,No,Never,Food & Dining,Saves Whatever is Left,1,1,0,1,1,0,0,0,50,Intermediate
-STU0108,20-21,B.B.A,1st Year,Yes,Occasionally,Travel & Commute,Does Not Save,1,1,0,1,1,0,0,1,62.5,Intermediate
-STU0109,22-23,B.Tech,4th Year,No,Rarely,Food & Dining,Saves Whatever is Left,1,1,0,0,0,1,1,1,62.5,Intermediate
-STU0110,22-23,B.Sc Computer Science,3rd Year,No,Occasionally,Entertainment & Leisure,Saves a Fixed Percentage,1,1,0,1,1,0,0,1,62.5,Intermediate
-STU0111,24+,B.Sc Data Science,4th Year,Yes,Regularly,Entertainment & Leisure,Invests Regularly,1,1,0,1,0,0,1,1,62.5,Intermediate
-STU0112,24+,B.Sc Computer Science,4th Year,No,Occasionally,Study Materials & Books,Does Not Save,1,1,0,1,0,1,1,1,75,Intermediate
-STU0113,24+,B.Tech,4th Year,Yes,Regularly,Food & Dining,Saves a Fixed Percentage,1,1,1,1,1,1,1,0,87.5,Advanced
-STU0114,18-19,B.Sc Mathematics,1st Year,No,Occasionally,Travel & Commute,Does Not Save,1,1,1,0,1,0,1,0,62.5,Intermediate
-STU0115,20-21,B.Com,2nd Year,Yes,Rarely,Study Materials & Books,Saves a Fixed Percentage,0,1,1,0,0,0,0,0,25,Basic
-STU0116,20-21,B.Sc Computer Science,2nd Year,No,Regularly,Study Materials & Books,Saves a Fixed Percentage,1,0,0,1,0,1,1,1,62.5,Intermediate
-STU0117,18-19,B.Sc Data Science,2nd Year,No,Occasionally,Entertainment & Leisure,Does Not Save,1,1,1,1,1,1,0,0,75,Intermediate
-STU0118,22-23,B.Sc Data Science,3rd Year,No,Never,Shopping & Fashion,Saves Whatever is Left,1,1,1,0,0,1,0,0,50,Intermediate
-STU0119,22-23,B.Sc Computer Science,3rd Year,No,Rarely,Entertainment & Leisure,Invests Regularly,1,1,0,1,1,0,0,0,50,Intermediate
-STU0120,20-21,B.Sc Mathematics,2nd Year,Yes,Occasionally,Shopping & Fashion,Invests Regularly,1,1,1,1,0,0,1,1,75,Intermediate
-STU0121,22-23,B.A,3rd Year,No,Regularly,Food & Dining,Saves a Fixed Percentage,1,1,0,1,0,0,0,1,50,Intermediate
-STU0122,20-21,B.Tech,1st Year,No,Regularly,Study Materials & Books,Saves Whatever is Left,1,0,0,1,1,0,0,0,37.5,Basic
-STU0123,24+,B.Sc Data Science,4th Year,No,Occasionally,Travel & Commute,Saves Whatever is Left,1,1,1,0,0,1,1,1,75,Intermediate
-STU0124,20-21,B.A,3rd Year,No,Occasionally,Shopping & Fashion,Saves Whatever is Left,1,1,0,1,1,0,0,0,50,Intermediate
-STU0125,18-19,B.Com,2nd Year,Yes,Occasionally,Study Materials & Books,Saves Whatever is Left,1,1,0,0,1,0,0,1,50,Intermediate
-STU0126,20-21,B.Sc Data Science,3rd Year,No,Rarely,Shopping & Fashion,Saves a Fixed Percentage,1,1,0,0,0,0,1,0,37.5,Basic
-STU0127,18-19,B.Sc Computer Science,1st Year,No,Rarely,Study Materials & Books,Saves Whatever is Left,0,1,0,0,1,0,0,0,25,Basic
-STU0128,20-21,B.Tech,2nd Year,No,Occasionally,Travel & Commute,Does Not Save,1,1,0,1,1,1,0,1,75,Intermediate
-STU0129,22-23,B.B.A,4th Year,Yes,Occasionally,Food & Dining,Saves a Fixed Percentage,1,1,0,0,1,1,1,1,75,Intermediate
-STU0130,22-23,B.B.A,4th Year,Yes,Occasionally,Study Materials & Books,Saves a Fixed Percentage,1,1,0,1,1,1,1,0,75,Intermediate
-STU0131,22-23,B.Tech,3rd Year,Yes,Regularly,Travel & Commute,Invests Regularly,1,1,0,0,1,1,0,1,62.5,Intermediate
-STU0132,22-23,B.Sc Mathematics,4th Year,No,Rarely,Food & Dining,Saves a Fixed Percentage,1,1,1,0,1,1,0,0,62.5,Intermediate
-STU0133,22-23,B.Sc Computer Science,4th Year,No,Occasionally,Entertainment & Leisure,Saves Whatever is Left,0,1,1,0,0,1,0,1,50,Intermediate
-STU0134,18-19,B.Sc Mathematics,2nd Year,No,Rarely,Travel & Commute,Saves a Fixed Percentage,1,0,1,1,0,0,1,1,62.5,Intermediate
-STU0135,18-19,B.Sc Data Science,2nd Year,No,Occasionally,Study Materials & Books,Saves Whatever is Left,1,1,1,0,0,1,1,0,62.5,Intermediate
-STU0136,18-19,B.Tech,2nd Year,Yes,Occasionally,Study Materials & Books,Saves Whatever is Left,1,1,0,1,1,0,0,1,62.5,Intermediate
-STU0137,18-19,B.A,2nd Year,No,Rarely,Travel & Commute,Does Not Save,0,1,1,1,1,0,0,1,62.5,Intermediate
-STU0138,18-19,B.Tech,1st Year,No,Rarely,Travel & Commute,Saves Whatever is Left,1,1,0,0,0,0,0,0,25,Basic
-STU0139,20-21,B.B.A,1st Year,No,Occasionally,Travel & Commute,Saves Whatever is Left,1,1,1,0,0,1,1,0,62.5,Intermediate
-STU0140,24+,B.Sc Mathematics,4th Year,No,Rarely,Shopping & Fashion,Saves Whatever is Left,1,1,1,0,1,1,1,1,87.5,Advanced
-STU0141,20-21,B.Com,3rd Year,Yes,Occasionally,Travel & Commute,Saves Whatever is Left,1,1,0,1,1,0,0,0,50,Intermediate
-STU0142,22-23,B.Sc Mathematics,4th Year,No,Rarely,Study Materials & Books,Saves a Fixed Percentage,1,1,0,1,1,0,1,0,62.5,Intermediate
-STU0143,20-21,B.Com,3rd Year,Yes,Regularly,Travel & Commute,Saves a Fixed Percentage,1,1,1,0,1,1,1,1,87.5,Advanced
-STU0144,18-19,B.B.A,1st Year,No,Occasionally,Travel & Commute,Saves Whatever is Left,1,1,0,0,0,0,0,0,25,Basic
-STU0145,20-21,B.A,1st Year,No,Rarely,Travel & Commute,Saves a Fixed Percentage,1,1,1,0,0,1,1,0,62.5,Intermediate
-STU0146,18-19,B.Sc Computer Science,2nd Year,No,Occasionally,Travel & Commute,Saves a Fixed Percentage,1,0,0,0,0,1,0,1,37.5,Basic
-STU0147,18-19,B.Sc Data Science,1st Year,No,Occasionally,Travel & Commute,Saves a Fixed Percentage,1,1,1,1,1,1,0,1,87.5,Advanced
-STU0148,20-21,B.A,1st Year,No,Occasionally,Study Materials & Books,Invests Regularly,1,0,0,0,0,1,0,1,37.5,Basic
-STU0149,20-21,B.B.A,2nd Year,Yes,Occasionally,Food & Dining,Invests Regularly,1,1,0,1,1,0,0,1,62.5,Intermediate
-STU0150,20-21,B.Sc Data Science,3rd Year,No,Never,Entertainment & Leisure,Invests Regularly,1,1,0,1,0,0,1,0,50,Intermediate
-STU0151,20-21,B.B.A,2nd Year,Yes,Regularly,Shopping & Fashion,Saves a Fixed Percentage,1,1,0,1,0,0,1,1,62.5,Intermediate
-STU0152,20-21,B.A,1st Year,No,Rarely,Shopping & Fashion,Invests Regularly,1,1,1,0,0,0,0,0,37.5,Basic
-STU0153,18-19,B.Tech,1st Year,Yes,Rarely,Study Materials & Books,Does Not Save,0,0,0,0,1,0,0,0,12.5,Basic
-STU0154,18-19,B.Sc Mathematics,2nd Year,Yes,Regularly,Food & Dining,Invests Regularly,1,1,0,0,0,0,1,0,37.5,Basic
-STU0155,18-19,B.Com,2nd Year,Yes,Regularly,Entertainment & Leisure,Saves a Fixed Percentage,1,1,1,0,0,1,1,1,75,Intermediate
-STU0156,24+,B.Sc Computer Science,4th Year,Yes,Rarely,Shopping & Fashion,Saves a Fixed Percentage,1,1,1,1,1,1,1,0,87.5,Advanced
-STU0157,22-23,B.Sc Data Science,4th Year,Yes,Regularly,Entertainment & Leisure,Saves a Fixed Percentage,1,1,0,0,1,0,1,0,50,Intermediate
-STU0158,22-23,B.Sc Computer Science,4th Year,Yes,Occasionally,Shopping & Fashion,Saves a Fixed Percentage,1,1,1,0,1,1,0,1,75,Intermediate
-STU0159,24+,B.Com,4th Year,Yes,Regularly,Entertainment & Leisure,Invests Regularly,1,1,1,1,1,1,1,1,100,Advanced
-STU0160,20-21,B.A,3rd Year,No,Rarely,Study Materials & Books,Saves Whatever is Left,1,1,1,1,0,1,0,0,62.5,Intermediate
-STU0161,24+,B.Sc Mathematics,4th Year,Yes,Regularly,Entertainment & Leisure,Saves a Fixed Percentage,1,1,1,1,1,0,1,1,87.5,Advanced
-STU0162,22-23,B.Sc Computer Science,3rd Year,Yes,Regularly,Food & Dining,Saves Whatever is Left,1,1,0,1,1,1,1,0,75,Intermediate
-STU0163,20-21,B.B.A,1st Year,Yes,Occasionally,Travel & Commute,Saves a Fixed Percentage,1,1,1,0,1,1,1,1,87.5,Advanced
-STU0164,20-21,B.Tech,3rd Year,Yes,Occasionally,Study Materials & Books,Saves Whatever is Left,1,1,1,0,0,0,1,1,62.5,Intermediate
-STU0165,20-21,B.Sc Data Science,3rd Year,No,Rarely,Shopping & Fashion,Saves Whatever is Left,1,1,1,1,1,1,0,0,75,Intermediate
-STU0166,18-19,B.Tech,1st Year,No,Rarely,Food & Dining,Does Not Save,1,1,0,1,1,0,0,0,50,Intermediate
-STU0167,18-19,B.Sc Computer Science,1st Year,Yes,Occasionally,Entertainment & Leisure,Saves a Fixed Percentage,1,1,0,1,0,0,1,0,50,Intermediate
-STU0168,22-23,B.A,4th Year,No,Occasionally,Food & Dining,Does Not Save,1,1,0,1,0,0,1,1,62.5,Intermediate
-STU0169,20-21,B.Sc Mathematics,3rd Year,No,Regularly,Shopping & Fashion,Saves a Fixed Percentage,0,1,0,0,0,1,1,0,37.5,Basic
-STU0170,22-23,B.A,3rd Year,Yes,Regularly,Travel & Commute,Saves a Fixed Percentage,1,1,1,0,0,1,1,1,75,Intermediate
-STU0171,20-21,B.Sc Data Science,2nd Year,No,Occasionally,Entertainment & Leisure,Does Not Save,1,1,0,0,1,0,0,0,37.5,Basic
-STU0172,18-19,B.B.A,1st Year,Yes,Occasionally,Study Materials & Books,Invests Regularly,1,1,1,1,1,0,1,1,87.5,Advanced
-STU0173,22-23,B.A,3rd Year,No,Rarely,Food & Dining,Saves Whatever is Left,1,1,0,1,0,0,1,0,50,Intermediate
-STU0174,22-23,B.Sc Mathematics,4th Year,No,Never,Food & Dining,Saves a Fixed Percentage,1,1,1,0,0,0,1,0,50,Intermediate
-STU0175,18-19,B.A,1st Year,No,Occasionally,Travel & Commute,Saves a Fixed Percentage,1,0,0,0,0,0,1,0,25,Basic
-STU0176,20-21,B.Sc Mathematics,1st Year,No,Rarely,Entertainment & Leisure,Does Not Save,0,1,1,0,0,0,0,0,25,Basic
-STU0177,18-19,B.B.A,2nd Year,Yes,Occasionally,Shopping & Fashion,Invests Regularly,1,1,0,1,1,1,1,0,75,Intermediate
-STU0178,18-19,B.Com,1st Year,No,Rarely,Entertainment & Leisure,Does Not Save,0,1,0,1,1,0,1,0,50,Intermediate
-STU0179,20-21,B.Tech,3rd Year,Yes,Occasionally,Travel & Commute,Saves Whatever is Left,1,1,0,0,1,1,0,1,62.5,Intermediate
-STU0180,20-21,B.Sc Mathematics,3rd Year,No,Never,Shopping & Fashion,Saves Whatever is Left,1,1,0,0,0,0,0,0,25,Basic
-STU0181,20-21,B.Sc Data Science,1st Year,Yes,Occasionally,Travel & Commute,Saves a Fixed Percentage,1,0,0,0,0,0,1,0,25,Basic
-STU0182,22-23,B.Com,4th Year,Yes,Occasionally,Food & Dining,Saves a Fixed Percentage,1,1,1,0,1,0,0,1,62.5,Intermediate
-STU0183,18-19,B.Sc Data Science,1st Year,No,Never,Entertainment & Leisure,Saves Whatever is Left,1,0,0,0,0,1,1,1,50,Intermediate
-STU0184,24+,B.Tech,4th Year,No,Never,Shopping & Fashion,Saves Whatever is Left,1,1,0,1,0,1,0,1,62.5,Intermediate
-STU0185,22-23,B.Sc Mathematics,4th Year,Yes,Occasionally,Entertainment & Leisure,Invests Regularly,1,1,1,0,1,1,1,1,87.5,Advanced
-STU0186,18-19,B.Sc Computer Science,1st Year,No,Rarely,Entertainment & Leisure,Saves Whatever is Left,1,1,0,0,0,0,1,0,37.5,Basic
-STU0187,22-23,B.B.A,3rd Year,Yes,Occasionally,Travel & Commute,Saves Whatever is Left,1,1,1,1,1,0,1,1,87.5,Advanced
-STU0188,22-23,B.B.A,4th Year,Yes,Occasionally,Study Materials & Books,Saves Whatever is Left,1,1,1,1,0,1,1,1,87.5,Advanced
-STU0189,24+,B.Com,4th Year,Yes,Never,Entertainment & Leisure,Saves a Fixed Percentage,1,1,1,0,1,1,1,0,75,Intermediate
-STU0190,18-19,B.Sc Computer Science,2nd Year,No,Occasionally,Travel & Commute,Saves a Fixed Percentage,1,1,0,0,0,0,0,0,25,Basic
-STU0191,20-21,B.B.A,3rd Year,Yes,Occasionally,Entertainment & Leisure,Saves Whatever is Left,0,1,1,0,1,1,0,1,62.5,Intermediate
-STU0192,20-21,B.Com,3rd Year,Yes,Regularly,Entertainment & Leisure,Invests Regularly,1,1,1,1,0,1,1,1,87.5,Advanced
-STU0193,18-19,B.B.A,2nd Year,Yes,Occasionally,Food & Dining,Saves Whatever is Left,1,1,0,0,1,1,1,0,62.5,Intermediate
-STU0194,20-21,B.A,2nd Year,No,Never,Food & Dining,Invests Regularly,0,1,0,0,0,0,1,1,37.5,Basic
-STU0195,22-23,B.A,3rd Year,No,Rarely,Study Materials & Books,Saves Whatever is Left,1,1,0,0,0,1,1,1,62.5,Intermediate
-STU0196,18-19,B.Tech,1st Year,Yes,Rarely,Travel & Commute,Invests Regularly,1,1,0,0,1,1,1,1,75,Intermediate
-STU0197,20-21,B.Sc Computer Science,2nd Year,No,Rarely,Travel & Commute,Saves a Fixed Percentage,1,0,1,1,0,0,1,0,50,Intermediate
-STU0198,18-19,B.Sc Mathematics,1st Year,No,Never,Shopping & Fashion,Saves Whatever is Left,1,1,0,0,1,1,0,0,50,Intermediate
-STU0199,18-19,B.Sc Mathematics,1st Year,No,Rarely,Study Materials & Books,Saves a Fixed Percentage,0,1,1,0,0,0,0,1,37.5,Basic
-STU0200,22-23,B.A,4th Year,No,Rarely,Travel & Commute,Saves a Fixed Percentage,0,1,1,1,1,1,0,1,75,Intermediate
-STU0201,24+,B.A,4th Year,No,Never,Shopping & Fashion,Saves Whatever is Left,1,1,1,0,1,1,0,0,62.5,Intermediate
-STU0202,18-19,B.Sc Data Science,1st Year,Yes,Regularly,Travel & Commute,Saves a Fixed Percentage,1,1,0,0,0,0,1,0,37.5,Basic
-STU0203,24+,B.Sc Computer Science,4th Year,No,Never,Shopping & Fashion,Saves a Fixed Percentage,1,1,1,0,1,1,1,1,87.5,Advanced
-STU0204,18-19,B.Sc Data Science,1st Year,No,Occasionally,Entertainment & Leisure,Saves Whatever is Left,1,1,0,0,0,1,0,0,37.5,Basic
-STU0205,20-21,B.Sc Data Science,3rd Year,No,Occasionally,Food & Dining,Saves Whatever is Left,0,1,0,1,1,0,0,1,50,Intermediate
-STU0206,20-21,B.Sc Data Science,3rd Year,No,Never,Entertainment & Leisure,Saves Whatever is Left,1,1,1,0,0,0,0,1,50,Intermediate
-STU0207,20-21,B.A,2nd Year,No,Rarely,Food & Dining,Saves a Fixed Percentage,1,1,0,1,1,0,0,0,50,Intermediate
-STU0208,20-21,B.A,2nd Year,No,Never,Travel & Commute,Does Not Save,0,1,1,0,0,0,1,0,37.5,Basic
-STU0209,18-19,B.Sc Mathematics,1st Year,Yes,Occasionally,Travel & Commute,Invests Regularly,1,1,0,1,0,1,0,0,50,Intermediate
-STU0210,20-21,B.Sc Computer Science,3rd Year,No,Occasionally,Study Materials & Books,Saves Whatever is Left,1,1,0,0,1,1,0,1,62.5,Intermediate
-STU0211,18-19,B.Sc Computer Science,1st Year,No,Rarely,Shopping & Fashion,Saves Whatever is Left,1,1,0,1,1,0,0,0,50,Intermediate
-STU0212,22-23,B.Com,4th Year,Yes,Occasionally,Food & Dining,Saves a Fixed Percentage,1,1,1,1,1,1,0,1,87.5,Advanced
-STU0213,22-23,B.Sc Mathematics,4th Year,No,Rarely,Study Materials & Books,Does Not Save,1,0,1,0,1,1,1,0,62.5,Intermediate
-STU0214,24+,B.Tech,4th Year,No,Never,Travel & Commute,Saves Whatever is Left,1,1,0,0,1,0,1,0,50,Intermediate
-STU0215,22-23,B.Com,4th Year,Yes,Occasionally,Study Materials & Books,Invests Regularly,1,1,0,1,1,1,1,1,87.5,Advanced
-STU0216,22-23,B.Sc Computer Science,4th Year,No,Rarely,Travel & Commute,Saves a Fixed Percentage,1,1,1,0,0,0,0,0,37.5,Basic
-STU0217,20-21,B.A,3rd Year,No,Occasionally,Travel & Commute,Saves Whatever is Left,1,1,1,1,1,0,1,1,87.5,Advanced
-STU0218,22-23,B.Com,3rd Year,Yes,Rarely,Food & Dining,Saves Whatever is Left,0,1,1,1,0,0,0,1,50,Intermediate
-STU0219,20-21,B.Tech,2nd Year,Yes,Occasionally,Travel & Commute,Invests Regularly,1,1,1,0,1,1,1,1,87.5,Advanced
-STU0220,22-23,B.A,4th Year,No,Occasionally,Entertainment & Leisure,Does Not Save,1,1,1,1,1,1,0,0,75,Intermediate
-STU0221,20-21,B.Sc Mathematics,1st Year,No,Occasionally,Entertainment & Leisure,Saves Whatever is Left,1,1,0,0,1,0,1,0,50,Intermediate
-STU0222,22-23,B.Com,4th Year,No,Occasionally,Food & Dining,Saves Whatever is Left,1,1,1,1,0,1,1,1,87.5,Advanced
-STU0223,20-21,B.A,2nd Year,No,Never,Food & Dining,Saves a Fixed Percentage,1,1,0,1,0,0,1,0,50,Intermediate
-STU0224,18-19,B.Com,1st Year,Yes,Rarely,Study Materials & Books,Saves Whatever is Left,1,1,0,1,1,0,1,1,75,Intermediate
-STU0225,22-23,B.B.A,3rd Year,No,Occasionally,Travel & Commute,Saves a Fixed Percentage,1,1,1,0,1,1,0,1,75,Intermediate
-STU0226,18-19,B.Sc Data Science,2nd Year,No,Never,Entertainment & Leisure,Saves Whatever is Left,1,1,1,1,1,0,0,0,62.5,Intermediate
-STU0227,18-19,B.B.A,1st Year,No,Rarely,Shopping & Fashion,Does Not Save,1,0,0,1,0,0,1,1,50,Intermediate
-STU0228,24+,B.Sc Computer Science,4th Year,No,Never,Study Materials & Books,Saves a Fixed Percentage,1,1,1,0,1,1,0,0,62.5,Intermediate
-STU0229,22-23,B.A,3rd Year,No,Never,Study Materials & Books,Saves Whatever is Left,1,1,0,1,0,0,0,1,50,Intermediate
-STU0230,22-23,B.B.A,4th Year,Yes,Regularly,Travel & Commute,Saves Whatever is Left,1,1,1,0,1,1,1,1,87.5,Advanced
-STU0231,18-19,B.Sc Data Science,1st Year,Yes,Regularly,Shopping & Fashion,Saves Whatever is Left,0,1,0,0,0,1,1,1,50,Intermediate
-STU0232,20-21,B.B.A,3rd Year,Yes,Occasionally,Travel & Commute,Saves Whatever is Left,1,1,1,0,1,0,1,1,75,Intermediate
-STU0233,20-21,B.Sc Computer Science,3rd Year,No,Rarely,Food & Dining,Saves a Fixed Percentage,1,1,1,0,0,0,1,1,62.5,Intermediate
-STU0234,20-21,B.Com,3rd Year,Yes,Occasionally,Study Materials & Books,Saves a Fixed Percentage,0,1,1,1,0,1,1,1,75,Intermediate
-STU0235,22-23,B.Tech,3rd Year,No,Occasionally,Travel & Commute,Saves Whatever is Left,1,1,0,1,0,0,1,0,50,Intermediate
-STU0236,22-23,B.Tech,3rd Year,No,Never,Food & Dining,Saves Whatever is Left,0,1,1,1,0,0,1,0,50,Intermediate
-STU0237,18-19,B.Sc Computer Science,1st Year,No,Rarely,Food & Dining,Does Not Save,1,1,1,0,0,0,1,0,50,Intermediate
-STU0238,24+,B.A,4th Year,No,Rarely,Food & Dining,Saves Whatever is Left,1,1,0,0,0,1,0,1,50,Intermediate
-STU0239,20-21,B.A,1st Year,No,Occasionally,Entertainment & Leisure,Saves Whatever is Left,0,0,0,0,0,1,1,1,37.5,Basic
-STU0240,18-19,B.Sc Data Science,2nd Year,No,Rarely,Shopping & Fashion,Does Not Save,1,1,1,0,0,0,0,1,50,Intermediate
-STU0241,24+,B.Sc Mathematics,4th Year,No,Occasionally,Study Materials & Books,Saves a Fixed Percentage,1,1,0,1,1,1,1,0,75,Intermediate
-STU0242,18-19,B.A,1st Year,No,Occasionally,Entertainment & Leisure,Saves Whatever is Left,0,1,0,1,0,1,1,0,50,Intermediate
-STU0243,18-19,B.A,1st Year,No,Never,Travel & Commute,Saves Whatever is Left,1,0,0,0,1,0,0,0,25,Basic
-STU0244,20-21,B.Sc Computer Science,1st Year,No,Never,Food & Dining,Saves a Fixed Percentage,0,1,1,0,0,0,1,0,37.5,Basic
-STU0245,24+,B.Sc Data Science,4th Year,No,Rarely,Shopping & Fashion,Saves Whatever is Left,1,1,1,1,0,0,1,0,62.5,Intermediate
-STU0246,24+,B.Sc Computer Science,4th Year,No,Never,Study Materials & Books,Saves Whatever is Left,1,1,0,1,0,1,1,1,75,Intermediate
-STU0247,18-19,B.Sc Computer Science,1st Year,No,Never,Food & Dining,Saves Whatever is Left,0,1,1,0,1,0,1,1,62.5,Intermediate
-STU0248,20-21,B.Sc Computer Science,3rd Year,No,Rarely,Travel & Commute,Saves Whatever is Left,1,1,0,1,1,0,0,0,50,Intermediate
-STU0249,18-19,B.Sc Computer Science,2nd Year,No,Rarely,Entertainment & Leisure,Saves Whatever is Left,1,1,0,1,1,0,0,0,50,Intermediate
-STU0250,20-21,B.Tech,3rd Year,Yes,Regularly,Food & Dining,Invests Regularly,1,1,1,1,1,0,1,1,87.5,Advanced
-STU0251,22-23,B.Sc Mathematics,3rd Year,Yes,Occasionally,Travel & Commute,Saves a Fixed Percentage,1,1,1,0,1,1,0,0,62.5,Intermediate
-STU0252,20-21,B.Sc Data Science,1st Year,No,Rarely,Entertainment & Leisure,Does Not Save,1,1,0,0,1,0,0,0,37.5,Basic
-STU0253,24+,B.Sc Computer Science,4th Year,No,Regularly,Entertainment & Leisure,Saves a Fixed Percentage,1,1,0,0,0,0,0,1,37.5,Basic
-STU0254,18-19,B.Sc Data Science,2nd Year,No,Regularly,Food & Dining,Saves a Fixed Percentage,1,1,1,1,1,0,1,0,75,Intermediate
-STU0255,18-19,B.A,2nd Year,No,Occasionally,Entertainment & Leisure,Saves a Fixed Percentage,1,1,1,0,1,0,0,1,62.5,Intermediate
-STU0256,18-19,B.Sc Mathematics,2nd Year,Yes,Occasionally,Entertainment & Leisure,Invests Regularly,0,1,0,0,1,1,0,1,50,Intermediate
-STU0257,20-21,B.Tech,2nd Year,Yes,Occasionally,Travel & Commute,Invests Regularly,1,0,0,1,1,1,1,0,62.5,Intermediate
-STU0258,22-23,B.Sc Computer Science,4th Year,No,Never,Entertainment & Leisure,Does Not Save,1,1,0,1,1,1,1,0,75,Intermediate
-STU0259,24+,B.Sc Mathematics,4th Year,No,Rarely,Shopping & Fashion,Saves Whatever is Left,0,1,1,0,1,0,0,0,37.5,Basic
-STU0260,22-23,B.A,3rd Year,No,Occasionally,Travel & Commute,Saves Whatever is Left,0,1,0,0,0,0,1,1,37.5,Basic
-STU0261,20-21,B.Sc Mathematics,1st Year,No,Never,Shopping & Fashion,Saves a Fixed Percentage,1,1,0,0,0,0,0,0,25,Basic
-STU0262,18-19,B.Sc Computer Science,2nd Year,No,Occasionally,Entertainment & Leisure,Saves Whatever is Left,1,1,0,0,0,0,1,1,50,Intermediate
-STU0263,18-19,B.Sc Computer Science,1st Year,No,Occasionally,Travel & Commute,Saves Whatever is Left,1,1,1,0,1,0,0,1,62.5,Intermediate
-STU0264,22-23,B.Com,3rd Year,No,Never,Shopping & Fashion,Saves a Fixed Percentage,1,1,1,0,0,1,1,1,75,Intermediate
-STU0265,22-23,B.A,4th Year,No,Rarely,Study Materials & Books,Does Not Save,1,1,1,0,1,0,0,0,50,Intermediate
-STU0266,18-19,B.Sc Computer Science,1st Year,No,Occasionally,Food & Dining,Saves a Fixed Percentage,1,1,1,0,0,0,1,1,62.5,Intermediate
-STU0267,20-21,B.Sc Mathematics,2nd Year,No,Occasionally,Entertainment & Leisure,Saves a Fixed Percentage,1,1,0,0,0,0,0,1,37.5,Basic
-STU0268,22-23,B.Sc Data Science,4th Year,Yes,Rarely,Study Materials & Books,Saves a Fixed Percentage,1,1,1,0,1,0,1,1,75,Intermediate
-STU0269,18-19,B.Sc Mathematics,1st Year,No,Rarely,Food & Dining,Saves a Fixed Percentage,0,1,1,1,0,1,1,0,62.5,Intermediate
-STU0270,24+,B.A,4th Year,Yes,Occasionally,Food & Dining,Saves a Fixed Percentage,1,1,1,1,0,1,1,1,87.5,Advanced
-STU0271,18-19,B.Sc Mathematics,1st Year,Yes,Regularly,Study Materials & Books,Saves a Fixed Percentage,1,1,0,0,0,0,0,1,37.5,Basic
-STU0272,18-19,B.Sc Mathematics,2nd Year,No,Never,Food & Dining,Does Not Save,0,1,0,0,1,0,1,0,37.5,Basic
-STU0273,22-23,B.A,3rd Year,No,Rarely,Food & Dining,Saves a Fixed Percentage,1,1,0,0,0,1,1,0,50,Intermediate
-STU0274,18-19,B.Tech,2nd Year,No,Rarely,Shopping & Fashion,Saves Whatever is Left,1,0,0,0,1,1,1,1,62.5,Intermediate
-STU0275,20-21,B.Tech,1st Year,Yes,Occasionally,Travel & Commute,Invests Regularly,1,1,1,1,0,0,0,1,62.5,Intermediate
-STU0276,20-21,B.B.A,3rd Year,Yes,Occasionally,Food & Dining,Saves Whatever is Left,1,1,1,0,1,1,1,0,75,Intermediate
-STU0277,20-21,B.B.A,1st Year,No,Rarely,Shopping & Fashion,Saves a Fixed Percentage,1,1,0,0,0,0,1,1,50,Intermediate
-STU0278,22-23,B.Tech,3rd Year,No,Occasionally,Shopping & Fashion,Saves Whatever is Left,1,1,0,1,1,0,1,0,62.5,Intermediate
-STU0279,20-21,B.B.A,3rd Year,No,Rarely,Shopping & Fashion,Saves a Fixed Percentage,1,1,1,0,1,1,1,1,87.5,Advanced
-STU0280,20-21,B.Sc Computer Science,3rd Year,No,Rarely,Study Materials & Books,Saves Whatever is Left,0,1,0,1,1,1,1,1,75,Intermediate
-STU0281,22-23,B.Sc Mathematics,4th Year,No,Never,Food & Dining,Saves Whatever is Left,1,1,0,0,1,1,0,1,62.5,Intermediate
-STU0282,22-23,B.B.A,4th Year,Yes,Rarely,Food & Dining,Invests Regularly,1,1,1,0,0,0,1,0,50,Intermediate
-STU0283,20-21,B.Sc Mathematics,3rd Year,No,Rarely,Study Materials & Books,Invests Regularly,1,1,1,1,1,0,1,1,87.5,Advanced
-STU0284,24+,B.Sc Mathematics,4th Year,No,Rarely,Shopping & Fashion,Saves Whatever is Left,1,1,0,1,0,1,1,1,75,Intermediate
-STU0285,20-21,B.Sc Data Science,3rd Year,No,Rarely,Entertainment & Leisure,Saves Whatever is Left,1,0,0,0,0,0,1,1,37.5,Basic
-STU0286,22-23,B.A,3rd Year,Yes,Regularly,Shopping & Fashion,Saves a Fixed Percentage,1,1,1,0,0,1,1,1,75,Intermediate
-STU0287,20-21,B.Sc Mathematics,3rd Year,Yes,Occasionally,Food & Dining,Saves Whatever is Left,1,1,1,0,1,0,0,1,62.5,Intermediate
-STU0288,18-19,B.B.A,1st Year,Yes,Regularly,Travel & Commute,Invests Regularly,1,1,1,1,0,0,1,1,75,Intermediate
-STU0289,18-19,B.Tech,2nd Year,Yes,Occasionally,Study Materials & Books,Saves a Fixed Percentage,1,0,1,0,0,0,0,1,37.5,Basic
-STU0290,20-21,B.Sc Mathematics,1st Year,No,Never,Shopping & Fashion,Does Not Save,1,1,0,0,0,0,0,0,25,Basic
-STU0291,18-19,B.Sc Mathematics,2nd Year,Yes,Occasionally,Food & Dining,Saves a Fixed Percentage,1,1,0,0,1,1,1,0,62.5,Intermediate
-STU0292,18-19,B.Com,2nd Year,No,Rarely,Travel & Commute,Saves Whatever is Left,1,1,1,0,1,1,1,1,87.5,Advanced
-STU0293,22-23,B.A,4th Year,No,Occasionally,Entertainment & Leisure,Saves Whatever is Left,1,1,0,1,1,0,1,1,75,Intermediate
-STU0294,22-23,B.Sc Data Science,3rd Year,No,Occasionally,Food & Dining,Saves Whatever is Left,1,1,1,1,1,1,0,1,87.5,Advanced
-STU0295,24+,B.Sc Data Science,4th Year,Yes,Regularly,Food & Dining,Saves a Fixed Percentage,1,1,1,0,1,1,1,1,87.5,Advanced
-STU0296,20-21,B.Sc Computer Science,3rd Year,No,Occasionally,Shopping & Fashion,Saves a Fixed Percentage,1,1,0,1,1,0,0,0,50,Intermediate
-STU0297,18-19,B.A,1st Year,No,Occasionally,Food & Dining,Saves a Fixed Percentage,0,1,0,0,0,1,1,0,37.5,Basic
-STU0298,18-19,B.Sc Mathematics,1st Year,No,Occasionally,Entertainment & Leisure,Saves Whatever is Left,0,0,1,1,0,0,1,1,50,Intermediate
-STU0299,18-19,B.Sc Data Science,1st Year,Yes,Occasionally,Food & Dining,Saves a Fixed Percentage,1,0,0,0,1,0,0,0,25,Basic
-STU0300,20-21,B.Sc Mathematics,1st Year,No,Occasionally,Entertainment & Leisure,Saves a Fixed Percentage,1,1,0,1,0,1,0,0,50,Intermediate
-STU0301,24+,B.Sc Data Science,4th Year,No,Rarely,Study Materials & Books,Saves Whatever is Left,1,1,0,1,0,1,1,0,62.5,Intermediate
-STU0302,24+,B.Sc Computer Science,4th Year,No,Rarely,Study Materials & Books,Saves Whatever is Left,1,1,0,0,1,1,1,1,75,Intermediate
-STU0303,22-23,B.Sc Data Science,4th Year,No,Regularly,Study Materials & Books,Does Not Save,1,1,1,1,1,1,1,1,100,Advanced
-STU0304,18-19,B.Com,1st Year,Yes,Regularly,Entertainment & Leisure,Saves a Fixed Percentage,1,1,0,1,1,0,1,1,75,Intermediate
-STU0305,18-19,B.Sc Computer Science,1st Year,Yes,Occasionally,Travel & Commute,Saves Whatever is Left,1,1,1,0,1,1,1,1,87.5,Advanced
-STU0306,22-23,B.Sc Data Science,4th Year,Yes,Regularly,Study Materials & Books,Saves a Fixed Percentage,1,1,1,1,1,0,0,0,62.5,Intermediate
-STU0307,20-21,B.Tech,1st Year,No,Rarely,Travel & Commute,Does Not Save,1,1,0,0,1,0,0,1,50,Intermediate
-STU0308,20-21,B.B.A,2nd Year,No,Rarely,Shopping & Fashion,Does Not Save,0,1,0,1,1,0,1,1,62.5,Intermediate
-STU0309,24+,B.Sc Mathematics,4th Year,No,Occasionally,Entertainment & Leisure,Saves a Fixed Percentage,1,1,1,1,1,0,1,0,75,Intermediate
-STU0310,18-19,B.Sc Mathematics,1st Year,Yes,Regularly,Travel & Commute,Invests Regularly,1,1,0,1,0,1,1,0,62.5,Intermediate
-STU0311,20-21,B.Com,3rd Year,Yes,Rarely,Food & Dining,Invests Regularly,1,1,0,0,0,1,0,1,50,Intermediate
-STU0312,20-21,B.A,3rd Year,Yes,Occasionally,Travel & Commute,Saves Whatever is Left,1,1,1,0,1,1,1,0,75,Intermediate
-STU0313,18-19,B.B.A,1st Year,Yes,Regularly,Food & Dining,Saves a Fixed Percentage,1,1,1,1,0,0,0,0,50,Intermediate
-STU0314,20-21,B.Sc Data Science,2nd Year,Yes,Never,Shopping & Fashion,Saves Whatever is Left,1,1,0,0,1,1,1,0,62.5,Intermediate
-STU0315,22-23,B.Tech,4th Year,No,Never,Food & Dining,Saves Whatever is Left,1,1,0,1,0,0,1,1,62.5,Intermediate
-STU0316,20-21,B.Sc Mathematics,3rd Year,No,Rarely,Entertainment & Leisure,Does Not Save,1,1,0,0,0,0,0,0,25,Basic
-STU0317,20-21,B.Com,1st Year,No,Occasionally,Travel & Commute,Saves Whatever is Left,0,1,0,1,1,0,0,0,37.5,Basic
-STU0318,20-21,B.Sc Data Science,2nd Year,Yes,Occasionally,Shopping & Fashion,Saves a Fixed Percentage,1,1,1,1,1,0,1,0,75,Intermediate
-STU0319,20-21,B.Tech,1st Year,No,Rarely,Entertainment & Leisure,Saves Whatever is Left,1,1,1,0,1,0,1,1,75,Intermediate
-STU0320,18-19,B.Tech,1st Year,No,Rarely,Study Materials & Books,Saves Whatever is Left,1,0,0,0,0,0,1,1,37.5,Basic
-STU0321,18-19,B.Sc Data Science,1st Year,Yes,Occasionally,Food & Dining,Invests Regularly,1,1,1,0,1,1,1,1,87.5,Advanced
-STU0322,20-21,B.Tech,3rd Year,No,Rarely,Entertainment & Leisure,Saves a Fixed Percentage,1,1,0,1,1,1,1,0,75,Intermediate
-STU0323,18-19,B.Sc Data Science,2nd Year,No,Rarely,Food & Dining,Saves Whatever is Left,1,1,1,1,1,1,0,1,87.5,Advanced
-STU0324,18-19,B.A,1st Year,No,Occasionally,Shopping & Fashion,Does Not Save,1,0,0,0,1,1,1,0,50,Intermediate
-STU0325,20-21,B.Sc Data Science,2nd Year,No,Rarely,Study Materials & Books,Saves Whatever is Left,1,1,0,0,1,1,0,1,62.5,Intermediate
-STU0326,20-21,B.Sc Data Science,1st Year,No,Rarely,Shopping & Fashion,Saves Whatever is Left,1,1,0,0,0,0,0,0,25,Basic
-STU0327,20-21,B.B.A,1st Year,Yes,Occasionally,Travel & Commute,Saves Whatever is Left,1,1,1,1,0,0,1,1,75,Intermediate
-STU0328,20-21,B.Sc Mathematics,2nd Year,No,Regularly,Food & Dining,Saves Whatever is Left,0,0,0,1,0,1,0,0,25,Basic
-STU0329,18-19,B.B.A,1st Year,Yes,Rarely,Study Materials & Books,Saves a Fixed Percentage,1,1,0,1,0,1,0,1,62.5,Intermediate
-STU0330,20-21,B.Tech,1st Year,Yes,Rarely,Study Materials & Books,Saves a Fixed Percentage,0,1,1,0,1,1,0,0,50,Intermediate
-STU0331,20-21,B.Com,1st Year,Yes,Occasionally,Travel & Commute,Saves Whatever is Left,1,1,1,0,1,1,0,1,75,Intermediate
-STU0332,18-19,B.Sc Computer Science,2nd Year,No,Never,Shopping & Fashion,Does Not Save,0,1,1,1,1,1,0,0,62.5,Intermediate
-STU0333,22-23,B.A,4th Year,No,Rarely,Entertainment & Leisure,Saves Whatever is Left,1,1,0,0,0,1,1,0,50,Intermediate
-STU0334,20-21,B.Sc Computer Science,3rd Year,No,Regularly,Shopping & Fashion,Saves a Fixed Percentage,1,1,1,1,0,1,1,0,75,Intermediate
-STU0335,18-19,B.B.A,1st Year,No,Rarely,Study Materials & Books,Does Not Save,0,0,1,1,0,0,1,0,37.5,Basic
-STU0336,20-21,B.Sc Computer Science,2nd Year,No,Rarely,Travel & Commute,Saves a Fixed Percentage,1,1,0,0,0,0,0,1,37.5,Basic
-STU0337,20-21,B.B.A,3rd Year,Yes,Rarely,Entertainment & Leisure,Saves Whatever is Left,1,1,1,0,1,1,0,1,75,Intermediate
-STU0338,24+,B.Sc Computer Science,4th Year,No,Regularly,Food & Dining,Saves Whatever is Left,1,1,0,1,1,0,0,1,62.5,Intermediate
-STU0339,22-23,B.B.A,4th Year,No,Never,Food & Dining,Saves a Fixed Percentage,1,1,0,1,1,1,0,0,62.5,Intermediate
-STU0340,20-21,B.B.A,3rd Year,No,Rarely,Food & Dining,Does Not Save,1,1,1,0,1,1,1,0,75,Intermediate
-STU0341,20-21,B.Tech,3rd Year,Yes,Regularly,Shopping & Fashion,Invests Regularly,1,1,1,0,1,1,1,1,87.5,Advanced
-STU0342,22-23,B.Sc Data Science,3rd Year,No,Rarely,Study Materials & Books,Does Not Save,1,1,0,0,1,1,0,0,50,Intermediate
-STU0343,18-19,B.Sc Computer Science,2nd Year,No,Regularly,Shopping & Fashion,Does Not Save,1,1,1,1,1,1,1,1,100,Advanced
-STU0344,18-19,B.Com,1st Year,Yes,Rarely,Entertainment & Leisure,Invests Regularly,1,1,0,0,1,1,1,1,75,Intermediate
-STU0345,20-21,B.Sc Mathematics,2nd Year,Yes,Rarely,Travel & Commute,Saves a Fixed Percentage,1,1,0,0,1,1,1,1,75,Intermediate
-STU0346,20-21,B.A,2nd Year,Yes,Occasionally,Entertainment & Leisure,Invests Regularly,1,1,1,0,1,1,1,1,87.5,Advanced
-STU0347,18-19,B.Sc Mathematics,1st Year,No,Rarely,Shopping & Fashion,Saves Whatever is Left,0,1,0,1,0,0,0,0,25,Basic
-STU0348,24+,B.Tech,4th Year,No,Rarely,Study Materials & Books,Invests Regularly,1,0,0,0,0,0,1,0,25,Basic
-STU0349,22-23,B.Sc Mathematics,3rd Year,No,Never,Study Materials & Books,Invests Regularly,1,1,1,1,1,0,1,0,75,Intermediate
-STU0350,22-23,B.Com,4th Year,Yes,Regularly,Entertainment & Leisure,Saves a Fixed Percentage,1,1,0,1,0,1,1,1,75,Intermediate
-STU0351,20-21,B.A,2nd Year,No,Never,Entertainment & Leisure,Does Not Save,1,1,1,0,0,0,1,1,62.5,Intermediate
-STU0352,22-23,B.B.A,4th Year,No,Regularly,Study Materials & Books,Saves Whatever is Left,1,1,1,0,0,1,1,1,75,Intermediate
-STU0353,18-19,B.Sc Computer Science,1st Year,Yes,Rarely,Study Materials & Books,Saves a Fixed Percentage,1,1,0,1,1,0,1,1,75,Intermediate
-STU0354,18-19,B.B.A,1st Year,No,Regularly,Food & Dining,Saves Whatever is Left,1,1,0,0,1,1,0,0,50,Intermediate
-STU0355,18-19,B.Tech,2nd Year,Yes,Regularly,Shopping & Fashion,Invests Regularly,1,1,0,1,0,0,0,0,37.5,Basic
-STU0356,20-21,B.Sc Mathematics,3rd Year,Yes,Regularly,Food & Dining,Saves a Fixed Percentage,1,1,0,1,0,0,1,1,62.5,Intermediate
-STU0357,24+,B.Com,4th Year,No,Rarely,Shopping & Fashion,Invests Regularly,0,1,0,1,1,0,1,1,62.5,Intermediate
-STU0358,20-21,B.Sc Data Science,2nd Year,Yes,Regularly,Travel & Commute,Saves a Fixed Percentage,1,1,0,0,1,1,1,1,75,Intermediate
-STU0359,18-19,B.A,2nd Year,No,Never,Travel & Commute,Saves Whatever is Left,1,1,1,0,0,0,1,1,62.5,Intermediate
-STU0360,20-21,B.B.A,1st Year,No,Never,Entertainment & Leisure,Saves Whatever is Left,0,1,0,0,1,0,0,0,25,Basic
-STU0361,18-19,B.B.A,1st Year,Yes,Occasionally,Shopping & Fashion,Invests Regularly,1,1,0,1,1,1,0,1,75,Intermediate
-STU0362,22-23,B.Sc Computer Science,4th Year,Yes,Rarely,Shopping & Fashion,Saves a Fixed Percentage,1,1,1,0,1,1,0,0,62.5,Intermediate
-STU0363,18-19,B.Sc Data Science,1st Year,No,Rarely,Travel & Commute,Saves Whatever is Left,1,1,0,0,0,0,0,1,37.5,Basic
-STU0364,22-23,B.B.A,4th Year,Yes,Regularly,Food & Dining,Saves Whatever is Left,1,1,1,0,1,0,1,1,75,Intermediate
-STU0365,20-21,B.Tech,3rd Year,No,Rarely,Food & Dining,Saves a Fixed Percentage,1,1,0,0,1,1,0,0,50,Intermediate
-STU0366,24+,B.Sc Mathematics,4th Year,No,Occasionally,Food & Dining,Saves Whatever is Left,1,1,0,0,0,0,1,1,50,Intermediate
-STU0367,20-21,B.B.A,2nd Year,Yes,Rarely,Entertainment & Leisure,Saves a Fixed Percentage,1,1,1,0,1,1,1,1,87.5,Advanced
-STU0368,20-21,B.Sc Data Science,1st Year,No,Rarely,Travel & Commute,Does Not Save,1,0,0,0,0,0,0,0,12.5,Basic
-STU0369,18-19,B.Sc Mathematics,2nd Year,Yes,Occasionally,Food & Dining,Invests Regularly,1,1,1,0,0,1,1,1,75,Intermediate
-STU0370,20-21,B.Tech,2nd Year,Yes,Occasionally,Travel & Commute,Saves a Fixed Percentage,1,1,0,1,1,1,0,1,75,Intermediate
-STU0371,18-19,B.Sc Mathematics,1st Year,No,Regularly,Food & Dining,Saves Whatever is Left,1,1,0,0,1,0,0,1,50,Intermediate
-STU0372,24+,B.Tech,4th Year,No,Occasionally,Entertainment & Leisure,Saves Whatever is Left,1,1,1,1,1,1,1,1,100,Advanced
-STU0373,18-19,B.Sc Data Science,1st Year,No,Never,Shopping & Fashion,Does Not Save,1,1,1,0,0,0,1,1,62.5,Intermediate
-STU0374,18-19,B.B.A,2nd Year,No,Rarely,Food & Dining,Does Not Save,1,1,0,1,0,0,1,1,62.5,Intermediate
-STU0375,18-19,B.B.A,1st Year,No,Rarely,Study Materials & Books,Saves a Fixed Percentage,0,0,0,1,1,1,1,1,62.5,Intermediate
-STU0376,20-21,B.Sc Computer Science,3rd Year,No,Occasionally,Study Materials & Books,Saves Whatever is Left,1,1,1,0,1,1,1,1,87.5,Advanced
-STU0377,20-21,B.Tech,2nd Year,No,Regularly,Travel & Commute,Does Not Save,0,1,0,1,0,1,0,1,50,Intermediate
-STU0378,22-23,B.Sc Data Science,3rd Year,No,Regularly,Entertainment & Leisure,Saves Whatever is Left,1,1,0,0,0,0,0,1,37.5,Basic
-STU0379,20-21,B.Sc Mathematics,3rd Year,No,Regularly,Shopping & Fashion,Saves Whatever is Left,1,1,0,1,0,0,1,1,62.5,Intermediate
-STU0380,24+,B.Sc Mathematics,4th Year,No,Occasionally,Food & Dining,Saves Whatever is Left,1,1,0,1,1,1,0,0,62.5,Intermediate
-STU0381,22-23,B.Tech,3rd Year,Yes,Rarely,Travel & Commute,Invests Regularly,1,1,1,1,0,1,1,0,75,Intermediate
-STU0382,24+,B.Tech,4th Year,No,Occasionally,Food & Dining,Does Not Save,1,1,1,0,1,0,1,1,75,Intermediate
-STU0383,18-19,B.Com,1st Year,No,Regularly,Entertainment & Leisure,Saves Whatever is Left,1,1,0,0,0,1,1,0,50,Intermediate
-STU0384,24+,B.Sc Data Science,4th Year,No,Occasionally,Study Materials & Books,Does Not Save,1,1,0,0,0,1,1,1,62.5,Intermediate
-STU0385,22-23,B.Sc Data Science,4th Year,Yes,Rarely,Study Materials & Books,Saves a Fixed Percentage,1,1,1,1,1,1,1,0,87.5,Advanced
-STU0386,18-19,B.Sc Computer Science,2nd Year,Yes,Rarely,Entertainment & Leisure,Does Not Save,0,1,0,1,0,0,0,0,25,Basic
-STU0387,18-19,B.Tech,2nd Year,Yes,Regularly,Travel & Commute,Saves Whatever is Left,1,1,1,1,0,0,1,0,62.5,Intermediate
-STU0388,24+,B.B.A,4th Year,Yes,Occasionally,Travel & Commute,Saves a Fixed Percentage,1,1,0,0,1,1,1,0,62.5,Intermediate
-STU0389,18-19,B.B.A,2nd Year,Yes,Occasionally,Travel & Commute,Invests Regularly,1,1,0,0,0,0,1,1,50,Intermediate
-STU0390,20-21,B.Sc Mathematics,3rd Year,Yes,Occasionally,Study Materials & Books,Invests Regularly,1,1,0,1,1,1,0,1,75,Intermediate
-STU0391,20-21,B.Tech,3rd Year,Yes,Occasionally,Entertainment & Leisure,Saves Whatever is Left,1,1,1,1,0,1,1,0,75,Intermediate
-STU0392,20-21,B.Tech,3rd Year,Yes,Regularly,Entertainment & Leisure,Saves a Fixed Percentage,1,1,1,0,0,0,1,1,62.5,Intermediate
-STU0393,20-21,B.Tech,1st Year,No,Occasionally,Shopping & Fashion,Does Not Save,0,1,0,1,1,0,0,0,37.5,Basic
-STU0394,22-23,B.B.A,3rd Year,Yes,Regularly,Entertainment & Leisure,Invests Regularly,1,1,1,0,1,1,0,1,75,Intermediate
-STU0395,20-21,B.Sc Mathematics,3rd Year,Yes,Rarely,Entertainment & Leisure,Saves Whatever is Left,1,1,1,1,1,0,1,0,75,Intermediate
-STU0396,24+,B.Sc Data Science,4th Year,Yes,Occasionally,Food & Dining,Saves Whatever is Left,1,1,1,1,1,1,1,0,87.5,Advanced
-STU0397,18-19,B.Tech,1st Year,No,Rarely,Study Materials & Books,Saves a Fixed Percentage,1,1,0,0,0,0,1,0,37.5,Basic
-STU0398,18-19,B.Sc Data Science,2nd Year,Yes,Rarely,Food & Dining,Invests Regularly,1,1,0,1,0,1,1,1,75,Intermediate
-STU0399,18-19,B.A,1st Year,No,Never,Travel & Commute,Does Not Save,1,1,0,0,0,1,1,1,62.5,Intermediate
-STU0400,22-23,B.Sc Data Science,3rd Year,No,Never,Food & Dining,Saves Whatever is Left,1,1,1,0,1,1,1,1,87.5,Advanced
-STU0401,20-21,B.Sc Mathematics,3rd Year,No,Never,Travel & Commute,Does Not Save,0,1,0,0,1,0,1,0,37.5,Basic
-STU0402,18-19,B.Sc Data Science,1st Year,No,Rarely,Study Materials & Books,Does Not Save,0,1,1,0,1,0,0,0,37.5,Basic
-STU0403,20-21,B.Sc Mathematics,2nd Year,No,Rarely,Study Materials & Books,Does Not Save,1,1,0,1,1,0,1,0,62.5,Intermediate
-STU0404,24+,B.B.A,4th Year,Yes,Regularly,Shopping & Fashion,Saves Whatever is Left,1,0,0,0,1,1,1,0,50,Intermediate
-STU0405,20-21,B.Sc Computer Science,3rd Year,No,Rarely,Shopping & Fashion,Saves Whatever is Left,1,1,0,0,1,1,1,0,62.5,Intermediate
-STU0406,22-23,B.Sc Computer Science,4th Year,No,Rarely,Study Materials & Books,Saves Whatever is Left,0,1,0,1,0,0,0,1,37.5,Basic
-STU0407,24+,B.Com,4th Year,No,Never,Shopping & Fashion,Does Not Save,1,1,0,0,0,0,1,0,37.5,Basic
-STU0408,22-23,B.B.A,4th Year,Yes,Regularly,Shopping & Fashion,Saves Whatever is Left,1,1,1,0,1,1,1,1,87.5,Advanced
-STU0409,20-21,B.Sc Computer Science,1st Year,No,Rarely,Food & Dining,Does Not Save,1,1,0,0,0,0,1,0,37.5,Basic
-STU0410,20-21,B.Sc Mathematics,3rd Year,Yes,Never,Travel & Commute,Saves Whatever is Left,1,1,1,0,0,0,1,0,50,Intermediate
-STU0411,20-21,B.Com,3rd Year,No,Never,Shopping & Fashion,Saves Whatever is Left,1,1,0,0,1,1,0,0,50,Intermediate
-STU0412,24+,B.A,4th Year,No,Occasionally,Entertainment & Leisure,Saves Whatever is Left,1,0,1,0,0,0,0,1,37.5,Basic
-STU0413,24+,B.Tech,4th Year,Yes,Occasionally,Travel & Commute,Saves Whatever is Left,1,1,1,0,0,1,1,1,75,Intermediate
-STU0414,18-19,B.A,2nd Year,No,Occasionally,Travel & Commute,Saves Whatever is Left,1,1,1,0,0,0,1,0,50,Intermediate
-STU0415,20-21,B.Sc Computer Science,3rd Year,No,Never,Food & Dining,Saves a Fixed Percentage,1,1,0,1,0,1,1,1,75,Intermediate
-STU0416,18-19,B.Sc Data Science,1st Year,No,Regularly,Food & Dining,Saves a Fixed Percentage,0,1,1,0,0,0,0,1,37.5,Basic
-STU0417,24+,B.Tech,4th Year,No,Occasionally,Entertainment & Leisure,Does Not Save,1,1,0,0,0,1,0,1,50,Intermediate
-STU0418,18-19,B.A,2nd Year,No,Regularly,Study Materials & Books,Saves a Fixed Percentage,1,1,0,1,0,0,1,1,62.5,Intermediate
-STU0419,22-23,B.B.A,3rd Year,Yes,Occasionally,Entertainment & Leisure,Saves Whatever is Left,1,1,1,1,1,0,1,0,75,Intermediate
-STU0420,22-23,B.Sc Data Science,3rd Year,Yes,Regularly,Entertainment & Leisure,Saves a Fixed Percentage,1,1,1,1,1,1,1,1,100,Advanced
-STU0421,18-19,B.B.A,1st Year,Yes,Never,Entertainment & Leisure,Saves a Fixed Percentage,0,1,1,0,1,0,0,0,37.5,Basic
-STU0422,20-21,B.Sc Computer Science,2nd Year,No,Rarely,Shopping & Fashion,Saves Whatever is Left,1,1,1,0,0,0,1,1,62.5,Intermediate
-STU0423,20-21,B.A,3rd Year,No,Occasionally,Food & Dining,Saves a Fixed Percentage,1,1,0,0,1,1,1,1,75,Intermediate
-STU0424,20-21,B.A,1st Year,No,Rarely,Food & Dining,Saves Whatever is Left,1,1,1,1,0,0,1,0,62.5,Intermediate
-STU0425,20-21,B.Sc Mathematics,1st Year,No,Rarely,Travel & Commute,Saves Whatever is Left,0,1,0,0,0,0,0,1,25,Basic
-STU0426,18-19,B.Sc Data Science,2nd Year,Yes,Rarely,Shopping & Fashion,Invests Regularly,1,1,1,0,0,0,1,0,50,Intermediate
-STU0427,20-21,B.Tech,3rd Year,No,Never,Entertainment & Leisure,Saves Whatever is Left,1,1,0,0,0,0,0,1,37.5,Basic
-STU0428,22-23,B.A,4th Year,Yes,Occasionally,Food & Dining,Saves a Fixed Percentage,1,1,1,1,0,0,1,1,75,Intermediate
-STU0429,20-21,B.Com,2nd Year,Yes,Occasionally,Shopping & Fashion,Saves a Fixed Percentage,1,1,0,0,1,0,0,0,37.5,Basic
-STU0430,18-19,B.B.A,1st Year,Yes,Regularly,Entertainment & Leisure,Saves Whatever is Left,1,1,1,1,0,0,1,1,75,Intermediate
-STU0431,18-19,B.A,1st Year,No,Rarely,Travel & Commute,Saves Whatever is Left,1,1,0,0,0,0,0,1,37.5,Basic
-STU0432,20-21,B.Sc Data Science,2nd Year,No,Rarely,Entertainment & Leisure,Saves Whatever is Left,1,1,0,0,0,1,1,0,50,Intermediate
-STU0433,20-21,B.Com,3rd Year,Yes,Regularly,Food & Dining,Saves Whatever is Left,1,1,1,0,0,1,0,1,62.5,Intermediate
-STU0434,20-21,B.Sc Mathematics,2nd Year,Yes,Occasionally,Entertainment & Leisure,Saves a Fixed Percentage,1,1,0,1,0,0,1,0,50,Intermediate
-STU0435,22-23,B.A,3rd Year,No,Occasionally,Shopping & Fashion,Saves Whatever is Left,1,1,1,1,0,1,0,0,62.5,Intermediate
-STU0436,20-21,B.Sc Data Science,3rd Year,Yes,Occasionally,Food & Dining,Saves a Fixed Percentage,1,1,1,1,1,1,0,1,87.5,Advanced
-STU0437,20-21,B.Sc Data Science,1st Year,No,Rarely,Study Materials & Books,Does Not Save,1,0,0,0,0,1,0,1,37.5,Basic
-STU0438,22-23,B.Sc Computer Science,3rd Year,No,Rarely,Entertainment & Leisure,Saves a Fixed Percentage,1,1,0,0,1,0,1,0,50,Intermediate
-STU0439,20-21,B.Sc Computer Science,1st Year,No,Rarely,Travel & Commute,Saves Whatever is Left,1,1,1,0,0,1,0,0,50,Intermediate
-STU0440,24+,B.B.A,4th Year,Yes,Occasionally,Study Materials & Books,Saves a Fixed Percentage,1,1,0,1,1,1,1,1,87.5,Advanced
-STU0441,22-23,B.Tech,3rd Year,Yes,Regularly,Study Materials & Books,Saves a Fixed Percentage,1,1,1,1,1,0,1,0,75,Intermediate
-STU0442,22-23,B.Tech,3rd Year,No,Rarely,Study Materials & Books,Saves a Fixed Percentage,1,1,1,0,1,0,0,0,50,Intermediate
-STU0443,22-23,B.B.A,4th Year,No,Rarely,Shopping & Fashion,Saves a Fixed Percentage,1,1,1,0,0,0,0,1,50,Intermediate
-STU0444,20-21,B.Sc Mathematics,3rd Year,Yes,Occasionally,Shopping & Fashion,Saves a Fixed Percentage,1,1,0,1,1,1,1,1,87.5,Advanced
-STU0445,20-21,B.B.A,1st Year,Yes,Regularly,Entertainment & Leisure,Saves a Fixed Percentage,1,1,0,0,1,0,1,0,50,Intermediate
-STU0446,22-23,B.Com,3rd Year,No,Rarely,Study Materials & Books,Saves a Fixed Percentage,1,1,1,1,0,1,1,1,87.5,Advanced
-STU0447,20-21,B.Sc Data Science,3rd Year,Yes,Occasionally,Travel & Commute,Saves a Fixed Percentage,1,1,1,1,1,1,0,1,87.5,Advanced
-STU0448,24+,B.Sc Mathematics,4th Year,No,Rarely,Entertainment & Leisure,Saves Whatever is Left,1,1,0,0,1,1,0,1,62.5,Intermediate
-STU0449,18-19,B.Sc Computer Science,1st Year,No,Occasionally,Study Materials & Books,Saves a Fixed Percentage,1,1,0,0,1,0,1,0,50,Intermediate
-STU0450,18-19,B.B.A,1st Year,Yes,Regularly,Study Materials & Books,Saves a Fixed Percentage,1,1,0,0,1,1,1,0,62.5,Intermediate
-STU0451,22-23,B.Sc Mathematics,4th Year,No,Rarely,Entertainment & Leisure,Does Not Save,0,1,1,1,1,0,1,1,75,Intermediate
-STU0452,24+,B.Com,4th Year,Yes,Regularly,Travel & Commute,Saves Whatever is Left,1,1,1,1,0,1,1,0,75,Intermediate
-STU0453,22-23,B.Sc Computer Science,3rd Year,No,Never,Shopping & Fashion,Does Not Save,1,1,0,1,1,0,0,0,50,Intermediate
-STU0454,20-21,B.Sc Mathematics,2nd Year,Yes,Regularly,Study Materials & Books,Invests Regularly,1,1,1,0,0,0,0,1,50,Intermediate
-STU0455,22-23,B.Sc Mathematics,4th Year,Yes,Regularly,Travel & Commute,Invests Regularly,1,1,1,1,1,0,1,1,87.5,Advanced
-STU0456,18-19,B.A,2nd Year,No,Rarely,Travel & Commute,Saves Whatever is Left,0,0,0,0,0,1,1,0,25,Basic
-STU0457,24+,B.B.A,4th Year,No,Rarely,Travel & Commute,Saves Whatever is Left,1,1,1,0,0,1,1,1,75,Intermediate
-STU0458,22-23,B.Sc Computer Science,4th Year,No,Regularly,Entertainment & Leisure,Saves Whatever is Left,1,1,0,0,0,1,1,0,50,Intermediate
-STU0459,20-21,B.Tech,3rd Year,Yes,Regularly,Travel & Commute,Saves Whatever is Left,1,1,1,1,0,0,1,0,62.5,Intermediate
-STU0460,18-19,B.Sc Data Science,2nd Year,No,Regularly,Shopping & Fashion,Saves Whatever is Left,1,0,1,0,0,0,1,1,50,Intermediate
-STU0461,20-21,B.Sc Computer Science,3rd Year,No,Never,Travel & Commute,Saves Whatever is Left,0,1,1,1,1,0,1,1,75,Intermediate
-STU0462,22-23,B.Sc Computer Science,4th Year,No,Rarely,Study Materials & Books,Saves a Fixed Percentage,1,1,1,1,0,0,0,0,50,Intermediate
-STU0463,20-21,B.Com,2nd Year,Yes,Occasionally,Travel & Commute,Invests Regularly,1,1,1,1,1,1,0,1,87.5,Advanced
-STU0464,18-19,B.Sc Mathematics,1st Year,No,Rarely,Travel & Commute,Saves Whatever is Left,1,1,1,1,1,1,0,1,87.5,Advanced
-STU0465,22-23,B.Tech,3rd Year,Yes,Occasionally,Food & Dining,Saves a Fixed Percentage,1,1,1,1,1,1,1,1,100,Advanced
-STU0466,18-19,B.Sc Computer Science,1st Year,No,Never,Travel & Commute,Saves a Fixed Percentage,0,1,1,0,0,0,1,0,37.5,Basic
-STU0467,20-21,B.Tech,1st Year,Yes,Occasionally,Shopping & Fashion,Invests Regularly,1,1,0,1,0,0,1,0,50,Intermediate
-STU0468,22-23,B.Com,3rd Year,No,Occasionally,Food & Dining,Saves Whatever is Left,1,1,0,0,1,0,1,0,50,Intermediate
-STU0469,20-21,B.Tech,3rd Year,Yes,Occasionally,Food & Dining,Saves a Fixed Percentage,1,1,1,0,1,1,0,1,75,Intermediate
-STU0470,18-19,B.Sc Data Science,2nd Year,No,Rarely,Entertainment & Leisure,Does Not Save,0,1,0,0,1,0,1,0,37.5,Basic
-STU0471,18-19,B.B.A,1st Year,Yes,Regularly,Shopping & Fashion,Invests Regularly,1,1,0,1,1,0,1,1,75,Intermediate
-STU0472,22-23,B.A,4th Year,No,Rarely,Food & Dining,Saves Whatever is Left,1,1,1,0,0,1,1,1,75,Intermediate
-STU0473,22-23,B.Sc Data Science,4th Year,Yes,Regularly,Entertainment & Leisure,Invests Regularly,1,1,1,0,0,0,1,1,62.5,Intermediate
-STU0474,20-21,B.Sc Computer Science,3rd Year,No,Rarely,Shopping & Fashion,Saves Whatever is Left,0,1,0,0,0,1,0,0,25,Basic
-STU0475,18-19,B.Sc Data Science,1st Year,No,Occasionally,Food & Dining,Saves Whatever is Left,1,1,0,0,0,0,0,0,25,Basic
-STU0476,22-23,B.Com,3rd Year,Yes,Regularly,Food & Dining,Saves Whatever is Left,1,1,1,0,0,1,0,1,62.5,Intermediate
-STU0477,18-19,B.Com,1st Year,Yes,Occasionally,Study Materials & Books,Saves a Fixed Percentage,1,1,0,1,0,1,1,0,62.5,Intermediate
-STU0478,24+,B.Com,4th Year,No,Occasionally,Shopping & Fashion,Saves a Fixed Percentage,1,1,1,0,1,1,1,0,75,Intermediate
-STU0479,18-19,B.Sc Mathematics,2nd Year,No,Regularly,Entertainment & Leisure,Saves Whatever is Left,1,1,1,1,1,1,0,1,87.5,Advanced
-STU0480,22-23,B.Sc Computer Science,4th Year,Yes,Regularly,Entertainment & Leisure,Saves a Fixed Percentage,1,1,1,1,1,1,1,1,100,Advanced
-STU0481,20-21,B.A,3rd Year,No,Rarely,Shopping & Fashion,Saves Whatever is Left,1,1,0,0,0,1,1,1,62.5,Intermediate
-STU0482,24+,B.Sc Data Science,4th Year,No,Rarely,Food & Dining,Saves Whatever is Left,0,1,1,1,0,1,1,1,75,Intermediate
-STU0483,18-19,B.Com,2nd Year,Yes,Occasionally,Shopping & Fashion,Saves Whatever is Left,1,1,0,1,1,0,1,1,75,Intermediate
-STU0484,18-19,B.Sc Data Science,1st Year,No,Never,Shopping & Fashion,Saves Whatever is Left,1,0,0,0,1,0,0,1,37.5,Basic
-STU0485,20-21,B.Sc Computer Science,3rd Year,No,Occasionally,Food & Dining,Saves Whatever is Left,1,1,1,1,1,0,0,1,75,Intermediate
-STU0486,18-19,B.B.A,1st Year,Yes,Rarely,Shopping & Fashion,Saves Whatever is Left,0,1,1,0,1,0,0,1,50,Intermediate
-STU0487,18-19,B.Sc Computer Science,1st Year,Yes,Regularly,Travel & Commute,Saves Whatever is Left,1,1,1,1,1,0,1,1,87.5,Advanced
-STU0488,18-19,B.A,1st Year,No,Never,Shopping & Fashion,Does Not Save,1,1,1,0,0,0,0,0,37.5,Basic
-STU0489,18-19,B.Sc Computer Science,1st Year,No,Never,Entertainment & Leisure,Does Not Save,1,1,0,1,1,0,0,0,50,Intermediate
-STU0490,24+,B.B.A,4th Year,No,Never,Food & Dining,Saves Whatever is Left,1,1,1,0,1,0,1,1,75,Intermediate
-STU0491,24+,B.Sc Data Science,4th Year,Yes,Occasionally,Travel & Commute,Invests Regularly,1,1,0,1,1,1,1,1,87.5,Advanced
-STU0492,18-19,B.Sc Computer Science,1st Year,No,Never,Travel & Commute,Saves a Fixed Percentage,1,1,0,0,1,0,1,0,50,Intermediate
-STU0493,20-21,B.Tech,2nd Year,No,Rarely,Food & Dining,Saves Whatever is Left,1,0,1,1,0,1,0,1,62.5,Intermediate
-STU0494,20-21,B.Tech,2nd Year,Yes,Occasionally,Study Materials & Books,Invests Regularly,1,1,0,1,0,0,1,0,50,Intermediate
-STU0495,20-21,B.A,2nd Year,No,Rarely,Entertainment & Leisure,Saves Whatever is Left,1,1,0,1,0,1,0,0,50,Intermediate
-STU0496,22-23,B.Tech,4th Year,No,Rarely,Food & Dining,Invests Regularly,1,1,1,1,1,0,1,1,87.5,Advanced
-STU0497,22-23,B.Sc Data Science,3rd Year,No,Rarely,Study Materials & Books,Saves Whatever is Left,1,1,0,0,0,1,0,0,37.5,Basic
-STU0498,20-21,B.Com,2nd Year,Yes,Occasionally,Travel & Commute,Saves a Fixed Percentage,1,1,0,0,1,0,0,1,50,Intermediate
-STU0499,24+,B.Tech,4th Year,Yes,Regularly,Study Materials & Books,Saves a Fixed Percentage,1,1,1,0,1,0,1,1,75,Intermediate
-STU0500,22-23,B.Com,3rd Year,Yes,Occasionally,Entertainment & Leisure,Invests Regularly,1,1,0,1,0,1,0,0,50,Intermediate
+STU0001,18-19,B.Tech,1st Year,No,Never,Shopping & Fashion,Saves Whatever is Left,1,1,1,0,0,0,1,1,62.5,Intermediate
+STU0002,20-21,B.Sc Computer Science,4th Year,No,Never,Entertainment & Leisure,Saves Whatever is Left,1,1,0,1,1,1,1,0,75.0,Intermediate
+STU0003,22-23,B.Sc Mathematics,3rd Year,No,Rarely,Food & Dining,Does Not Save,1,1,1,0,1,1,0,0,62.5,Intermediate
+STU0004,20-21,B.Sc Data Science,2nd Year,No,Occasionally,Food & Dining,Saves Whatever is Left,0,1,1,0,0,1,1,0,50.0,Intermediate
+STU0005,20-21,B.A,2nd Year,No,Never,Entertainment & Leisure,Does Not Save,1,1,0,0,0,0,0,0,25.0,Basic
+STU0006,20-21,B.B.A,3rd Year,Yes,Rarely,Entertainment & Leisure,Saves a Fixed Percentage,1,1,1,0,1,0,1,1,75.0,Intermediate
+STU0007,24+,B.Tech,4th Year,Yes,Occasionally,Study Materials & Books,Saves Whatever is Left,1,0,1,1,1,1,1,0,75.0,Intermediate
+STU0008,24+,B.A,4th Year,No,Never,Food & Dining,Does Not Save,1,1,0,1,0,0,0,1,50.0,Intermediate
+STU0009,22-23,B.Tech,3rd Year,No,Regularly,Food & Dining,Saves a Fixed Percentage,1,1,0,0,1,1,1,1,75.0,Intermediate
+STU0010,20-21,B.A,3rd Year,Yes,Occasionally,Shopping & Fashion,Saves Whatever is Left,1,1,0,1,1,0,0,1,62.5,Intermediate
+STU0011,18-19,B.Sc Mathematics,2nd Year,No,Occasionally,Entertainment & Leisure,Saves Whatever is Left,0,1,0,0,0,0,0,0,12.5,Basic
+STU0012,20-21,B.B.A,4th Year,Yes,Never,Shopping & Fashion,Saves Whatever is Left,1,1,1,1,1,0,1,1,87.5,Advanced
+STU0013,22-23,B.Sc Computer Science,3rd Year,No,Rarely,Study Materials & Books,Saves Whatever is Left,1,1,0,0,1,0,1,1,62.5,Intermediate
+STU0014,20-21,B.B.A,1st Year,No,Never,Food & Dining,Saves Whatever is Left,1,1,0,0,1,1,0,1,62.5,Intermediate
+STU0015,18-19,B.B.A,1st Year,No,Regularly,Food & Dining,Does Not Save,1,1,1,0,1,0,0,0,50.0,Intermediate
+STU0016,20-21,B.B.A,3rd Year,Yes,Regularly,Entertainment & Leisure,Saves Whatever is Left,1,1,0,0,1,1,1,1,75.0,Intermediate
+STU0017,20-21,B.Sc Data Science,1st Year,No,Rarely,Shopping & Fashion,Saves a Fixed Percentage,0,1,1,0,0,1,1,0,50.0,Intermediate
+STU0018,20-21,B.Sc Computer Science,1st Year,Yes,Occasionally,Food & Dining,Saves a Fixed Percentage,1,1,1,1,0,1,1,1,87.5,Advanced
+STU0019,24+,B.Sc Data Science,4th Year,No,Never,Entertainment & Leisure,Saves a Fixed Percentage,0,1,1,1,0,0,0,1,50.0,Intermediate
+STU0020,20-21,B.A,1st Year,No,Rarely,Travel & Commute,Saves Whatever is Left,1,1,0,1,1,1,0,1,75.0,Intermediate
+STU0021,22-23,B.Tech,3rd Year,No,Never,Shopping & Fashion,Saves Whatever is Left,0,1,1,1,1,1,0,0,62.5,Intermediate
+STU0022,24+,B.Tech,4th Year,Yes,Occasionally,Food & Dining,Invests Regularly,1,1,0,1,0,1,1,1,75.0,Intermediate
+STU0023,20-21,B.Com,2nd Year,Yes,Regularly,Study Materials & Books,Invests Regularly,1,1,0,1,0,1,0,0,50.0,Intermediate
+STU0024,20-21,B.Sc Data Science,2nd Year,No,Never,Travel & Commute,Saves Whatever is Left,0,1,0,0,1,1,0,1,50.0,Intermediate
+STU0025,22-23,B.Sc Mathematics,4th Year,No,Rarely,Shopping & Fashion,Saves Whatever is Left,1,1,1,1,1,0,0,1,75.0,Intermediate
+STU0026,18-19,B.Com,1st Year,No,Regularly,Shopping & Fashion,Does Not Save,1,1,0,1,0,0,0,0,37.5,Basic
+STU0027,20-21,B.Sc Computer Science,3rd Year,No,Rarely,Entertainment & Leisure,Saves Whatever is Left,1,0,0,0,0,0,1,1,37.5,Basic
+STU0028,20-21,B.Tech,1st Year,No,Occasionally,Shopping & Fashion,Does Not Save,1,1,1,0,0,1,0,0,50.0,Intermediate
+STU0029,24+,B.Com,4th Year,No,Occasionally,Travel & Commute,Invests Regularly,1,1,0,0,1,1,0,1,62.5,Intermediate
+STU0030,18-19,B.Tech,1st Year,No,Never,Food & Dining,Saves Whatever is Left,1,1,0,0,0,1,1,1,62.5,Intermediate
+STU0031,24+,B.B.A,4th Year,Yes,Regularly,Shopping & Fashion,Saves Whatever is Left,1,1,1,1,1,0,0,0,62.5,Intermediate
+STU0032,20-21,B.B.A,1st Year,Yes,Occasionally,Shopping & Fashion,Saves a Fixed Percentage,1,1,0,0,0,0,0,0,25.0,Basic
+STU0033,20-21,B.B.A,4th Year,No,Never,Entertainment & Leisure,Does Not Save,1,1,1,0,0,0,1,1,62.5,Intermediate
+STU0034,22-23,B.Com,3rd Year,Yes,Regularly,Shopping & Fashion,Saves a Fixed Percentage,1,1,1,1,1,1,1,1,100.0,Advanced
+STU0035,20-21,B.Tech,1st Year,Yes,Occasionally,Travel & Commute,Saves Whatever is Left,1,1,0,0,0,1,0,0,37.5,Basic
+STU0036,22-23,B.Com,4th Year,Yes,Occasionally,Food & Dining,Saves a Fixed Percentage,1,1,1,1,1,1,1,1,100.0,Advanced
+STU0037,20-21,B.Sc Data Science,4th Year,No,Rarely,Study Materials & Books,Saves a Fixed Percentage,1,1,1,1,1,0,1,0,75.0,Intermediate
+STU0038,18-19,B.Sc Data Science,1st Year,Yes,Occasionally,Travel & Commute,Saves Whatever is Left,1,0,1,1,1,0,0,1,62.5,Intermediate
+STU0039,20-21,B.B.A,3rd Year,Yes,Regularly,Study Materials & Books,Invests Regularly,1,1,1,0,0,1,1,1,75.0,Intermediate
+STU0040,18-19,B.Tech,2nd Year,No,Never,Entertainment & Leisure,Saves Whatever is Left,0,1,0,1,0,0,0,0,25.0,Basic
+STU0041,20-21,B.Sc Data Science,3rd Year,No,Regularly,Shopping & Fashion,Does Not Save,1,1,0,0,0,0,1,0,37.5,Basic
+STU0042,22-23,B.Sc Mathematics,4th Year,No,Rarely,Food & Dining,Saves Whatever is Left,1,1,0,0,1,0,1,1,62.5,Intermediate
+STU0043,20-21,B.B.A,3rd Year,Yes,Rarely,Shopping & Fashion,Saves a Fixed Percentage,1,1,1,1,0,1,1,1,87.5,Advanced
+STU0044,20-21,B.Sc Mathematics,2nd Year,No,Rarely,Shopping & Fashion,Saves Whatever is Left,1,1,1,1,1,1,0,1,87.5,Advanced
+STU0045,22-23,B.Com,3rd Year,Yes,Regularly,Shopping & Fashion,Saves Whatever is Left,1,1,0,1,0,0,1,1,62.5,Intermediate
+STU0046,20-21,B.Sc Mathematics,3rd Year,No,Regularly,Study Materials & Books,Saves Whatever is Left,1,1,1,0,1,1,1,1,87.5,Advanced
+STU0047,20-21,B.Sc Data Science,1st Year,Yes,Occasionally,Travel & Commute,Saves a Fixed Percentage,1,1,0,1,0,1,1,1,75.0,Intermediate
+STU0048,20-21,B.Sc Computer Science,3rd Year,No,Occasionally,Entertainment & Leisure,Invests Regularly,1,1,0,0,1,0,1,1,62.5,Intermediate
+STU0049,20-21,B.A,1st Year,No,Rarely,Study Materials & Books,Saves Whatever is Left,1,1,0,1,1,1,0,1,75.0,Intermediate
+STU0050,18-19,B.Com,1st Year,Yes,Rarely,Travel & Commute,Saves Whatever is Left,1,1,1,1,1,0,0,0,62.5,Intermediate
+STU0051,20-21,B.Tech,2nd Year,No,Rarely,Shopping & Fashion,Saves a Fixed Percentage,1,1,1,0,0,1,1,0,62.5,Intermediate
+STU0052,22-23,B.A,4th Year,Yes,Regularly,Entertainment & Leisure,Invests Regularly,1,1,1,1,1,0,0,1,75.0,Intermediate
+STU0053,18-19,B.A,1st Year,No,Never,Travel & Commute,Saves Whatever is Left,1,0,1,0,0,0,1,1,50.0,Intermediate
+STU0054,24+,B.Com,4th Year,Yes,Regularly,Food & Dining,Invests Regularly,1,1,0,1,1,1,1,0,75.0,Intermediate
+STU0055,22-23,B.Tech,4th Year,Yes,Regularly,Food & Dining,Saves a Fixed Percentage,1,1,1,1,1,1,1,1,100.0,Advanced
+STU0056,20-21,B.Tech,2nd Year,Yes,Occasionally,Shopping & Fashion,Saves a Fixed Percentage,1,1,1,0,0,1,1,0,62.5,Intermediate
+STU0057,20-21,B.Tech,3rd Year,No,Never,Study Materials & Books,Saves a Fixed Percentage,0,1,0,1,0,0,0,0,25.0,Basic
+STU0058,20-21,B.Com,3rd Year,Yes,Occasionally,Entertainment & Leisure,Saves a Fixed Percentage,1,1,0,1,1,1,1,1,87.5,Advanced
+STU0059,20-21,B.Sc Mathematics,2nd Year,Yes,Regularly,Travel & Commute,Saves a Fixed Percentage,1,1,1,1,1,0,1,0,75.0,Intermediate
+STU0060,18-19,B.B.A,1st Year,Yes,Regularly,Study Materials & Books,Saves Whatever is Left,1,1,0,1,1,0,0,1,62.5,Intermediate
+STU0061,20-21,B.Sc Mathematics,3rd Year,No,Rarely,Shopping & Fashion,Saves Whatever is Left,1,1,1,0,0,0,0,0,37.5,Basic
+STU0062,20-21,B.Sc Data Science,2nd Year,No,Never,Entertainment & Leisure,Does Not Save,1,1,1,0,0,0,1,1,62.5,Intermediate
+STU0063,18-19,B.Sc Mathematics,1st Year,No,Rarely,Shopping & Fashion,Saves Whatever is Left,1,1,0,0,1,1,0,0,50.0,Intermediate
+STU0064,20-21,B.Sc Computer Science,2nd Year,No,Regularly,Study Materials & Books,Does Not Save,1,1,0,0,1,0,1,0,50.0,Intermediate
+STU0065,20-21,B.Tech,3rd Year,No,Regularly,Entertainment & Leisure,Saves Whatever is Left,1,1,1,1,0,0,0,1,62.5,Intermediate
+STU0066,20-21,B.Sc Data Science,1st Year,No,Occasionally,Travel & Commute,Saves a Fixed Percentage,0,0,0,1,0,1,1,1,50.0,Intermediate
+STU0067,20-21,B.Tech,1st Year,No,Never,Entertainment & Leisure,Saves Whatever is Left,1,1,0,0,1,0,0,1,50.0,Intermediate
+STU0068,20-21,B.A,3rd Year,No,Regularly,Study Materials & Books,Saves a Fixed Percentage,1,1,0,0,1,1,0,1,62.5,Intermediate
+STU0069,20-21,B.Sc Mathematics,3rd Year,No,Never,Food & Dining,Does Not Save,1,1,1,0,0,0,0,0,37.5,Basic
+STU0070,22-23,B.A,3rd Year,Yes,Occasionally,Shopping & Fashion,Saves Whatever is Left,1,1,0,1,1,1,0,1,75.0,Intermediate
+STU0071,22-23,B.Sc Computer Science,4th Year,No,Rarely,Entertainment & Leisure,Saves a Fixed Percentage,0,1,1,0,0,0,0,0,25.0,Basic
+STU0072,20-21,B.Sc Data Science,3rd Year,No,Never,Study Materials & Books,Does Not Save,0,1,1,0,0,0,1,1,50.0,Intermediate
+STU0073,20-21,B.Sc Data Science,2nd Year,No,Rarely,Travel & Commute,Saves a Fixed Percentage,0,1,1,0,0,1,0,0,37.5,Basic
+STU0074,20-21,B.Com,2nd Year,Yes,Regularly,Entertainment & Leisure,Saves Whatever is Left,1,1,1,1,1,0,1,1,87.5,Advanced
+STU0075,20-21,B.Sc Data Science,2nd Year,Yes,Regularly,Shopping & Fashion,Does Not Save,1,1,0,1,0,0,1,1,62.5,Intermediate
+STU0076,24+,B.Com,4th Year,No,Rarely,Entertainment & Leisure,Does Not Save,1,1,1,0,1,0,1,1,75.0,Intermediate
+STU0077,20-21,B.A,3rd Year,No,Occasionally,Study Materials & Books,Does Not Save,1,1,0,1,0,0,0,0,37.5,Basic
+STU0078,22-23,B.Sc Computer Science,4th Year,No,Never,Study Materials & Books,Does Not Save,1,1,1,1,1,0,0,1,75.0,Intermediate
+STU0079,20-21,B.Sc Data Science,3rd Year,No,Occasionally,Shopping & Fashion,Invests Regularly,1,1,1,1,1,0,0,0,62.5,Intermediate
+STU0080,20-21,B.Com,3rd Year,Yes,Regularly,Shopping & Fashion,Invests Regularly,1,1,1,1,0,1,0,1,75.0,Intermediate
+STU0081,20-21,B.A,1st Year,No,Rarely,Travel & Commute,Saves Whatever is Left,0,1,1,0,1,0,1,0,50.0,Intermediate
+STU0082,18-19,B.Tech,1st Year,No,Never,Shopping & Fashion,Does Not Save,1,1,1,0,0,0,0,1,50.0,Intermediate
+STU0083,18-19,B.Sc Data Science,1st Year,No,Rarely,Entertainment & Leisure,Saves Whatever is Left,1,1,0,1,0,0,1,0,50.0,Intermediate
+STU0084,20-21,B.Sc Data Science,2nd Year,No,Rarely,Shopping & Fashion,Does Not Save,1,1,0,0,0,1,1,0,50.0,Intermediate
+STU0085,20-21,B.Tech,2nd Year,No,Rarely,Study Materials & Books,Saves Whatever is Left,1,1,1,0,1,0,1,1,75.0,Intermediate
+STU0086,18-19,B.Com,1st Year,Yes,Occasionally,Study Materials & Books,Saves a Fixed Percentage,1,1,0,0,0,1,0,1,50.0,Intermediate
+STU0087,22-23,B.Sc Mathematics,3rd Year,No,Occasionally,Travel & Commute,Saves a Fixed Percentage,1,1,0,1,1,0,1,0,62.5,Intermediate
+STU0088,20-21,B.Sc Data Science,2nd Year,Yes,Occasionally,Shopping & Fashion,Invests Regularly,1,1,0,1,0,1,0,0,50.0,Intermediate
+STU0089,22-23,B.Tech,3rd Year,Yes,Never,Entertainment & Leisure,Saves a Fixed Percentage,1,1,1,0,1,1,1,1,87.5,Advanced
+STU0090,20-21,B.Sc Data Science,1st Year,No,Rarely,Food & Dining,Saves Whatever is Left,1,1,0,0,1,0,0,1,50.0,Intermediate
+STU0091,18-19,B.B.A,1st Year,No,Regularly,Entertainment & Leisure,Saves Whatever is Left,1,1,1,0,0,0,0,0,37.5,Basic
+STU0092,20-21,B.Tech,1st Year,No,Never,Travel & Commute,Saves Whatever is Left,1,1,0,1,0,0,0,0,37.5,Basic
+STU0093,22-23,B.Com,3rd Year,No,Occasionally,Shopping & Fashion,Saves Whatever is Left,1,1,0,1,1,0,0,0,50.0,Intermediate
+STU0094,24+,B.Sc Data Science,4th Year,Yes,Regularly,Shopping & Fashion,Saves Whatever is Left,1,1,1,0,1,1,1,1,87.5,Advanced
+STU0095,20-21,B.Sc Mathematics,1st Year,No,Rarely,Travel & Commute,Saves Whatever is Left,0,1,0,1,0,0,0,1,37.5,Basic
+STU0096,22-23,B.B.A,3rd Year,No,Rarely,Study Materials & Books,Saves a Fixed Percentage,1,1,0,0,0,1,0,0,37.5,Basic
+STU0097,20-21,B.A,4th Year,No,Occasionally,Travel & Commute,Does Not Save,1,1,1,0,0,0,1,0,50.0,Intermediate
+STU0098,24+,B.Com,4th Year,Yes,Rarely,Entertainment & Leisure,Invests Regularly,1,1,1,1,1,1,1,1,100.0,Advanced
+STU0099,18-19,B.Sc Computer Science,1st Year,No,Occasionally,Food & Dining,Saves Whatever is Left,0,1,0,1,1,0,0,1,50.0,Intermediate
+STU0100,18-19,B.Sc Data Science,1st Year,Yes,Occasionally,Food & Dining,Saves a Fixed Percentage,1,0,0,1,0,1,1,1,62.5,Intermediate
+STU0101,24+,B.Sc Data Science,4th Year,No,Rarely,Entertainment & Leisure,Saves Whatever is Left,1,1,0,1,1,1,1,1,87.5,Advanced
+STU0102,18-19,B.Sc Data Science,1st Year,No,Never,Entertainment & Leisure,Saves Whatever is Left,1,1,0,0,1,1,1,0,62.5,Intermediate
+STU0103,18-19,B.Sc Computer Science,1st Year,No,Occasionally,Entertainment & Leisure,Saves Whatever is Left,0,1,0,0,0,0,0,1,25.0,Basic
+STU0104,18-19,B.Sc Computer Science,1st Year,No,Occasionally,Entertainment & Leisure,Does Not Save,1,1,0,0,0,1,0,1,50.0,Intermediate
+STU0105,18-19,B.Com,1st Year,Yes,Rarely,Study Materials & Books,Saves Whatever is Left,1,1,0,1,1,0,1,0,62.5,Intermediate
+STU0106,24+,B.Sc Data Science,4th Year,No,Rarely,Entertainment & Leisure,Saves Whatever is Left,1,1,1,1,1,1,0,1,87.5,Advanced
+STU0107,22-23,B.A,4th Year,No,Occasionally,Study Materials & Books,Saves Whatever is Left,1,1,0,1,1,0,1,1,75.0,Intermediate
+STU0108,18-19,B.Sc Data Science,2nd Year,Yes,Never,Entertainment & Leisure,Saves Whatever is Left,1,1,0,1,1,1,1,1,87.5,Advanced
+STU0109,22-23,B.B.A,3rd Year,Yes,Rarely,Study Materials & Books,Saves a Fixed Percentage,0,1,1,1,0,1,0,0,50.0,Intermediate
+STU0110,18-19,B.Sc Computer Science,1st Year,No,Never,Entertainment & Leisure,Saves Whatever is Left,1,0,0,1,0,0,1,1,50.0,Intermediate
+STU0111,20-21,B.Sc Mathematics,2nd Year,No,Rarely,Study Materials & Books,Saves Whatever is Left,1,1,1,1,0,0,1,0,62.5,Intermediate
+STU0112,20-21,B.Sc Mathematics,2nd Year,No,Never,Study Materials & Books,Does Not Save,1,1,0,0,1,0,0,1,50.0,Intermediate
+STU0113,20-21,B.Tech,3rd Year,No,Never,Entertainment & Leisure,Does Not Save,1,1,1,0,1,0,1,1,75.0,Intermediate
+STU0114,20-21,B.Tech,2nd Year,No,Never,Shopping & Fashion,Saves Whatever is Left,1,1,1,1,0,1,0,0,62.5,Intermediate
+STU0115,18-19,B.A,2nd Year,No,Rarely,Shopping & Fashion,Saves Whatever is Left,1,1,0,0,0,1,1,0,50.0,Intermediate
+STU0116,18-19,B.B.A,1st Year,No,Never,Study Materials & Books,Saves Whatever is Left,1,1,1,1,0,0,0,0,50.0,Intermediate
+STU0117,22-23,B.Sc Computer Science,3rd Year,Yes,Rarely,Study Materials & Books,Saves Whatever is Left,1,1,0,1,1,0,1,1,75.0,Intermediate
+STU0118,18-19,B.Sc Computer Science,2nd Year,Yes,Never,Shopping & Fashion,Does Not Save,0,1,1,0,0,0,0,0,25.0,Basic
+STU0119,22-23,B.B.A,4th Year,Yes,Regularly,Entertainment & Leisure,Saves a Fixed Percentage,1,1,1,1,1,1,1,1,100.0,Advanced
+STU0120,18-19,B.A,1st Year,No,Never,Shopping & Fashion,Saves Whatever is Left,0,1,0,0,0,0,1,0,25.0,Basic
+STU0121,18-19,B.Com,1st Year,No,Never,Entertainment & Leisure,Does Not Save,1,1,1,0,0,1,0,0,50.0,Intermediate
+STU0122,24+,B.Sc Mathematics,4th Year,No,Never,Shopping & Fashion,Saves a Fixed Percentage,1,1,1,0,1,0,0,1,62.5,Intermediate
+STU0123,20-21,B.B.A,3rd Year,No,Rarely,Shopping & Fashion,Invests Regularly,1,1,0,0,0,0,0,1,37.5,Basic
+STU0124,20-21,B.A,2nd Year,Yes,Regularly,Study Materials & Books,Saves Whatever is Left,1,1,0,0,1,0,1,1,62.5,Intermediate
+STU0125,20-21,B.Com,4th Year,Yes,Occasionally,Study Materials & Books,Invests Regularly,1,1,1,1,0,0,1,1,75.0,Intermediate
+STU0126,22-23,B.A,4th Year,No,Rarely,Entertainment & Leisure,Invests Regularly,1,1,1,0,0,0,0,1,50.0,Intermediate
+STU0127,20-21,B.A,3rd Year,No,Occasionally,Shopping & Fashion,Does Not Save,0,1,0,0,1,0,1,0,37.5,Basic
+STU0128,22-23,B.Tech,4th Year,No,Rarely,Shopping & Fashion,Does Not Save,0,1,1,1,0,1,1,1,75.0,Intermediate
+STU0129,20-21,B.Com,3rd Year,Yes,Occasionally,Travel & Commute,Saves a Fixed Percentage,1,1,1,0,1,1,1,1,87.5,Advanced
+STU0130,20-21,B.Sc Data Science,2nd Year,No,Rarely,Food & Dining,Does Not Save,0,1,0,0,1,1,1,0,50.0,Intermediate
+STU0131,20-21,B.Sc Computer Science,4th Year,No,Never,Entertainment & Leisure,Saves Whatever is Left,1,1,0,1,0,0,1,1,62.5,Intermediate
+STU0132,24+,B.Com,4th Year,Yes,Rarely,Entertainment & Leisure,Saves Whatever is Left,1,1,0,1,1,1,1,1,87.5,Advanced
+STU0133,22-23,B.Sc Mathematics,3rd Year,No,Regularly,Travel & Commute,Saves Whatever is Left,1,1,0,1,1,1,1,1,87.5,Advanced
+STU0134,20-21,B.Sc Data Science,3rd Year,Yes,Rarely,Study Materials & Books,Saves Whatever is Left,1,1,1,0,1,0,1,1,75.0,Intermediate
+STU0135,22-23,B.Tech,3rd Year,Yes,Occasionally,Study Materials & Books,Saves a Fixed Percentage,1,1,1,1,1,1,0,1,87.5,Advanced
+STU0136,18-19,B.Sc Mathematics,2nd Year,No,Regularly,Shopping & Fashion,Does Not Save,1,1,0,0,1,0,1,0,50.0,Intermediate
+STU0137,20-21,B.Sc Computer Science,2nd Year,No,Rarely,Shopping & Fashion,Saves Whatever is Left,1,1,0,0,0,0,1,1,50.0,Intermediate
+STU0138,22-23,B.B.A,3rd Year,Yes,Regularly,Study Materials & Books,Invests Regularly,1,1,1,1,1,0,1,1,87.5,Advanced
+STU0139,20-21,B.Sc Data Science,3rd Year,Yes,Occasionally,Shopping & Fashion,Saves Whatever is Left,1,1,0,0,1,0,1,0,50.0,Intermediate
+STU0140,20-21,B.Sc Computer Science,3rd Year,Yes,Occasionally,Travel & Commute,Saves a Fixed Percentage,1,1,0,1,1,1,1,0,75.0,Intermediate
+STU0141,22-23,B.Sc Computer Science,4th Year,Yes,Rarely,Shopping & Fashion,Saves Whatever is Left,1,1,0,1,1,1,0,0,62.5,Intermediate
+STU0142,24+,B.Sc Data Science,4th Year,No,Regularly,Shopping & Fashion,Does Not Save,1,1,1,1,1,0,0,1,75.0,Intermediate
+STU0143,20-21,B.Com,3rd Year,Yes,Occasionally,Study Materials & Books,Saves a Fixed Percentage,1,1,1,1,1,0,0,0,62.5,Intermediate
+STU0144,22-23,B.Sc Data Science,3rd Year,No,Never,Study Materials & Books,Saves Whatever is Left,1,1,1,1,1,0,1,0,75.0,Intermediate
+STU0145,22-23,B.Sc Data Science,4th Year,No,Never,Shopping & Fashion,Does Not Save,1,1,1,0,0,0,1,0,50.0,Intermediate
+STU0146,18-19,B.A,1st Year,Yes,Regularly,Food & Dining,Invests Regularly,1,1,0,0,0,1,0,1,50.0,Intermediate
+STU0147,20-21,B.Tech,4th Year,No,Rarely,Study Materials & Books,Saves a Fixed Percentage,1,1,1,1,1,1,0,1,87.5,Advanced
+STU0148,22-23,B.Sc Data Science,4th Year,No,Rarely,Entertainment & Leisure,Does Not Save,1,1,1,1,1,1,0,0,75.0,Intermediate
+STU0149,24+,B.Sc Computer Science,4th Year,No,Never,Travel & Commute,Saves a Fixed Percentage,1,1,0,1,0,0,0,1,50.0,Intermediate
+STU0150,20-21,B.Sc Computer Science,4th Year,No,Rarely,Travel & Commute,Saves a Fixed Percentage,1,1,1,1,0,0,0,0,50.0,Intermediate
+STU0151,18-19,B.Sc Data Science,2nd Year,Yes,Occasionally,Entertainment & Leisure,Does Not Save,1,1,0,0,0,0,1,1,50.0,Intermediate
+STU0152,20-21,B.A,3rd Year,No,Never,Study Materials & Books,Saves Whatever is Left,1,1,0,1,0,0,1,0,50.0,Intermediate
+STU0153,20-21,B.Sc Data Science,3rd Year,No,Rarely,Study Materials & Books,Saves Whatever is Left,1,1,1,0,1,0,0,1,62.5,Intermediate
+STU0154,20-21,B.Sc Data Science,1st Year,Yes,Rarely,Shopping & Fashion,Invests Regularly,1,1,0,0,0,1,1,1,62.5,Intermediate
+STU0155,20-21,B.B.A,3rd Year,No,Never,Study Materials & Books,Saves a Fixed Percentage,1,1,0,0,1,0,1,1,62.5,Intermediate
+STU0156,20-21,B.Sc Data Science,3rd Year,No,Never,Entertainment & Leisure,Saves Whatever is Left,1,1,0,0,1,0,0,0,37.5,Basic
+STU0157,18-19,B.Sc Data Science,1st Year,Yes,Occasionally,Shopping & Fashion,Saves Whatever is Left,1,1,0,0,0,1,0,0,37.5,Basic
+STU0158,20-21,B.B.A,4th Year,No,Rarely,Entertainment & Leisure,Saves Whatever is Left,1,1,0,0,0,1,1,0,50.0,Intermediate
+STU0159,18-19,B.Com,1st Year,Yes,Never,Food & Dining,Saves a Fixed Percentage,1,1,1,1,1,0,1,1,87.5,Advanced
+STU0160,20-21,B.A,3rd Year,Yes,Rarely,Entertainment & Leisure,Saves Whatever is Left,1,1,0,1,0,1,1,0,62.5,Intermediate
+STU0161,18-19,B.B.A,2nd Year,Yes,Occasionally,Food & Dining,Saves Whatever is Left,1,1,0,1,0,0,1,0,50.0,Intermediate
+STU0162,22-23,B.B.A,3rd Year,Yes,Regularly,Travel & Commute,Saves a Fixed Percentage,1,1,1,0,1,0,1,1,75.0,Intermediate
+STU0163,20-21,B.B.A,3rd Year,No,Never,Travel & Commute,Invests Regularly,1,0,0,1,1,0,1,0,50.0,Intermediate
+STU0164,20-21,B.Tech,1st Year,No,Rarely,Travel & Commute,Does Not Save,0,1,1,0,0,0,1,0,37.5,Basic
+STU0165,22-23,B.Tech,4th Year,Yes,Rarely,Shopping & Fashion,Saves a Fixed Percentage,0,1,1,1,0,0,1,0,50.0,Intermediate
+STU0166,18-19,B.A,1st Year,No,Regularly,Food & Dining,Saves Whatever is Left,1,1,0,1,0,0,1,0,50.0,Intermediate
+STU0167,20-21,B.Sc Data Science,3rd Year,No,Never,Food & Dining,Does Not Save,1,1,0,1,1,0,0,0,50.0,Intermediate
+STU0168,20-21,B.Com,4th Year,Yes,Regularly,Entertainment & Leisure,Saves Whatever is Left,1,1,1,1,1,1,1,1,100.0,Advanced
+STU0169,18-19,B.Sc Data Science,1st Year,No,Regularly,Study Materials & Books,Does Not Save,1,1,1,0,1,1,1,0,75.0,Intermediate
+STU0170,18-19,B.Tech,2nd Year,No,Occasionally,Food & Dining,Saves a Fixed Percentage,1,1,0,1,0,0,0,1,50.0,Intermediate
+STU0171,20-21,B.A,1st Year,Yes,Occasionally,Study Materials & Books,Saves Whatever is Left,1,1,1,0,1,0,0,0,50.0,Intermediate
+STU0172,20-21,B.A,2nd Year,No,Rarely,Travel & Commute,Saves Whatever is Left,1,1,1,1,1,1,1,0,87.5,Advanced
+STU0173,22-23,B.A,4th Year,Yes,Occasionally,Entertainment & Leisure,Saves Whatever is Left,1,1,1,0,1,1,1,1,87.5,Advanced
+STU0174,20-21,B.Sc Data Science,4th Year,Yes,Occasionally,Travel & Commute,Invests Regularly,1,1,1,1,1,0,1,1,87.5,Advanced
+STU0175,18-19,B.Com,1st Year,Yes,Occasionally,Shopping & Fashion,Invests Regularly,1,1,0,0,1,0,0,1,50.0,Intermediate
+STU0176,20-21,B.Sc Mathematics,1st Year,No,Occasionally,Food & Dining,Does Not Save,1,1,0,0,1,0,1,1,62.5,Intermediate
+STU0177,18-19,B.Sc Mathematics,2nd Year,No,Never,Entertainment & Leisure,Saves Whatever is Left,1,1,0,0,1,1,1,1,75.0,Intermediate
+STU0178,20-21,B.A,2nd Year,No,Rarely,Entertainment & Leisure,Does Not Save,1,1,0,0,0,0,1,0,37.5,Basic
+STU0179,20-21,B.Sc Mathematics,2nd Year,No,Rarely,Food & Dining,Saves Whatever is Left,1,1,0,0,0,0,0,1,37.5,Basic
+STU0180,22-23,B.B.A,3rd Year,No,Rarely,Food & Dining,Saves Whatever is Left,1,0,1,1,0,0,0,1,50.0,Intermediate
+STU0181,20-21,B.Sc Mathematics,4th Year,No,Occasionally,Food & Dining,Saves a Fixed Percentage,1,1,1,1,1,1,0,0,75.0,Intermediate
+STU0182,20-21,B.Sc Data Science,4th Year,Yes,Rarely,Entertainment & Leisure,Invests Regularly,1,1,1,0,1,0,1,1,75.0,Intermediate
+STU0183,20-21,B.Sc Data Science,3rd Year,Yes,Never,Food & Dining,Saves Whatever is Left,1,1,1,0,0,0,1,1,62.5,Intermediate
+STU0184,20-21,B.Sc Computer Science,2nd Year,No,Occasionally,Entertainment & Leisure,Does Not Save,1,1,0,0,1,1,1,1,75.0,Intermediate
+STU0185,20-21,B.Com,3rd Year,Yes,Occasionally,Travel & Commute,Saves Whatever is Left,1,1,1,0,1,1,1,1,87.5,Advanced
+STU0186,20-21,B.B.A,4th Year,Yes,Never,Shopping & Fashion,Saves a Fixed Percentage,1,1,1,1,0,1,1,1,87.5,Advanced
+STU0187,22-23,B.Tech,3rd Year,Yes,Regularly,Study Materials & Books,Saves Whatever is Left,1,1,1,0,1,1,1,0,75.0,Intermediate
+STU0188,20-21,B.Sc Data Science,2nd Year,No,Rarely,Study Materials & Books,Does Not Save,1,1,1,1,1,0,0,1,75.0,Intermediate
+STU0189,18-19,B.Sc Mathematics,1st Year,No,Rarely,Shopping & Fashion,Saves Whatever is Left,1,1,0,0,0,0,0,0,25.0,Basic
+STU0190,20-21,B.A,2nd Year,Yes,Occasionally,Study Materials & Books,Saves Whatever is Left,1,1,0,1,1,0,0,0,50.0,Intermediate
+STU0191,18-19,B.Tech,2nd Year,Yes,Rarely,Study Materials & Books,Does Not Save,1,1,0,1,0,0,1,1,62.5,Intermediate
+STU0192,20-21,B.Com,3rd Year,Yes,Rarely,Food & Dining,Invests Regularly,1,1,0,1,0,1,1,1,75.0,Intermediate
+STU0193,24+,B.B.A,4th Year,Yes,Occasionally,Food & Dining,Does Not Save,1,1,1,1,1,1,1,1,100.0,Advanced
+STU0194,18-19,B.Sc Computer Science,1st Year,No,Never,Entertainment & Leisure,Saves a Fixed Percentage,0,1,0,1,0,0,0,1,37.5,Basic
+STU0195,20-21,B.Com,1st Year,Yes,Rarely,Entertainment & Leisure,Invests Regularly,1,1,1,0,0,0,1,1,62.5,Intermediate
+STU0196,20-21,B.Sc Data Science,4th Year,Yes,Regularly,Travel & Commute,Saves a Fixed Percentage,1,1,0,1,1,0,0,0,50.0,Intermediate
+STU0197,18-19,B.Sc Computer Science,1st Year,Yes,Occasionally,Travel & Commute,Saves Whatever is Left,1,1,0,1,1,0,1,0,62.5,Intermediate
+STU0198,20-21,B.B.A,4th Year,No,Occasionally,Shopping & Fashion,Saves Whatever is Left,1,1,1,1,0,1,0,1,75.0,Intermediate
+STU0199,20-21,B.Sc Computer Science,4th Year,No,Never,Travel & Commute,Saves Whatever is Left,1,1,1,1,0,0,1,0,62.5,Intermediate
+STU0200,18-19,B.Sc Data Science,2nd Year,No,Never,Food & Dining,Does Not Save,1,1,1,0,1,0,0,1,62.5,Intermediate
+STU0201,20-21,B.Sc Data Science,2nd Year,Yes,Never,Travel & Commute,Saves Whatever is Left,1,1,1,0,1,0,0,1,62.5,Intermediate
+STU0202,22-23,B.Sc Data Science,4th Year,No,Never,Food & Dining,Saves Whatever is Left,1,1,1,0,1,1,0,1,75.0,Intermediate
+STU0203,20-21,B.A,3rd Year,Yes,Occasionally,Shopping & Fashion,Saves Whatever is Left,1,1,1,1,0,0,1,1,75.0,Intermediate
+STU0204,22-23,B.B.A,4th Year,Yes,Rarely,Study Materials & Books,Saves Whatever is Left,1,1,1,1,1,0,1,1,87.5,Advanced
+STU0205,20-21,B.A,4th Year,Yes,Occasionally,Study Materials & Books,Saves a Fixed Percentage,1,1,1,0,1,0,1,1,75.0,Intermediate
+STU0206,22-23,B.A,4th Year,No,Regularly,Shopping & Fashion,Saves Whatever is Left,1,1,1,1,1,0,0,1,75.0,Intermediate
+STU0207,18-19,B.Sc Computer Science,2nd Year,Yes,Occasionally,Travel & Commute,Invests Regularly,1,1,0,0,0,0,1,0,37.5,Basic
+STU0208,20-21,B.Sc Computer Science,2nd Year,No,Occasionally,Study Materials & Books,Saves a Fixed Percentage,1,1,0,0,1,0,1,0,50.0,Intermediate
+STU0209,20-21,B.A,3rd Year,No,Occasionally,Entertainment & Leisure,Saves a Fixed Percentage,1,1,1,0,1,0,1,1,75.0,Intermediate
+STU0210,18-19,B.Sc Data Science,1st Year,No,Never,Travel & Commute,Saves Whatever is Left,0,1,0,0,0,0,0,0,12.5,Basic
+STU0211,24+,B.Sc Computer Science,4th Year,No,Never,Entertainment & Leisure,Saves Whatever is Left,1,1,0,0,0,0,1,0,37.5,Basic
+STU0212,20-21,B.Sc Computer Science,2nd Year,Yes,Occasionally,Food & Dining,Saves a Fixed Percentage,1,1,0,0,1,1,1,0,62.5,Intermediate
+STU0213,20-21,B.B.A,2nd Year,No,Rarely,Travel & Commute,Does Not Save,1,0,1,0,1,0,0,0,37.5,Basic
+STU0214,18-19,B.Tech,1st Year,Yes,Occasionally,Study Materials & Books,Saves Whatever is Left,1,1,1,0,0,0,1,1,62.5,Intermediate
+STU0215,18-19,B.Sc Mathematics,2nd Year,No,Never,Food & Dining,Saves a Fixed Percentage,0,1,1,1,1,1,0,1,75.0,Intermediate
+STU0216,24+,B.Com,4th Year,Yes,Regularly,Entertainment & Leisure,Saves a Fixed Percentage,1,1,0,1,1,1,1,1,87.5,Advanced
+STU0217,20-21,B.Tech,3rd Year,Yes,Occasionally,Food & Dining,Saves Whatever is Left,1,1,0,1,1,1,1,0,75.0,Intermediate
+STU0218,20-21,B.Sc Computer Science,2nd Year,No,Never,Entertainment & Leisure,Saves a Fixed Percentage,1,1,1,0,0,0,1,0,50.0,Intermediate
+STU0219,20-21,B.Sc Computer Science,4th Year,No,Rarely,Shopping & Fashion,Invests Regularly,1,1,1,1,0,0,1,1,75.0,Intermediate
+STU0220,18-19,B.Sc Computer Science,1st Year,No,Occasionally,Shopping & Fashion,Saves Whatever is Left,1,1,0,0,0,0,1,0,37.5,Basic
+STU0221,18-19,B.Sc Mathematics,2nd Year,No,Never,Travel & Commute,Saves a Fixed Percentage,1,0,1,1,1,1,1,0,75.0,Intermediate
+STU0222,20-21,B.Sc Mathematics,3rd Year,No,Occasionally,Shopping & Fashion,Saves Whatever is Left,0,1,1,1,1,1,1,0,75.0,Intermediate
+STU0223,20-21,B.Sc Mathematics,4th Year,No,Rarely,Study Materials & Books,Saves Whatever is Left,1,1,0,0,0,0,1,1,50.0,Intermediate
+STU0224,24+,B.Com,4th Year,Yes,Occasionally,Study Materials & Books,Saves Whatever is Left,1,1,1,1,1,0,1,0,75.0,Intermediate
+STU0225,20-21,B.Com,3rd Year,Yes,Regularly,Entertainment & Leisure,Invests Regularly,1,1,0,0,0,0,1,1,50.0,Intermediate
+STU0226,24+,B.Com,4th Year,Yes,Rarely,Shopping & Fashion,Saves Whatever is Left,1,1,0,0,0,0,0,1,37.5,Basic
+STU0227,20-21,B.B.A,2nd Year,No,Never,Shopping & Fashion,Saves a Fixed Percentage,1,1,0,0,1,0,0,0,37.5,Basic
+STU0228,20-21,B.B.A,1st Year,Yes,Regularly,Entertainment & Leisure,Saves a Fixed Percentage,1,1,1,0,0,1,1,0,62.5,Intermediate
+STU0229,20-21,B.Sc Data Science,4th Year,Yes,Regularly,Food & Dining,Invests Regularly,1,1,0,1,1,1,1,1,87.5,Advanced
+STU0230,20-21,B.B.A,2nd Year,Yes,Regularly,Travel & Commute,Saves a Fixed Percentage,1,1,0,0,0,0,1,0,37.5,Basic
+STU0231,22-23,B.B.A,3rd Year,Yes,Rarely,Study Materials & Books,Saves a Fixed Percentage,1,1,1,0,0,0,1,1,62.5,Intermediate
+STU0232,20-21,B.Sc Data Science,3rd Year,No,Occasionally,Shopping & Fashion,Saves a Fixed Percentage,0,1,0,0,1,1,0,0,37.5,Basic
+STU0233,22-23,B.B.A,3rd Year,Yes,Regularly,Travel & Commute,Saves Whatever is Left,1,1,1,0,1,0,1,0,62.5,Intermediate
+STU0234,24+,B.Tech,4th Year,Yes,Occasionally,Entertainment & Leisure,Invests Regularly,1,1,1,1,1,1,1,0,87.5,Advanced
+STU0235,18-19,B.Tech,1st Year,Yes,Regularly,Shopping & Fashion,Saves a Fixed Percentage,1,1,0,1,1,1,0,1,75.0,Intermediate
+STU0236,20-21,B.Sc Data Science,4th Year,No,Rarely,Study Materials & Books,Saves a Fixed Percentage,1,1,1,1,0,1,1,1,87.5,Advanced
+STU0237,22-23,B.Sc Computer Science,3rd Year,Yes,Occasionally,Food & Dining,Saves Whatever is Left,1,1,0,1,1,1,1,0,75.0,Intermediate
+STU0238,24+,B.Sc Computer Science,4th Year,No,Rarely,Food & Dining,Does Not Save,1,1,1,0,0,0,0,0,37.5,Basic
+STU0239,18-19,B.Tech,2nd Year,No,Occasionally,Entertainment & Leisure,Saves Whatever is Left,1,1,1,0,1,0,1,1,75.0,Intermediate
+STU0240,20-21,B.B.A,2nd Year,No,Never,Shopping & Fashion,Does Not Save,1,1,1,0,0,1,1,0,62.5,Intermediate
+STU0241,18-19,B.Sc Computer Science,1st Year,No,Occasionally,Food & Dining,Does Not Save,0,1,0,0,0,0,1,1,37.5,Basic
+STU0242,22-23,B.B.A,4th Year,Yes,Occasionally,Study Materials & Books,Saves a Fixed Percentage,1,1,1,0,1,1,1,1,87.5,Advanced
+STU0243,20-21,B.Sc Mathematics,1st Year,No,Occasionally,Food & Dining,Does Not Save,1,1,1,1,1,1,0,1,87.5,Advanced
+STU0244,20-21,B.A,4th Year,No,Occasionally,Food & Dining,Does Not Save,1,1,1,1,1,0,1,0,75.0,Intermediate
+STU0245,20-21,B.Com,2nd Year,No,Occasionally,Food & Dining,Does Not Save,1,1,1,1,1,1,0,1,87.5,Advanced
+STU0246,20-21,B.Sc Data Science,2nd Year,No,Rarely,Study Materials & Books,Saves Whatever is Left,1,0,0,1,0,0,1,1,50.0,Intermediate
+STU0247,22-23,B.Tech,4th Year,No,Occasionally,Travel & Commute,Saves Whatever is Left,1,1,0,1,0,1,1,0,62.5,Intermediate
+STU0248,22-23,B.A,4th Year,No,Never,Food & Dining,Saves Whatever is Left,1,1,0,0,1,1,0,1,62.5,Intermediate
+STU0249,20-21,B.Tech,2nd Year,No,Never,Shopping & Fashion,Saves a Fixed Percentage,1,1,0,0,0,0,0,0,25.0,Basic
+STU0250,20-21,B.Sc Data Science,1st Year,No,Rarely,Study Materials & Books,Saves Whatever is Left,1,1,0,1,0,0,1,1,62.5,Intermediate
+STU0251,18-19,B.B.A,2nd Year,Yes,Occasionally,Food & Dining,Saves a Fixed Percentage,1,1,0,1,1,1,0,1,75.0,Intermediate
+STU0252,20-21,B.Sc Mathematics,1st Year,No,Occasionally,Shopping & Fashion,Saves Whatever is Left,1,0,0,0,0,0,0,0,12.5,Basic
+STU0253,24+,B.A,4th Year,No,Rarely,Food & Dining,Saves Whatever is Left,1,1,0,1,1,0,0,1,62.5,Intermediate
+STU0254,20-21,B.Sc Computer Science,4th Year,No,Never,Study Materials & Books,Saves Whatever is Left,1,1,1,1,1,0,1,0,75.0,Intermediate
+STU0255,18-19,B.Sc Data Science,1st Year,No,Regularly,Travel & Commute,Saves a Fixed Percentage,1,1,0,1,0,0,0,0,37.5,Basic
+STU0256,20-21,B.Tech,2nd Year,No,Never,Entertainment & Leisure,Saves Whatever is Left,1,1,0,1,0,0,0,0,37.5,Basic
+STU0257,20-21,B.Com,4th Year,Yes,Rarely,Entertainment & Leisure,Saves Whatever is Left,1,1,1,0,1,1,1,1,87.5,Advanced
+STU0258,22-23,B.Tech,3rd Year,Yes,Occasionally,Study Materials & Books,Invests Regularly,1,1,1,1,1,0,0,1,75.0,Intermediate
+STU0259,20-21,B.Tech,3rd Year,No,Never,Entertainment & Leisure,Saves a Fixed Percentage,1,1,1,0,1,0,1,1,75.0,Intermediate
+STU0260,18-19,B.Sc Computer Science,1st Year,No,Occasionally,Food & Dining,Does Not Save,1,0,0,0,0,0,1,0,25.0,Basic
+STU0261,22-23,B.B.A,4th Year,No,Occasionally,Entertainment & Leisure,Saves a Fixed Percentage,0,1,1,1,1,0,0,0,50.0,Intermediate
+STU0262,20-21,B.Sc Mathematics,2nd Year,No,Rarely,Shopping & Fashion,Does Not Save,1,1,0,1,1,0,1,1,75.0,Intermediate
+STU0263,20-21,B.Sc Mathematics,3rd Year,No,Rarely,Entertainment & Leisure,Saves Whatever is Left,1,1,1,1,1,0,0,0,62.5,Intermediate
+STU0264,22-23,B.Sc Data Science,3rd Year,Yes,Occasionally,Travel & Commute,Saves a Fixed Percentage,1,1,1,1,1,1,1,1,100.0,Advanced
+STU0265,24+,B.Sc Mathematics,4th Year,No,Rarely,Food & Dining,Saves Whatever is Left,0,1,0,1,0,0,1,0,37.5,Basic
+STU0266,22-23,B.B.A,3rd Year,No,Never,Food & Dining,Does Not Save,1,1,0,0,1,0,1,0,50.0,Intermediate
+STU0267,20-21,B.Sc Computer Science,1st Year,Yes,Regularly,Food & Dining,Saves a Fixed Percentage,1,1,0,1,1,0,0,0,50.0,Intermediate
+STU0268,18-19,B.Tech,2nd Year,No,Rarely,Study Materials & Books,Saves Whatever is Left,1,1,1,0,0,0,1,1,62.5,Intermediate
+STU0269,18-19,B.Com,1st Year,No,Never,Entertainment & Leisure,Saves a Fixed Percentage,1,1,0,0,0,0,1,0,37.5,Basic
+STU0270,18-19,B.A,1st Year,No,Rarely,Travel & Commute,Invests Regularly,1,1,0,0,0,1,1,0,50.0,Intermediate
+STU0271,20-21,B.Com,3rd Year,Yes,Regularly,Study Materials & Books,Saves Whatever is Left,1,1,1,1,1,0,1,0,75.0,Intermediate
+STU0272,18-19,B.Tech,2nd Year,Yes,Occasionally,Food & Dining,Saves a Fixed Percentage,1,1,1,0,1,1,0,0,62.5,Intermediate
+STU0273,18-19,B.Com,1st Year,Yes,Occasionally,Shopping & Fashion,Saves a Fixed Percentage,1,1,1,1,0,1,0,0,62.5,Intermediate
+STU0274,22-23,B.Tech,3rd Year,No,Rarely,Travel & Commute,Saves a Fixed Percentage,1,1,1,1,1,1,1,0,87.5,Advanced
+STU0275,20-21,B.Tech,3rd Year,No,Rarely,Food & Dining,Does Not Save,1,1,0,1,0,0,0,1,50.0,Intermediate
+STU0276,18-19,B.Tech,1st Year,No,Rarely,Travel & Commute,Saves Whatever is Left,1,1,0,0,1,1,1,0,62.5,Intermediate
+STU0277,20-21,B.Com,4th Year,No,Regularly,Travel & Commute,Invests Regularly,1,1,1,1,1,1,1,1,100.0,Advanced
+STU0278,20-21,B.Sc Mathematics,2nd Year,Yes,Rarely,Travel & Commute,Saves Whatever is Left,1,1,0,1,0,0,1,0,50.0,Intermediate
+STU0279,20-21,B.Sc Data Science,2nd Year,No,Occasionally,Entertainment & Leisure,Saves a Fixed Percentage,1,1,0,1,0,1,0,0,50.0,Intermediate
+STU0280,20-21,B.A,2nd Year,No,Occasionally,Study Materials & Books,Saves Whatever is Left,1,1,0,0,1,0,0,1,50.0,Intermediate
+STU0281,20-21,B.A,1st Year,No,Rarely,Entertainment & Leisure,Saves Whatever is Left,1,1,0,1,1,1,0,0,62.5,Intermediate
+STU0282,18-19,B.Tech,1st Year,No,Rarely,Travel & Commute,Saves a Fixed Percentage,1,1,0,0,1,1,0,1,62.5,Intermediate
+STU0283,20-21,B.Sc Data Science,2nd Year,No,Never,Study Materials & Books,Saves Whatever is Left,1,1,0,0,0,0,0,0,25.0,Basic
+STU0284,20-21,B.Sc Mathematics,4th Year,Yes,Regularly,Food & Dining,Saves a Fixed Percentage,1,1,1,0,1,1,1,1,87.5,Advanced
+STU0285,22-23,B.Sc Computer Science,4th Year,Yes,Occasionally,Shopping & Fashion,Invests Regularly,1,1,0,0,0,1,1,0,50.0,Intermediate
+STU0286,18-19,B.A,1st Year,No,Never,Travel & Commute,Saves Whatever is Left,1,1,0,0,0,0,0,0,25.0,Basic
+STU0287,22-23,B.Sc Mathematics,4th Year,No,Never,Shopping & Fashion,Saves Whatever is Left,1,1,0,0,1,1,0,0,50.0,Intermediate
+STU0288,20-21,B.B.A,3rd Year,Yes,Rarely,Shopping & Fashion,Saves a Fixed Percentage,1,1,1,1,1,1,0,1,87.5,Advanced
+STU0289,22-23,B.Com,3rd Year,Yes,Occasionally,Entertainment & Leisure,Saves Whatever is Left,1,1,0,0,1,0,1,1,62.5,Intermediate
+STU0290,22-23,B.A,3rd Year,No,Occasionally,Shopping & Fashion,Saves a Fixed Percentage,1,1,1,1,0,0,1,0,62.5,Intermediate
+STU0291,18-19,B.Tech,1st Year,Yes,Occasionally,Study Materials & Books,Saves a Fixed Percentage,1,1,0,0,0,1,1,1,62.5,Intermediate
+STU0292,22-23,B.A,3rd Year,No,Never,Shopping & Fashion,Saves a Fixed Percentage,1,1,1,0,1,0,0,0,50.0,Intermediate
+STU0293,20-21,B.A,2nd Year,Yes,Occasionally,Food & Dining,Saves a Fixed Percentage,1,1,1,1,0,0,1,1,75.0,Intermediate
+STU0294,22-23,B.Sc Data Science,3rd Year,No,Never,Food & Dining,Saves Whatever is Left,0,1,0,1,0,1,0,0,37.5,Basic
+STU0295,20-21,B.A,1st Year,No,Rarely,Entertainment & Leisure,Saves a Fixed Percentage,0,1,0,0,0,0,0,0,12.5,Basic
+STU0296,24+,B.Sc Mathematics,4th Year,No,Never,Shopping & Fashion,Invests Regularly,1,1,1,1,0,0,0,1,62.5,Intermediate
+STU0297,20-21,B.A,1st Year,No,Occasionally,Travel & Commute,Does Not Save,1,1,0,0,1,0,0,0,37.5,Basic
+STU0298,18-19,B.B.A,2nd Year,No,Rarely,Shopping & Fashion,Saves Whatever is Left,0,1,1,1,0,1,1,0,62.5,Intermediate
+STU0299,18-19,B.Sc Data Science,1st Year,Yes,Occasionally,Travel & Commute,Invests Regularly,1,1,0,0,1,1,0,0,50.0,Intermediate
+STU0300,22-23,B.Sc Data Science,4th Year,No,Never,Study Materials & Books,Saves Whatever is Left,1,1,0,0,1,1,1,1,75.0,Intermediate
+STU0301,18-19,B.A,1st Year,No,Rarely,Entertainment & Leisure,Saves a Fixed Percentage,0,1,1,1,0,0,1,0,50.0,Intermediate
+STU0302,22-23,B.Sc Mathematics,4th Year,No,Never,Travel & Commute,Saves a Fixed Percentage,1,0,0,0,0,0,1,0,25.0,Basic
+STU0303,18-19,B.B.A,1st Year,Yes,Never,Travel & Commute,Saves Whatever is Left,1,1,0,0,1,0,1,0,50.0,Intermediate
+STU0304,20-21,B.Sc Data Science,2nd Year,No,Never,Shopping & Fashion,Saves a Fixed Percentage,1,1,1,1,0,0,1,1,75.0,Intermediate
+STU0305,20-21,B.Sc Computer Science,2nd Year,No,Never,Entertainment & Leisure,Saves a Fixed Percentage,1,1,0,0,1,1,0,1,62.5,Intermediate
+STU0306,20-21,B.B.A,4th Year,Yes,Regularly,Shopping & Fashion,Saves a Fixed Percentage,1,1,1,0,1,1,0,0,62.5,Intermediate
+STU0307,20-21,B.B.A,4th Year,Yes,Never,Shopping & Fashion,Invests Regularly,1,1,1,0,1,1,1,1,87.5,Advanced
+STU0308,18-19,B.Sc Data Science,1st Year,No,Rarely,Shopping & Fashion,Does Not Save,0,1,0,1,0,0,1,0,37.5,Basic
+STU0309,18-19,B.Sc Mathematics,2nd Year,Yes,Regularly,Shopping & Fashion,Saves a Fixed Percentage,1,1,0,1,0,0,1,1,62.5,Intermediate
+STU0310,24+,B.A,4th Year,No,Never,Travel & Commute,Saves Whatever is Left,1,1,0,0,0,1,1,1,62.5,Intermediate
+STU0311,18-19,B.Com,1st Year,Yes,Regularly,Shopping & Fashion,Invests Regularly,1,1,1,0,0,0,0,1,50.0,Intermediate
+STU0312,20-21,B.Sc Computer Science,1st Year,No,Rarely,Shopping & Fashion,Does Not Save,1,1,0,1,0,0,1,1,62.5,Intermediate
+STU0313,20-21,B.Sc Mathematics,3rd Year,No,Occasionally,Entertainment & Leisure,Saves Whatever is Left,1,1,1,1,1,1,1,1,100.0,Advanced
+STU0314,18-19,B.Sc Data Science,2nd Year,No,Never,Study Materials & Books,Saves Whatever is Left,1,0,1,1,1,1,1,1,87.5,Advanced
+STU0315,24+,B.Com,4th Year,No,Occasionally,Food & Dining,Saves a Fixed Percentage,1,1,0,1,0,1,1,1,75.0,Intermediate
+STU0316,20-21,B.Sc Data Science,2nd Year,No,Rarely,Entertainment & Leisure,Saves Whatever is Left,1,1,1,0,0,0,0,0,37.5,Basic
+STU0317,20-21,B.Sc Computer Science,1st Year,No,Rarely,Travel & Commute,Saves Whatever is Left,1,1,0,1,0,0,1,1,62.5,Intermediate
+STU0318,22-23,B.Sc Mathematics,3rd Year,Yes,Rarely,Shopping & Fashion,Saves Whatever is Left,1,1,1,0,1,0,1,1,75.0,Intermediate
+STU0319,18-19,B.Com,1st Year,Yes,Regularly,Food & Dining,Saves a Fixed Percentage,1,1,1,0,1,0,0,1,62.5,Intermediate
+STU0320,22-23,B.Tech,4th Year,No,Never,Shopping & Fashion,Saves Whatever is Left,1,1,0,0,1,1,1,1,75.0,Intermediate
+STU0321,18-19,B.Sc Mathematics,2nd Year,No,Rarely,Shopping & Fashion,Saves Whatever is Left,1,1,0,0,0,0,0,0,25.0,Basic
+STU0322,22-23,B.Sc Computer Science,3rd Year,Yes,Occasionally,Food & Dining,Saves Whatever is Left,0,1,1,0,0,1,1,1,62.5,Intermediate
+STU0323,18-19,B.Sc Data Science,2nd Year,No,Never,Shopping & Fashion,Saves Whatever is Left,1,1,1,0,0,0,0,0,37.5,Basic
+STU0324,18-19,B.Tech,1st Year,No,Rarely,Food & Dining,Saves Whatever is Left,1,1,0,1,0,1,0,0,50.0,Intermediate
+STU0325,22-23,B.Sc Mathematics,3rd Year,Yes,Occasionally,Travel & Commute,Saves Whatever is Left,1,1,0,0,1,0,1,1,62.5,Intermediate
+STU0326,24+,B.A,4th Year,Yes,Occasionally,Shopping & Fashion,Saves Whatever is Left,1,1,1,1,0,1,1,1,87.5,Advanced
+STU0327,20-21,B.B.A,3rd Year,Yes,Occasionally,Entertainment & Leisure,Saves a Fixed Percentage,0,1,1,0,0,1,1,1,62.5,Intermediate
+STU0328,22-23,B.Com,4th Year,No,Never,Entertainment & Leisure,Saves Whatever is Left,1,1,1,1,1,0,1,0,75.0,Intermediate
+STU0329,18-19,B.A,2nd Year,Yes,Regularly,Entertainment & Leisure,Saves a Fixed Percentage,1,1,1,0,1,0,1,1,75.0,Intermediate
+STU0330,20-21,B.Sc Mathematics,4th Year,No,Occasionally,Entertainment & Leisure,Saves a Fixed Percentage,1,1,0,1,0,1,0,1,62.5,Intermediate
+STU0331,22-23,B.Com,4th Year,No,Rarely,Shopping & Fashion,Saves Whatever is Left,1,1,0,0,0,0,1,1,50.0,Intermediate
+STU0332,22-23,B.Sc Computer Science,3rd Year,No,Occasionally,Entertainment & Leisure,Does Not Save,1,1,0,0,0,0,1,1,50.0,Intermediate
+STU0333,24+,B.Sc Data Science,4th Year,No,Rarely,Shopping & Fashion,Saves Whatever is Left,1,1,1,1,0,0,1,1,75.0,Intermediate
+STU0334,18-19,B.A,2nd Year,Yes,Occasionally,Entertainment & Leisure,Does Not Save,1,1,0,1,0,1,1,1,75.0,Intermediate
+STU0335,22-23,B.Sc Computer Science,3rd Year,No,Never,Travel & Commute,Saves Whatever is Left,1,1,1,0,1,0,1,0,62.5,Intermediate
+STU0336,20-21,B.A,2nd Year,Yes,Rarely,Travel & Commute,Saves a Fixed Percentage,1,1,1,1,1,0,1,1,87.5,Advanced
+STU0337,18-19,B.Tech,1st Year,No,Never,Entertainment & Leisure,Saves Whatever is Left,1,1,1,1,0,0,1,0,62.5,Intermediate
+STU0338,20-21,B.Tech,3rd Year,Yes,Occasionally,Shopping & Fashion,Saves Whatever is Left,1,1,1,1,0,1,1,0,75.0,Intermediate
+STU0339,18-19,B.B.A,1st Year,Yes,Regularly,Food & Dining,Saves a Fixed Percentage,1,1,1,1,1,1,0,1,87.5,Advanced
+STU0340,20-21,B.Tech,3rd Year,No,Rarely,Shopping & Fashion,Invests Regularly,1,1,0,1,1,0,0,1,62.5,Intermediate
+STU0341,20-21,B.Sc Mathematics,2nd Year,Yes,Regularly,Entertainment & Leisure,Invests Regularly,1,0,0,1,1,1,1,1,75.0,Intermediate
+STU0342,20-21,B.Tech,2nd Year,No,Never,Food & Dining,Saves a Fixed Percentage,0,1,0,0,1,0,0,1,37.5,Basic
+STU0343,20-21,B.Sc Mathematics,3rd Year,No,Never,Shopping & Fashion,Invests Regularly,1,1,0,0,0,1,1,1,62.5,Intermediate
+STU0344,20-21,B.Com,2nd Year,Yes,Regularly,Travel & Commute,Saves a Fixed Percentage,1,1,0,1,1,0,0,1,62.5,Intermediate
+STU0345,18-19,B.Sc Computer Science,2nd Year,Yes,Regularly,Shopping & Fashion,Invests Regularly,1,1,1,1,0,0,0,1,62.5,Intermediate
+STU0346,20-21,B.B.A,3rd Year,No,Rarely,Food & Dining,Saves Whatever is Left,1,1,0,0,0,1,0,0,37.5,Basic
+STU0347,18-19,B.A,1st Year,No,Regularly,Study Materials & Books,Does Not Save,0,0,1,0,0,1,1,0,37.5,Basic
+STU0348,20-21,B.B.A,3rd Year,Yes,Rarely,Shopping & Fashion,Invests Regularly,1,1,1,1,1,0,1,0,75.0,Intermediate
+STU0349,22-23,B.Sc Computer Science,4th Year,No,Occasionally,Food & Dining,Does Not Save,1,1,0,0,0,1,1,0,50.0,Intermediate
+STU0350,20-21,B.Sc Data Science,1st Year,No,Occasionally,Shopping & Fashion,Saves a Fixed Percentage,1,1,0,0,0,0,1,0,37.5,Basic
+STU0351,18-19,B.Sc Mathematics,2nd Year,No,Never,Shopping & Fashion,Does Not Save,1,1,1,1,0,0,0,1,62.5,Intermediate
+STU0352,20-21,B.Sc Mathematics,3rd Year,No,Never,Travel & Commute,Saves Whatever is Left,0,1,1,0,1,0,1,1,62.5,Intermediate
+STU0353,22-23,B.A,3rd Year,No,Rarely,Food & Dining,Saves Whatever is Left,1,1,1,1,1,1,1,0,87.5,Advanced
+STU0354,18-19,B.Sc Data Science,1st Year,No,Rarely,Entertainment & Leisure,Does Not Save,1,1,0,0,0,0,0,0,25.0,Basic
+STU0355,20-21,B.Com,3rd Year,No,Never,Food & Dining,Does Not Save,1,1,1,0,1,0,1,1,75.0,Intermediate
+STU0356,18-19,B.Sc Data Science,1st Year,No,Regularly,Study Materials & Books,Saves Whatever is Left,1,1,0,0,0,1,0,0,37.5,Basic
+STU0357,22-23,B.A,4th Year,No,Never,Study Materials & Books,Saves Whatever is Left,1,1,1,1,1,1,0,0,75.0,Intermediate
+STU0358,18-19,B.B.A,1st Year,Yes,Regularly,Entertainment & Leisure,Saves Whatever is Left,1,1,0,0,1,1,1,0,62.5,Intermediate
+STU0359,24+,B.Com,4th Year,Yes,Rarely,Study Materials & Books,Saves Whatever is Left,0,1,1,0,0,1,1,1,62.5,Intermediate
+STU0360,20-21,B.Sc Mathematics,3rd Year,No,Rarely,Entertainment & Leisure,Saves a Fixed Percentage,1,1,0,1,0,1,1,1,75.0,Intermediate
+STU0361,20-21,B.Sc Data Science,2nd Year,No,Never,Food & Dining,Saves a Fixed Percentage,1,1,0,1,0,1,1,0,62.5,Intermediate
+STU0362,20-21,B.Com,4th Year,Yes,Regularly,Food & Dining,Saves a Fixed Percentage,1,1,0,1,1,1,1,0,75.0,Intermediate
+STU0363,24+,B.Sc Mathematics,4th Year,Yes,Occasionally,Travel & Commute,Invests Regularly,1,1,0,1,1,0,1,0,62.5,Intermediate
+STU0364,18-19,B.Tech,1st Year,Yes,Never,Entertainment & Leisure,Saves a Fixed Percentage,0,1,1,1,0,0,1,0,50.0,Intermediate
+STU0365,22-23,B.Sc Data Science,3rd Year,No,Never,Shopping & Fashion,Saves Whatever is Left,1,1,1,1,1,1,1,1,100.0,Advanced
+STU0366,20-21,B.Sc Data Science,2nd Year,Yes,Occasionally,Study Materials & Books,Saves Whatever is Left,1,1,0,1,1,1,1,1,87.5,Advanced
+STU0367,18-19,B.Tech,1st Year,Yes,Occasionally,Shopping & Fashion,Saves Whatever is Left,1,1,0,0,0,0,1,1,50.0,Intermediate
+STU0368,24+,B.Sc Data Science,4th Year,Yes,Rarely,Shopping & Fashion,Invests Regularly,1,1,1,1,1,0,1,1,87.5,Advanced
+STU0369,20-21,B.Com,3rd Year,Yes,Regularly,Entertainment & Leisure,Saves Whatever is Left,1,1,0,1,1,1,1,1,87.5,Advanced
+STU0370,20-21,B.A,2nd Year,Yes,Occasionally,Study Materials & Books,Saves a Fixed Percentage,1,1,1,0,0,0,1,1,62.5,Intermediate
+STU0371,18-19,B.B.A,1st Year,Yes,Regularly,Study Materials & Books,Saves a Fixed Percentage,1,1,0,0,1,0,1,0,50.0,Intermediate
+STU0372,22-23,B.Sc Data Science,4th Year,No,Rarely,Food & Dining,Saves Whatever is Left,1,1,0,1,1,0,0,1,62.5,Intermediate
+STU0373,20-21,B.Sc Computer Science,2nd Year,No,Rarely,Shopping & Fashion,Saves Whatever is Left,1,1,1,1,0,0,0,1,62.5,Intermediate
+STU0374,20-21,B.Sc Mathematics,3rd Year,No,Regularly,Food & Dining,Invests Regularly,0,0,0,0,1,0,0,1,25.0,Basic
+STU0375,20-21,B.Tech,3rd Year,No,Rarely,Travel & Commute,Saves Whatever is Left,0,1,0,1,1,1,1,0,62.5,Intermediate
+STU0376,22-23,B.A,4th Year,No,Rarely,Food & Dining,Invests Regularly,1,0,0,1,1,1,0,1,62.5,Intermediate
+STU0377,22-23,B.Sc Computer Science,4th Year,No,Rarely,Study Materials & Books,Does Not Save,1,1,0,1,1,0,1,1,75.0,Intermediate
+STU0378,20-21,B.Sc Mathematics,2nd Year,No,Rarely,Shopping & Fashion,Does Not Save,1,1,1,0,0,0,1,0,50.0,Intermediate
+STU0379,20-21,B.Sc Mathematics,3rd Year,No,Rarely,Entertainment & Leisure,Saves Whatever is Left,1,1,1,0,0,0,0,0,37.5,Basic
+STU0380,18-19,B.A,1st Year,No,Rarely,Shopping & Fashion,Saves Whatever is Left,0,1,1,0,0,0,1,0,37.5,Basic
+STU0381,20-21,B.Com,1st Year,Yes,Regularly,Travel & Commute,Saves Whatever is Left,1,1,0,0,0,1,1,0,50.0,Intermediate
+STU0382,20-21,B.A,3rd Year,No,Occasionally,Shopping & Fashion,Saves Whatever is Left,1,1,1,0,1,0,0,1,62.5,Intermediate
+STU0383,18-19,B.Sc Mathematics,1st Year,No,Occasionally,Shopping & Fashion,Does Not Save,0,1,0,0,0,0,1,0,25.0,Basic
+STU0384,20-21,B.Tech,3rd Year,No,Rarely,Study Materials & Books,Saves Whatever is Left,1,1,1,1,1,0,0,0,62.5,Intermediate
+STU0385,20-21,B.Com,2nd Year,No,Rarely,Study Materials & Books,Invests Regularly,1,0,0,0,0,0,1,0,25.0,Basic
+STU0386,20-21,B.A,3rd Year,No,Rarely,Travel & Commute,Saves Whatever is Left,1,1,0,0,0,1,0,0,37.5,Basic
+STU0387,20-21,B.Com,1st Year,Yes,Occasionally,Shopping & Fashion,Saves Whatever is Left,1,1,0,0,1,0,1,1,62.5,Intermediate
+STU0388,20-21,B.Tech,2nd Year,No,Occasionally,Entertainment & Leisure,Saves Whatever is Left,1,1,0,1,0,0,0,0,37.5,Basic
+STU0389,24+,B.Com,4th Year,No,Never,Study Materials & Books,Saves a Fixed Percentage,1,1,1,1,0,0,1,1,75.0,Intermediate
+STU0390,20-21,B.B.A,3rd Year,Yes,Occasionally,Shopping & Fashion,Saves a Fixed Percentage,1,1,1,0,1,1,1,1,87.5,Advanced
+STU0391,18-19,B.Tech,1st Year,No,Regularly,Entertainment & Leisure,Saves Whatever is Left,1,1,0,1,0,0,1,0,50.0,Intermediate
+STU0392,20-21,B.Sc Computer Science,3rd Year,No,Never,Study Materials & Books,Invests Regularly,1,0,1,1,0,0,0,0,37.5,Basic
+STU0393,20-21,B.Sc Data Science,3rd Year,No,Occasionally,Travel & Commute,Saves Whatever is Left,1,1,0,1,0,0,1,1,62.5,Intermediate
+STU0394,18-19,B.A,1st Year,No,Never,Shopping & Fashion,Does Not Save,1,1,1,0,0,0,0,1,50.0,Intermediate
+STU0395,22-23,B.Sc Computer Science,4th Year,Yes,Regularly,Food & Dining,Does Not Save,1,1,1,0,1,0,1,1,75.0,Intermediate
+STU0396,24+,B.Sc Computer Science,4th Year,No,Rarely,Travel & Commute,Does Not Save,1,1,1,1,0,1,1,0,75.0,Intermediate
+STU0397,20-21,B.Sc Data Science,2nd Year,Yes,Regularly,Travel & Commute,Saves Whatever is Left,1,1,1,1,1,0,1,1,87.5,Advanced
+STU0398,22-23,B.B.A,3rd Year,No,Never,Travel & Commute,Does Not Save,1,0,0,1,0,0,0,0,25.0,Basic
+STU0399,20-21,B.Sc Mathematics,4th Year,No,Never,Food & Dining,Saves Whatever is Left,1,1,0,1,1,0,1,0,62.5,Intermediate
+STU0400,18-19,B.Sc Data Science,2nd Year,No,Rarely,Travel & Commute,Does Not Save,1,1,0,0,0,1,1,1,62.5,Intermediate
+STU0401,20-21,B.A,1st Year,Yes,Occasionally,Entertainment & Leisure,Saves Whatever is Left,1,0,0,0,1,1,1,1,62.5,Intermediate
+STU0402,20-21,B.Sc Mathematics,2nd Year,No,Rarely,Entertainment & Leisure,Does Not Save,1,1,1,0,0,0,1,1,62.5,Intermediate
+STU0403,20-21,B.Com,2nd Year,Yes,Occasionally,Travel & Commute,Saves Whatever is Left,1,1,1,1,1,0,1,1,87.5,Advanced
+STU0404,24+,B.Tech,4th Year,No,Never,Food & Dining,Saves a Fixed Percentage,1,1,0,1,1,1,1,1,87.5,Advanced
+STU0405,20-21,B.B.A,4th Year,No,Never,Shopping & Fashion,Does Not Save,1,1,1,1,1,0,1,0,75.0,Intermediate
+STU0406,20-21,B.Sc Data Science,3rd Year,Yes,Regularly,Shopping & Fashion,Saves a Fixed Percentage,1,1,0,1,1,1,0,0,62.5,Intermediate
+STU0407,18-19,B.Sc Mathematics,2nd Year,No,Never,Travel & Commute,Saves Whatever is Left,1,1,1,0,0,1,1,0,62.5,Intermediate
+STU0408,20-21,B.A,2nd Year,No,Rarely,Study Materials & Books,Does Not Save,1,1,0,0,0,0,1,0,37.5,Basic
+STU0409,20-21,B.Sc Computer Science,1st Year,No,Never,Shopping & Fashion,Saves Whatever is Left,1,1,1,0,1,0,1,0,62.5,Intermediate
+STU0410,18-19,B.Tech,1st Year,No,Rarely,Shopping & Fashion,Saves Whatever is Left,1,1,1,0,0,0,1,0,50.0,Intermediate
+STU0411,20-21,B.Sc Data Science,3rd Year,No,Rarely,Entertainment & Leisure,Saves a Fixed Percentage,1,1,0,1,0,0,1,0,50.0,Intermediate
+STU0412,18-19,B.Sc Data Science,1st Year,Yes,Rarely,Study Materials & Books,Saves Whatever is Left,1,1,1,0,1,0,1,0,62.5,Intermediate
+STU0413,20-21,B.Tech,2nd Year,No,Occasionally,Shopping & Fashion,Saves Whatever is Left,1,0,0,0,1,0,1,0,37.5,Basic
+STU0414,20-21,B.Tech,3rd Year,No,Occasionally,Food & Dining,Does Not Save,1,0,0,0,1,0,1,1,50.0,Intermediate
+STU0415,20-21,B.Sc Data Science,2nd Year,Yes,Occasionally,Food & Dining,Saves a Fixed Percentage,1,1,1,0,1,1,0,0,62.5,Intermediate
+STU0416,18-19,B.Com,2nd Year,Yes,Regularly,Shopping & Fashion,Saves a Fixed Percentage,1,1,1,1,1,0,0,1,75.0,Intermediate
+STU0417,22-23,B.B.A,4th Year,Yes,Rarely,Shopping & Fashion,Invests Regularly,1,1,0,1,1,1,0,1,75.0,Intermediate
+STU0418,20-21,B.Sc Computer Science,3rd Year,No,Never,Shopping & Fashion,Does Not Save,1,1,0,1,1,1,1,1,87.5,Advanced
+STU0419,20-21,B.Tech,1st Year,Yes,Rarely,Entertainment & Leisure,Saves a Fixed Percentage,1,1,0,1,1,0,1,1,75.0,Intermediate
+STU0420,20-21,B.Sc Computer Science,1st Year,No,Occasionally,Study Materials & Books,Saves Whatever is Left,1,1,1,0,0,0,0,0,37.5,Basic
+STU0421,20-21,B.Com,1st Year,Yes,Occasionally,Shopping & Fashion,Saves Whatever is Left,1,1,1,1,0,1,1,1,87.5,Advanced
+STU0422,20-21,B.Sc Computer Science,3rd Year,Yes,Regularly,Entertainment & Leisure,Invests Regularly,1,1,0,1,1,1,1,1,87.5,Advanced
+STU0423,20-21,B.B.A,2nd Year,No,Rarely,Study Materials & Books,Invests Regularly,1,1,1,1,0,0,1,0,62.5,Intermediate
+STU0424,20-21,B.Com,2nd Year,No,Regularly,Shopping & Fashion,Does Not Save,1,0,1,0,1,1,1,0,62.5,Intermediate
+STU0425,20-21,B.Sc Mathematics,4th Year,Yes,Rarely,Entertainment & Leisure,Saves a Fixed Percentage,1,1,1,1,1,0,1,0,75.0,Intermediate
+STU0426,20-21,B.Sc Mathematics,3rd Year,No,Occasionally,Study Materials & Books,Saves Whatever is Left,1,1,1,1,0,0,1,0,62.5,Intermediate
+STU0427,18-19,B.Tech,2nd Year,Yes,Occasionally,Food & Dining,Saves a Fixed Percentage,1,0,1,0,1,0,0,0,37.5,Basic
+STU0428,18-19,B.Com,1st Year,Yes,Occasionally,Shopping & Fashion,Saves Whatever is Left,1,1,0,1,1,1,1,0,75.0,Intermediate
+STU0429,20-21,B.Tech,1st Year,Yes,Rarely,Entertainment & Leisure,Saves a Fixed Percentage,1,1,0,1,1,1,0,0,62.5,Intermediate
+STU0430,20-21,B.Sc Data Science,3rd Year,Yes,Rarely,Shopping & Fashion,Invests Regularly,1,1,1,1,0,1,1,1,87.5,Advanced
+STU0431,18-19,B.Tech,1st Year,No,Rarely,Entertainment & Leisure,Saves a Fixed Percentage,1,1,0,0,1,0,0,0,37.5,Basic
+STU0432,20-21,B.Sc Computer Science,3rd Year,No,Occasionally,Food & Dining,Does Not Save,1,1,0,0,1,1,0,1,62.5,Intermediate
+STU0433,22-23,B.Sc Mathematics,4th Year,Yes,Regularly,Shopping & Fashion,Invests Regularly,1,1,1,1,1,1,1,1,100.0,Advanced
+STU0434,18-19,B.Sc Computer Science,2nd Year,No,Rarely,Food & Dining,Saves Whatever is Left,1,1,0,1,0,1,0,0,50.0,Intermediate
+STU0435,20-21,B.Sc Data Science,1st Year,Yes,Regularly,Shopping & Fashion,Saves a Fixed Percentage,1,1,0,0,0,1,1,0,50.0,Intermediate
+STU0436,24+,B.Sc Computer Science,4th Year,No,Never,Entertainment & Leisure,Does Not Save,1,1,1,1,1,1,0,1,87.5,Advanced
+STU0437,22-23,B.Tech,3rd Year,No,Rarely,Study Materials & Books,Invests Regularly,1,1,1,0,0,0,0,1,50.0,Intermediate
+STU0438,18-19,B.Sc Computer Science,1st Year,No,Rarely,Food & Dining,Saves Whatever is Left,1,1,0,0,0,0,0,1,37.5,Basic
+STU0439,18-19,B.Tech,2nd Year,Yes,Regularly,Study Materials & Books,Saves a Fixed Percentage,1,1,0,1,1,1,1,0,75.0,Intermediate
+STU0440,24+,B.Com,4th Year,Yes,Rarely,Food & Dining,Saves Whatever is Left,1,1,1,0,1,1,1,1,87.5,Advanced
+STU0441,18-19,B.Sc Mathematics,1st Year,No,Occasionally,Travel & Commute,Saves a Fixed Percentage,0,1,0,1,0,1,1,0,50.0,Intermediate
+STU0442,22-23,B.Com,4th Year,Yes,Occasionally,Study Materials & Books,Invests Regularly,1,1,1,1,0,0,0,1,62.5,Intermediate
+STU0443,18-19,B.B.A,1st Year,Yes,Occasionally,Shopping & Fashion,Saves a Fixed Percentage,1,1,0,1,1,1,1,0,75.0,Intermediate
+STU0444,22-23,B.Tech,4th Year,No,Never,Travel & Commute,Saves Whatever is Left,1,1,1,0,1,0,0,1,62.5,Intermediate
+STU0445,20-21,B.Sc Mathematics,3rd Year,No,Never,Entertainment & Leisure,Does Not Save,1,1,0,1,1,0,1,1,75.0,Intermediate
+STU0446,20-21,B.A,1st Year,Yes,Rarely,Shopping & Fashion,Saves a Fixed Percentage,1,1,1,1,1,0,1,0,75.0,Intermediate
+STU0447,20-21,B.Sc Data Science,3rd Year,No,Never,Study Materials & Books,Does Not Save,1,1,1,0,1,0,0,0,50.0,Intermediate
+STU0448,24+,B.Sc Computer Science,4th Year,No,Occasionally,Shopping & Fashion,Does Not Save,1,1,1,1,1,0,1,1,87.5,Advanced
+STU0449,20-21,B.Sc Data Science,3rd Year,Yes,Occasionally,Study Materials & Books,Saves Whatever is Left,1,1,1,0,1,1,0,1,75.0,Intermediate
+STU0450,24+,B.Com,4th Year,No,Rarely,Shopping & Fashion,Saves a Fixed Percentage,1,1,0,0,1,1,0,0,50.0,Intermediate
+STU0451,24+,B.Sc Mathematics,4th Year,No,Occasionally,Travel & Commute,Saves a Fixed Percentage,1,1,1,1,0,0,0,1,62.5,Intermediate
+STU0452,22-23,B.Sc Mathematics,4th Year,No,Rarely,Study Materials & Books,Saves Whatever is Left,1,1,0,1,1,1,1,0,75.0,Intermediate
+STU0453,18-19,B.B.A,1st Year,Yes,Never,Food & Dining,Invests Regularly,1,1,0,0,1,0,0,1,50.0,Intermediate
+STU0454,20-21,B.Com,3rd Year,No,Occasionally,Shopping & Fashion,Saves a Fixed Percentage,1,1,0,1,0,0,1,1,62.5,Intermediate
+STU0455,20-21,B.Tech,3rd Year,No,Rarely,Travel & Commute,Does Not Save,1,1,0,1,0,1,0,1,62.5,Intermediate
+STU0456,20-21,B.Sc Computer Science,3rd Year,No,Never,Travel & Commute,Saves a Fixed Percentage,0,1,0,0,1,0,1,1,50.0,Intermediate
+STU0457,24+,B.Com,4th Year,Yes,Regularly,Study Materials & Books,Saves Whatever is Left,1,1,0,1,1,0,1,0,62.5,Intermediate
+STU0458,22-23,B.Com,3rd Year,Yes,Regularly,Travel & Commute,Saves Whatever is Left,1,1,1,0,1,0,1,1,75.0,Intermediate
+STU0459,20-21,B.Sc Mathematics,2nd Year,No,Rarely,Study Materials & Books,Saves a Fixed Percentage,0,1,1,1,0,0,0,0,37.5,Basic
+STU0460,18-19,B.Sc Mathematics,1st Year,No,Rarely,Travel & Commute,Saves Whatever is Left,1,1,0,0,0,0,1,1,50.0,Intermediate
+STU0461,20-21,B.Sc Data Science,4th Year,No,Rarely,Entertainment & Leisure,Saves a Fixed Percentage,1,1,1,1,0,0,0,0,50.0,Intermediate
+STU0462,24+,B.B.A,4th Year,Yes,Regularly,Food & Dining,Saves a Fixed Percentage,1,1,1,1,1,1,1,1,100.0,Advanced
+STU0463,18-19,B.Sc Data Science,2nd Year,No,Regularly,Shopping & Fashion,Does Not Save,1,1,1,0,1,1,1,1,87.5,Advanced
+STU0464,24+,B.B.A,4th Year,Yes,Rarely,Entertainment & Leisure,Saves Whatever is Left,1,1,0,0,1,0,1,1,62.5,Intermediate
+STU0465,20-21,B.Tech,2nd Year,Yes,Never,Entertainment & Leisure,Saves a Fixed Percentage,1,1,0,1,1,1,1,0,75.0,Intermediate
+STU0466,24+,B.Tech,4th Year,Yes,Occasionally,Shopping & Fashion,Saves a Fixed Percentage,1,1,1,1,1,1,0,1,87.5,Advanced
+STU0467,18-19,B.Tech,1st Year,Yes,Occasionally,Study Materials & Books,Invests Regularly,1,1,1,1,0,0,0,1,62.5,Intermediate
+STU0468,18-19,B.Sc Computer Science,1st Year,No,Rarely,Entertainment & Leisure,Saves a Fixed Percentage,1,1,1,0,0,0,1,0,50.0,Intermediate
+STU0469,22-23,B.A,3rd Year,No,Never,Travel & Commute,Does Not Save,0,1,0,0,1,0,0,0,25.0,Basic
+STU0470,18-19,B.Sc Computer Science,1st Year,No,Rarely,Travel & Commute,Saves a Fixed Percentage,0,1,0,0,1,0,0,0,25.0,Basic
+STU0471,20-21,B.Sc Data Science,3rd Year,Yes,Never,Travel & Commute,Invests Regularly,1,1,0,0,1,0,1,0,50.0,Intermediate
+STU0472,18-19,B.B.A,1st Year,No,Occasionally,Food & Dining,Does Not Save,1,0,1,0,0,0,0,0,25.0,Basic
+STU0473,22-23,B.B.A,4th Year,Yes,Regularly,Travel & Commute,Invests Regularly,1,1,1,1,1,1,0,0,75.0,Intermediate
+STU0474,20-21,B.Sc Computer Science,1st Year,No,Rarely,Travel & Commute,Does Not Save,0,1,0,0,1,1,1,0,50.0,Intermediate
+STU0475,22-23,B.Sc Computer Science,4th Year,No,Never,Entertainment & Leisure,Saves Whatever is Left,1,1,1,1,1,0,1,0,75.0,Intermediate
+STU0476,20-21,B.A,2nd Year,No,Never,Study Materials & Books,Saves Whatever is Left,1,1,0,1,1,0,1,0,62.5,Intermediate
+STU0477,20-21,B.Tech,2nd Year,No,Never,Entertainment & Leisure,Does Not Save,1,1,0,0,1,0,0,0,37.5,Basic
+STU0478,20-21,B.Sc Mathematics,2nd Year,No,Occasionally,Shopping & Fashion,Saves Whatever is Left,1,1,0,0,0,0,1,0,37.5,Basic
+STU0479,18-19,B.Sc Data Science,1st Year,No,Occasionally,Entertainment & Leisure,Saves Whatever is Left,1,1,0,1,0,0,1,0,50.0,Intermediate
+STU0480,18-19,B.Com,2nd Year,Yes,Occasionally,Shopping & Fashion,Saves a Fixed Percentage,1,1,0,1,1,1,1,1,87.5,Advanced
+STU0481,22-23,B.Tech,4th Year,No,Never,Travel & Commute,Does Not Save,0,1,0,0,1,1,1,1,62.5,Intermediate
+STU0482,18-19,B.Sc Mathematics,1st Year,No,Rarely,Travel & Commute,Does Not Save,1,1,0,0,0,1,0,1,50.0,Intermediate
+STU0483,22-23,B.Tech,4th Year,No,Occasionally,Study Materials & Books,Invests Regularly,1,1,1,0,0,1,1,0,62.5,Intermediate
+STU0484,20-21,B.Tech,3rd Year,No,Rarely,Food & Dining,Saves Whatever is Left,1,1,0,0,0,0,0,0,25.0,Basic
+STU0485,22-23,B.Com,4th Year,Yes,Occasionally,Entertainment & Leisure,Saves a Fixed Percentage,1,1,1,1,1,0,1,1,87.5,Advanced
+STU0486,20-21,B.A,4th Year,No,Never,Food & Dining,Does Not Save,1,1,1,0,0,1,1,0,62.5,Intermediate
+STU0487,20-21,B.Tech,4th Year,Yes,Occasionally,Travel & Commute,Saves Whatever is Left,1,1,0,0,1,1,1,0,62.5,Intermediate
+STU0488,18-19,B.Sc Computer Science,1st Year,No,Rarely,Shopping & Fashion,Saves a Fixed Percentage,1,1,0,0,0,0,0,0,25.0,Basic
+STU0489,20-21,B.A,1st Year,Yes,Never,Shopping & Fashion,Saves Whatever is Left,0,1,0,0,0,0,0,0,12.5,Basic
+STU0490,20-21,B.Sc Data Science,2nd Year,Yes,Occasionally,Food & Dining,Invests Regularly,1,1,0,0,0,1,0,1,50.0,Intermediate
+STU0491,20-21,B.Sc Mathematics,2nd Year,No,Rarely,Travel & Commute,Saves Whatever is Left,1,1,0,0,1,1,1,0,62.5,Intermediate
+STU0492,20-21,B.Sc Computer Science,4th Year,Yes,Regularly,Shopping & Fashion,Saves a Fixed Percentage,1,1,0,0,1,0,0,1,50.0,Intermediate
+STU0493,18-19,B.Sc Data Science,1st Year,Yes,Rarely,Shopping & Fashion,Saves Whatever is Left,0,1,1,0,0,0,0,1,37.5,Basic
+STU0494,22-23,B.Com,4th Year,No,Never,Travel & Commute,Saves Whatever is Left,1,1,0,1,1,0,0,0,50.0,Intermediate
+STU0495,24+,B.A,4th Year,No,Occasionally,Shopping & Fashion,Saves Whatever is Left,1,1,0,0,1,0,1,0,50.0,Intermediate
+STU0496,18-19,B.Com,2nd Year,Yes,Occasionally,Shopping & Fashion,Saves a Fixed Percentage,1,1,0,1,0,0,1,0,50.0,Intermediate
+STU0497,18-19,B.Sc Data Science,1st Year,Yes,Rarely,Shopping & Fashion,Saves a Fixed Percentage,1,1,0,0,1,0,1,1,62.5,Intermediate
+STU0498,20-21,B.A,2nd Year,No,Never,Study Materials & Books,Saves a Fixed Percentage,1,1,0,1,1,0,1,0,62.5,Intermediate
+STU0499,20-21,B.Sc Data Science,2nd Year,No,Rarely,Entertainment & Leisure,Saves a Fixed Percentage,1,1,1,1,1,1,0,1,87.5,Advanced
+STU0500,24+,B.A,4th Year,No,Never,Shopping & Fashion,Saves Whatever is Left,1,1,1,0,0,1,1,0,62.5,Intermediate
+STU0501,20-21,B.Sc Data Science,2nd Year,No,Never,Entertainment & Leisure,Does Not Save,1,0,1,0,0,0,1,0,37.5,Basic
+STU0502,20-21,B.Com,3rd Year,Yes,Regularly,Shopping & Fashion,Does Not Save,1,1,0,1,0,1,1,1,75.0,Intermediate
+STU0503,18-19,B.Com,1st Year,Yes,Occasionally,Study Materials & Books,Saves a Fixed Percentage,1,1,0,0,1,0,0,0,37.5,Basic
+STU0504,20-21,B.Tech,4th Year,No,Occasionally,Food & Dining,Saves Whatever is Left,1,1,0,1,1,1,1,0,75.0,Intermediate
+STU0505,20-21,B.Sc Mathematics,2nd Year,Yes,Regularly,Shopping & Fashion,Invests Regularly,1,1,1,0,0,1,0,1,62.5,Intermediate
+STU0506,24+,B.Sc Computer Science,4th Year,No,Rarely,Shopping & Fashion,Saves a Fixed Percentage,1,1,1,1,0,1,0,0,62.5,Intermediate
+STU0507,24+,B.Com,4th Year,Yes,Never,Travel & Commute,Saves Whatever is Left,1,1,1,1,0,1,1,1,87.5,Advanced
+STU0508,20-21,B.Sc Computer Science,3rd Year,Yes,Never,Entertainment & Leisure,Saves a Fixed Percentage,0,1,1,0,1,0,1,1,62.5,Intermediate
+STU0509,18-19,B.B.A,1st Year,Yes,Occasionally,Study Materials & Books,Saves a Fixed Percentage,1,1,1,0,1,1,1,1,87.5,Advanced
+STU0510,18-19,B.Tech,2nd Year,Yes,Occasionally,Travel & Commute,Saves Whatever is Left,0,1,1,0,0,1,1,1,62.5,Intermediate
+STU0511,18-19,B.Com,2nd Year,Yes,Never,Study Materials & Books,Invests Regularly,1,1,1,1,1,0,1,0,75.0,Intermediate
+STU0512,22-23,B.Com,3rd Year,Yes,Occasionally,Travel & Commute,Saves Whatever is Left,1,1,1,1,1,0,1,1,87.5,Advanced
+STU0513,20-21,B.Tech,3rd Year,Yes,Regularly,Travel & Commute,Saves Whatever is Left,1,1,0,0,1,0,1,1,62.5,Intermediate
+STU0514,20-21,B.B.A,3rd Year,No,Rarely,Food & Dining,Saves Whatever is Left,1,1,0,1,1,1,1,0,75.0,Intermediate
+STU0515,20-21,B.Sc Mathematics,1st Year,Yes,Regularly,Food & Dining,Saves a Fixed Percentage,1,1,0,1,0,0,1,1,62.5,Intermediate
+STU0516,22-23,B.Sc Data Science,4th Year,No,Never,Travel & Commute,Saves Whatever is Left,1,1,1,1,0,1,1,0,75.0,Intermediate
+STU0517,20-21,B.B.A,3rd Year,Yes,Occasionally,Shopping & Fashion,Saves a Fixed Percentage,1,1,1,1,0,1,0,1,75.0,Intermediate
+STU0518,18-19,B.Tech,2nd Year,No,Never,Shopping & Fashion,Invests Regularly,1,1,0,0,0,0,1,0,37.5,Basic
+STU0519,22-23,B.A,3rd Year,No,Never,Study Materials & Books,Saves Whatever is Left,1,0,0,0,1,0,1,0,37.5,Basic
+STU0520,22-23,B.B.A,3rd Year,No,Rarely,Travel & Commute,Does Not Save,0,1,1,1,1,1,1,1,87.5,Advanced
+STU0521,20-21,B.Tech,4th Year,No,Regularly,Travel & Commute,Saves a Fixed Percentage,1,1,1,0,1,1,1,0,75.0,Intermediate
+STU0522,20-21,B.Sc Data Science,4th Year,No,Rarely,Food & Dining,Does Not Save,1,1,1,1,1,0,1,1,87.5,Advanced
+STU0523,22-23,B.Sc Data Science,4th Year,No,Never,Study Materials & Books,Does Not Save,1,1,1,0,1,0,1,1,75.0,Intermediate
+STU0524,20-21,B.B.A,1st Year,No,Never,Food & Dining,Saves a Fixed Percentage,1,1,0,1,0,0,0,0,37.5,Basic
+STU0525,22-23,B.B.A,3rd Year,Yes,Occasionally,Study Materials & Books,Saves a Fixed Percentage,1,1,1,0,1,1,1,1,87.5,Advanced
+STU0526,18-19,B.Sc Computer Science,2nd Year,No,Never,Entertainment & Leisure,Saves Whatever is Left,1,1,0,0,0,1,0,0,37.5,Basic
+STU0527,20-21,B.Com,3rd Year,Yes,Occasionally,Food & Dining,Saves Whatever is Left,1,1,1,0,1,1,1,0,75.0,Intermediate
+STU0528,20-21,B.Com,2nd Year,Yes,Rarely,Food & Dining,Invests Regularly,1,1,0,0,1,1,1,1,75.0,Intermediate
+STU0529,18-19,B.B.A,2nd Year,Yes,Occasionally,Food & Dining,Invests Regularly,1,1,1,1,0,0,0,1,62.5,Intermediate
+STU0530,18-19,B.Com,1st Year,Yes,Rarely,Entertainment & Leisure,Saves Whatever is Left,1,1,1,0,0,1,0,1,62.5,Intermediate
+STU0531,20-21,B.Tech,2nd Year,No,Occasionally,Travel & Commute,Saves Whatever is Left,1,1,1,1,1,0,1,0,75.0,Intermediate
+STU0532,20-21,B.Com,4th Year,Yes,Regularly,Travel & Commute,Saves Whatever is Left,1,1,1,0,1,1,1,1,87.5,Advanced
+STU0533,24+,B.Sc Computer Science,4th Year,No,Never,Entertainment & Leisure,Does Not Save,1,0,1,1,0,1,1,0,62.5,Intermediate
+STU0534,20-21,B.Sc Mathematics,2nd Year,No,Rarely,Study Materials & Books,Saves Whatever is Left,0,1,1,0,0,1,0,0,37.5,Basic
+STU0535,20-21,B.A,4th Year,No,Never,Travel & Commute,Does Not Save,1,1,0,1,1,1,0,0,62.5,Intermediate
+STU0536,20-21,B.B.A,2nd Year,Yes,Occasionally,Food & Dining,Saves Whatever is Left,1,1,1,0,1,1,0,1,75.0,Intermediate
+STU0537,20-21,B.B.A,3rd Year,Yes,Regularly,Shopping & Fashion,Saves Whatever is Left,1,1,1,1,1,1,1,1,100.0,Advanced
+STU0538,18-19,B.A,1st Year,No,Rarely,Shopping & Fashion,Does Not Save,1,1,1,1,1,0,1,0,75.0,Intermediate
+STU0539,20-21,B.Sc Computer Science,3rd Year,No,Regularly,Study Materials & Books,Invests Regularly,1,1,0,0,0,0,1,0,37.5,Basic
+STU0540,20-21,B.Sc Computer Science,2nd Year,No,Never,Study Materials & Books,Saves a Fixed Percentage,1,1,0,0,0,0,0,1,37.5,Basic
+STU0541,22-23,B.Sc Computer Science,4th Year,No,Never,Study Materials & Books,Saves Whatever is Left,1,1,0,1,0,1,0,1,62.5,Intermediate
+STU0542,20-21,B.Sc Mathematics,3rd Year,No,Rarely,Study Materials & Books,Saves Whatever is Left,1,1,1,0,0,0,0,0,37.5,Basic
+STU0543,20-21,B.Sc Computer Science,4th Year,No,Never,Study Materials & Books,Saves Whatever is Left,1,1,1,1,0,1,1,1,87.5,Advanced
+STU0544,18-19,B.Sc Data Science,2nd Year,Yes,Regularly,Travel & Commute,Saves a Fixed Percentage,0,1,1,0,1,1,1,1,75.0,Intermediate
+STU0545,20-21,B.Sc Data Science,2nd Year,No,Never,Entertainment & Leisure,Saves Whatever is Left,1,1,0,1,0,1,0,0,50.0,Intermediate
+STU0546,20-21,B.A,2nd Year,No,Rarely,Study Materials & Books,Saves Whatever is Left,1,1,0,0,0,0,1,1,50.0,Intermediate
+STU0547,20-21,B.A,1st Year,Yes,Occasionally,Shopping & Fashion,Saves Whatever is Left,1,1,1,0,0,1,0,0,50.0,Intermediate
+STU0548,22-23,B.Tech,4th Year,Yes,Occasionally,Food & Dining,Saves a Fixed Percentage,1,1,1,0,1,0,1,0,62.5,Intermediate
+STU0549,20-21,B.Tech,2nd Year,No,Never,Food & Dining,Does Not Save,1,1,1,0,0,0,1,1,62.5,Intermediate
+STU0550,22-23,B.Sc Data Science,4th Year,Yes,Occasionally,Travel & Commute,Saves Whatever is Left,1,1,1,1,1,1,1,1,100.0,Advanced
+STU0551,20-21,B.Tech,4th Year,No,Rarely,Entertainment & Leisure,Does Not Save,1,1,0,0,1,1,0,1,62.5,Intermediate
+STU0552,22-23,B.Sc Computer Science,4th Year,Yes,Regularly,Entertainment & Leisure,Saves Whatever is Left,1,1,1,1,1,1,1,1,100.0,Advanced
+STU0553,20-21,B.B.A,1st Year,Yes,Occasionally,Food & Dining,Saves Whatever is Left,1,1,0,1,1,1,1,0,75.0,Intermediate
+STU0554,20-21,B.Sc Computer Science,1st Year,Yes,Regularly,Travel & Commute,Saves Whatever is Left,1,1,1,1,0,1,1,0,75.0,Intermediate
+STU0555,20-21,B.Sc Data Science,3rd Year,Yes,Never,Entertainment & Leisure,Saves Whatever is Left,1,1,1,1,1,0,1,1,87.5,Advanced
+STU0556,20-21,B.Sc Mathematics,4th Year,No,Regularly,Travel & Commute,Saves a Fixed Percentage,1,1,1,1,1,1,1,1,100.0,Advanced
+STU0557,20-21,B.Com,2nd Year,No,Occasionally,Food & Dining,Saves Whatever is Left,1,0,0,1,1,0,1,0,50.0,Intermediate
+STU0558,20-21,B.Sc Computer Science,1st Year,No,Rarely,Travel & Commute,Saves Whatever is Left,1,1,0,1,1,1,0,1,75.0,Intermediate
+STU0559,24+,B.Tech,4th Year,No,Never,Entertainment & Leisure,Saves Whatever is Left,1,1,0,1,0,1,0,0,50.0,Intermediate
+STU0560,20-21,B.Sc Computer Science,2nd Year,Yes,Occasionally,Study Materials & Books,Saves Whatever is Left,1,0,0,0,1,0,1,1,50.0,Intermediate
+STU0561,18-19,B.Sc Data Science,2nd Year,No,Occasionally,Travel & Commute,Saves Whatever is Left,1,1,1,0,0,0,1,1,62.5,Intermediate
+STU0562,20-21,B.Sc Computer Science,4th Year,No,Rarely,Study Materials & Books,Saves Whatever is Left,1,1,0,1,0,1,0,1,62.5,Intermediate
+STU0563,20-21,B.A,4th Year,No,Occasionally,Study Materials & Books,Does Not Save,1,1,1,0,0,0,1,1,62.5,Intermediate
+STU0564,22-23,B.Com,4th Year,Yes,Regularly,Study Materials & Books,Saves a Fixed Percentage,1,1,1,1,1,1,1,1,100.0,Advanced
+STU0565,20-21,B.B.A,3rd Year,Yes,Occasionally,Entertainment & Leisure,Saves Whatever is Left,1,1,1,1,0,1,1,1,87.5,Advanced
+STU0566,24+,B.A,4th Year,No,Rarely,Travel & Commute,Saves Whatever is Left,1,1,0,0,1,1,0,0,50.0,Intermediate
+STU0567,24+,B.Com,4th Year,Yes,Regularly,Food & Dining,Invests Regularly,1,1,1,1,1,1,1,1,100.0,Advanced
+STU0568,20-21,B.A,2nd Year,Yes,Regularly,Food & Dining,Invests Regularly,1,1,1,0,0,0,0,0,37.5,Basic
+STU0569,20-21,B.Tech,3rd Year,Yes,Occasionally,Entertainment & Leisure,Saves a Fixed Percentage,1,1,0,1,1,1,1,0,75.0,Intermediate
+STU0570,20-21,B.Tech,4th Year,Yes,Regularly,Travel & Commute,Invests Regularly,1,1,1,1,1,1,1,1,100.0,Advanced
+STU0571,22-23,B.Com,4th Year,Yes,Occasionally,Food & Dining,Saves a Fixed Percentage,1,1,1,1,1,1,1,1,100.0,Advanced
+STU0572,18-19,B.Sc Data Science,1st Year,No,Occasionally,Study Materials & Books,Saves a Fixed Percentage,1,1,0,1,0,1,0,0,50.0,Intermediate
+STU0573,22-23,B.Sc Mathematics,3rd Year,No,Rarely,Food & Dining,Saves Whatever is Left,1,1,0,0,0,0,1,1,50.0,Intermediate
+STU0574,24+,B.Sc Data Science,4th Year,No,Rarely,Study Materials & Books,Saves Whatever is Left,1,1,1,1,1,0,0,1,75.0,Intermediate
+STU0575,24+,B.A,4th Year,Yes,Occasionally,Study Materials & Books,Saves a Fixed Percentage,0,1,0,1,1,1,0,1,62.5,Intermediate
+STU0576,18-19,B.Tech,1st Year,No,Never,Shopping & Fashion,Saves Whatever is Left,0,0,0,0,0,0,1,1,25.0,Basic
+STU0577,18-19,B.Sc Mathematics,1st Year,No,Rarely,Travel & Commute,Does Not Save,1,1,0,0,0,0,0,0,25.0,Basic
+STU0578,18-19,B.Sc Mathematics,1st Year,No,Occasionally,Travel & Commute,Does Not Save,0,1,0,0,0,1,1,0,37.5,Basic
+STU0579,20-21,B.A,4th Year,No,Occasionally,Shopping & Fashion,Saves Whatever is Left,1,1,0,0,1,1,0,0,50.0,Intermediate
+STU0580,20-21,B.Sc Mathematics,4th Year,Yes,Regularly,Shopping & Fashion,Invests Regularly,1,1,1,0,0,0,1,1,62.5,Intermediate
+STU0581,18-19,B.Tech,1st Year,Yes,Occasionally,Study Materials & Books,Saves Whatever is Left,1,1,0,1,1,0,0,0,50.0,Intermediate
+STU0582,22-23,B.Sc Data Science,4th Year,Yes,Regularly,Entertainment & Leisure,Saves a Fixed Percentage,1,1,1,1,1,1,1,0,87.5,Advanced
+STU0583,18-19,B.A,1st Year,No,Occasionally,Travel & Commute,Does Not Save,0,1,0,0,0,0,0,1,25.0,Basic
+STU0584,18-19,B.Tech,1st Year,No,Rarely,Study Materials & Books,Saves Whatever is Left,0,1,0,0,1,1,1,0,50.0,Intermediate
+STU0585,20-21,B.B.A,1st Year,No,Never,Entertainment & Leisure,Saves a Fixed Percentage,1,0,0,0,1,0,0,0,25.0,Basic
+STU0586,20-21,B.B.A,2nd Year,Yes,Occasionally,Travel & Commute,Saves a Fixed Percentage,1,1,1,1,0,0,1,0,62.5,Intermediate
+STU0587,24+,B.B.A,4th Year,No,Regularly,Study Materials & Books,Saves Whatever is Left,0,1,0,1,1,0,0,0,37.5,Basic
+STU0588,18-19,B.Sc Computer Science,1st Year,Yes,Regularly,Study Materials & Books,Invests Regularly,1,1,0,0,1,0,0,0,37.5,Basic
+STU0589,22-23,B.Com,4th Year,Yes,Regularly,Shopping & Fashion,Saves Whatever is Left,1,1,1,0,1,1,0,1,75.0,Intermediate
+STU0590,22-23,B.Sc Computer Science,4th Year,No,Occasionally,Shopping & Fashion,Saves Whatever is Left,1,1,1,1,0,0,1,1,75.0,Intermediate
+STU0591,20-21,B.Sc Mathematics,4th Year,No,Rarely,Shopping & Fashion,Does Not Save,1,1,0,1,0,0,0,1,50.0,Intermediate
+STU0592,20-21,B.B.A,3rd Year,Yes,Regularly,Food & Dining,Saves Whatever is Left,1,1,1,1,0,1,1,1,87.5,Advanced
+STU0593,20-21,B.Sc Computer Science,3rd Year,No,Rarely,Travel & Commute,Saves Whatever is Left,1,1,0,1,0,0,1,0,50.0,Intermediate
+STU0594,20-21,B.Tech,1st Year,No,Never,Food & Dining,Saves Whatever is Left,1,1,1,0,0,0,1,0,50.0,Intermediate
+STU0595,20-21,B.A,3rd Year,No,Occasionally,Travel & Commute,Invests Regularly,0,1,1,1,1,0,1,1,75.0,Intermediate
+STU0596,22-23,B.Tech,3rd Year,No,Never,Food & Dining,Does Not Save,1,1,1,1,0,0,1,0,62.5,Intermediate
+STU0597,20-21,B.Tech,4th Year,Yes,Rarely,Food & Dining,Invests Regularly,1,1,0,1,0,1,1,0,62.5,Intermediate
+STU0598,22-23,B.Sc Computer Science,3rd Year,No,Regularly,Entertainment & Leisure,Saves Whatever is Left,1,1,0,0,0,0,0,1,37.5,Basic
+STU0599,22-23,B.Sc Mathematics,4th Year,No,Rarely,Travel & Commute,Saves Whatever is Left,1,1,0,0,1,0,1,0,50.0,Intermediate
+STU0600,24+,B.Tech,4th Year,No,Never,Food & Dining,Saves Whatever is Left,1,1,1,1,0,0,0,0,50.0,Intermediate

@@ -1,70 +1,69 @@
 {
-    "total_responses": 500,
-    "avg_score": 61.4,
+    "total_responses": 600,
+    "avg_score": 61.44,
     "median_score": 62.5,
-    "std_score": 19.8,
+    "std_score": 18.83,
     "most_misunderstood": "Investments & Mutual Funds",
     "level_counts": {
-        "Intermediate": 268,
-        "Basic": 136,
-        "Advanced": 96
+        "Intermediate": 398,
+        "Basic": 108,
+        "Advanced": 94
     },
     "level_percentages": {
-        "Intermediate": 53.6,
-        "Basic": 27.2,
-        "Advanced": 19.2
+        "Intermediate": 66.3,
+        "Basic": 18.0,
+        "Advanced": 15.7
     },
     "topic_pass_rates": {
-        "Digital Payments & UPI Security": 91.2,
-        "Basic Banking & Accounts": 82.4,
-        "Risk-Return Concept": 66.8,
-        "Emergency Funds": 58.6,
-        "Loans, Interest & Credit Score": 57.2,
-        "Simple vs Compound Interest": 52.8,
-        "Inflation & Purchasing Power": 46.4,
-        "Investments & Mutual Funds": 41.8
+        "Digital Payments & UPI Security": 94.0,
+        "Basic Banking & Accounts": 88.5,
+        "Risk-Return Concept": 60.8,
+        "Loans, Interest & Credit Score": 53.5,
+        "Emergency Funds": 52.3,
+        "Simple vs Compound Interest": 49.0,
+        "Inflation & Purchasing Power": 50.3,
+        "Investments & Mutual Funds": 43.0
     },
     "edu_comparison": {
-        "Yes": {
-            "mean": 70.8,
-            "median": 75.0,
-            "count": 182
-        },
         "No": {
-            "mean": 56.0,
+            "mean": 55.54,
             "median": 50.0,
-            "count": 318
+            "count": 361
+        },
+        "Yes": {
+            "mean": 70.35,
+            "median": 75.0,
+            "count": 239
         }
     },
     "year_comparison": {
         "1st Year": {
-            "mean": 51.5,
-            "count": 128
+            "mean": 50.94,
+            "count": 147
         },
         "2nd Year": {
-            "mean": 58.2,
-            "count": 132
+            "mean": 57.59,
+            "count": 135
         },
         "3rd Year": {
-            "mean": 66.4,
-            "count": 122
+            "mean": 64.44,
+            "count": 148
         },
         "4th Year": {
-            "mean": 71.9,
-            "count": 118
+            "mean": 70.96,
+            "count": 170
         }
     },
     "budget_dist": {
-        "Rarely": 33.4,
-        "Occasionally": 31.8,
-        "Never": 20.6,
-        "Regularly": 14.2
+        "Rarely": 29.2,
+        "Occasionally": 29.0,
+        "Never": 24.2,
+        "Regularly": 17.7
     },
     "saving_dist": {
-        "Saves Whatever is Left": 48.2,
-        "Saves a Fixed Percentage": 26.6,
-        "Does Not Save": 16.8,
-        "Invests Regularly": 8.4
+        "Saves Whatever is Left": 43.3,
+        "Saves a Fixed Percentage": 26.7,
+        "Does Not Save": 17.8,
+        "Invests Regularly": 12.2
     }
 }
-

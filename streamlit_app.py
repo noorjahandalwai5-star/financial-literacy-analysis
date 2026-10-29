@@ -321,7 +321,7 @@ elif navigation_choice == "🤖 ML Literacy Predictor":
                 encoder = model_payload["encoder"]
                 cols = model_payload["feature_columns"]
                 in_df = pd.DataFrame([input_data])[cols]
-                encoded = encoder.transform(in_df)
+                encoded = pd.DataFrame(encoder.transform(in_df), columns=cols)
                 predicted_level = model.predict(encoded)[0]
                 confidence = round(max(model.predict_proba(encoded)[0]) * 100, 1)
                 engine_label = "Trained Decision Tree (Scikit-learn)"
@@ -417,3 +417,4 @@ elif navigation_choice == "ℹ️ About & Viva Defense Guide":
 
     st.markdown("---")
     st.caption("Technology Stack: Python 3, Streamlit, Scikit-learn, Pandas, NumPy, Matplotlib, MySQL, Power BI.")
+

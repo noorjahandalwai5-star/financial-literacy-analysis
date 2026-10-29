@@ -79,7 +79,7 @@ def predict_literacy_level(input_dict):
             
             # Format input
             df_in = pd.DataFrame([input_dict])[cols]
-            encoded_in = encoder.transform(df_in)
+            encoded_in = pd.DataFrame(encoder.transform(df_in), columns=cols)
             prediction = model.predict(encoded_in)[0]
             
             # Estimate confidence based on class probabilities

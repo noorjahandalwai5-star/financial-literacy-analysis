@@ -15,3 +15,4 @@ if (Test-Path $gitExe) {
 } else {
     Write-Output "Extraction failed."
 }
+

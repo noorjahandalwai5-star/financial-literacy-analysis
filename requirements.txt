@@ -1,19 +1,18 @@
-# Web Frameworks
-flask==3.0.3
-streamlit>=1.33.0
+# Interactive Web Applications
+streamlit>=1.30.0
+flask>=3.0.0
 
-# Data Manipulation & Numerical Computing
-pandas==2.2.2
-numpy==1.26.4
-
-# Data Visualization
-matplotlib==3.8.4
-seaborn==0.13.2
+# Data Science & Numerical Computing
+pandas>=2.0.0
+numpy>=1.24.0
 
 # Machine Learning & Model Persistence
-scikit-learn==1.4.2
-joblib==1.4.0
+scikit-learn>=1.3.0
+joblib>=1.3.0
 
-# Database & Excel Connectivity
-mysql-connector-python==8.3.0
-openpyxl==3.1.2
+# Data Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Excel Integration
+openpyxl>=3.1.0

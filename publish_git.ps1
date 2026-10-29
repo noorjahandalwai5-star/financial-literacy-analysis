@@ -29,3 +29,4 @@ if ($existingRemote -contains "origin") {
 
 Write-Output "7. Repository local setup complete!"
 & $gitExe status
+

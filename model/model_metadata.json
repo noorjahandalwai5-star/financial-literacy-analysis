@@ -5,8 +5,8 @@
         "criterion": "gini",
         "min_samples_split": 10
     },
-    "dt_accuracy": 67.0,
-    "rf_accuracy": 69.0,
+    "dt_accuracy": 72.5,
+    "rf_accuracy": 68.33,
     "feature_columns": [
         "Age_Group",
         "Course",
@@ -19,15 +19,15 @@
         "Risk_Awareness"
     ],
     "feature_importances": {
-        "Risk_Awareness": 23.62,
-        "Year_of_Study": 23.16,
-        "Emergency_Fund_Awareness": 19.44,
-        "Financial_Education": 15.99,
-        "Budgeting_Habit": 5.14,
-        "Saving_Habit": 4.79,
-        "Course": 4.03,
-        "Monthly_Expense_Category": 3.82,
-        "Age_Group": 0.0
+        "Year_of_Study": 31.01,
+        "Emergency_Fund_Awareness": 22.42,
+        "Risk_Awareness": 20.5,
+        "Financial_Education": 14.92,
+        "Saving_Habit": 7.76,
+        "Budgeting_Habit": 3.11,
+        "Age_Group": 0.28,
+        "Course": 0.0,
+        "Monthly_Expense_Category": 0.0
     },
     "categories": {
         "Age_Group": [
